@@ -1,0 +1,130 @@
+@import "../App.scss";
+
+
+$newblack-80: rgba(15, 15, 15, 0.008);
+$newblack-50: rgba(15, 15, 15, 0.005);
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  border-bottom: 1px solid hsla(0deg, 20%, 5%, 0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  box-sizing: border-box;
+
+
+  .bottom-layer{
+    position: absolute;
+    top: 3px; right: 3px; bottom: -3px; left: -3px; 
+    background: none;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 0%, 30%);
+  }
+
+  .top-layer{
+    position: absolute;
+    top: 0px; right: 0px; bottom: 0px; left: 0px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+
+    display: grid;
+    place-items: center;
+    transition: all 0.3s ease;
+
+    p{
+      color: rgba(0, 0, 0, 0.8);
+      font-family: carbon-bold;
+      letter-spacing: -0.05rem;
+    }
+  }
+
+  .menu-button{
+    width: 82px;
+  }
+  .home-button{
+    width: 2rem;
+  }
+  .home-icon{
+    width: 14px;
+    aspect-ratio: 7.33/10;
+    background: url(../../public/assets/icons/Navbar/home-icon80.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbutton {
+    position: relative;
+    cursor: pointer;
+    height: 2rem;
+    border: 0px solid orange;
+
+  }
+  .navbutton:hover{
+    .top-layer {
+      top: -3px; right: -3px; bottom: 3px; left: 3px;
+    }
+  }
+}
+
+
+
+
+  
+
+.overlay-menu {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li{
+    margin: 1rem 0;
+    font-family: $os;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+  }
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.close{
+  font-size: 2rem;
+  padding: 1rem;
+  font-family: carbon-bold;
+  border: 0px solid grey;
+  border-radius: 5px;
+  position: absolute;
+  top: 10%; right: 10%;
+  cursor: pointer;
+}
+  

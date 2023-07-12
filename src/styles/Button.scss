@@ -1,0 +1,56 @@
+@import "../App.scss";
+
+.button {
+  position: relative;
+  cursor: pointer;
+  width: 100%; 
+  height: auto;
+  display: inline-block;
+  margin: 0rem;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+
+  .bottom-layer {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    bottom: -4px;
+    left: -4px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 0%, 30%);
+  }
+
+  .top-layer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+  }
+  p{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+  &:hover {
+    .top-layer {
+      top: -4px;
+      right: -4px;
+      bottom: 4px;
+      left: 4px;
+    }
+  }
+}

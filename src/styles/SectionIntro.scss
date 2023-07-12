@@ -1,0 +1,27 @@
+@import "../App.scss";
+
+
+
+.sectionIntro{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    h3{
+        // font-family: carbon-bold;
+        color: $dark-65;
+        letter-spacing: 0.05rem;
+        font-weight: 200;
+    }
+
+    .section-title-line{
+        border-bottom: 0.5px solid $dark-20;
+        width: 40px;
+        display: grid;
+        place-items: center;
+        padding-top: 0.5rem;
+    }
+}

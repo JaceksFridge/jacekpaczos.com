@@ -1,0 +1,33 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Button from '../components/Button';
+import '../styles/Footer.scss';
+
+const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
+
+  const scrollSmoothly = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
+
+  return (
+    <div className="footer">
+      <Link to="/home" onClick={scrollToTop}>
+        <Button width={"120px"} text={"Home"} />
+      </Link>
+      <Link onClick={scrollSmoothly} >
+        <Button width={"120px"} text={"Up"} />
+      </Link>
+      
+    </div>
+  );
+};
+
+export default Footer;

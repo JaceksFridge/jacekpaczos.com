@@ -1,0 +1,20 @@
+
+
+
+.module {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    max-width: 30%;
+  }
+
+  .r10{
+    width: 30%;
+    height: 10%;
+    display: grid;
+    place-items: center;
+  }
+
+  .black{
+    background: lightgrey
+  }

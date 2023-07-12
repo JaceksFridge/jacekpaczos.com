@@ -1,0 +1,36 @@
+
+{
+    "projects": [
+        {
+            "title": "Blockify",
+            "text": "design of crypto app sign up flow",
+            "color": "#3554D1",
+            "mockup": "./assets/home/blocka.png",
+            "link": "caseblockify"
+        },
+        {
+            "title": "Daily Log",
+            "text": "discipline tracker for life",
+            "color": "#46A49F",
+            "mockup": "./assets/home/daild.png",
+            "link": "casedailylog"
+        },
+        {
+            "title": "React-20",
+            "text": "small collection of react projects",
+            "color": "#EE5B53",
+            "mockup": "./assets/home/arrrr.png",
+            "link": "casereact20"
+        }
+    ],
+    "trainings": [
+        {
+            "title": "UX-100",
+            "text": "notes on user behavior patterns",
+            "color": "",
+            "link": "caseux100"
+       }
+    ]
+
+}
+

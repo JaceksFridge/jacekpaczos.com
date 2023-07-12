@@ -1,0 +1,37 @@
+@import "../App.scss";
+
+
+
+.sectionhead{
+    border: 0px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 3rem;
+    border-bottom: 0.75px solid $dark-20;
+
+    .iconcontainer{
+        height: 50px; width: 50px;
+        background: url(../../public/assets/icons/SECTION*/empty.svg);
+        // background: url(/assets/icons/bookicon.svg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h3{
+        color: $dark-50;
+    }    
+}
+
+
+.book{ 
+    .iconcontainer{background: url(../../public/assets/icons/SECTION*/bookicon.svg);}
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+@import "../App.scss";
+
+.footer{
+    height: 100px;
+    width: 100%;
+    padding: 0 1.5rem;
+    background: #FBFBFD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .top-layer{
+        p{
+            font-family: carbon-bold;
+            font-weight: normal;
+            font-size: 1rem;
+            color: $dark;
+        }
+    }
+
+    border-top: 0.5px solid hsla(0deg, 20%, 5%, 0.1);
+}

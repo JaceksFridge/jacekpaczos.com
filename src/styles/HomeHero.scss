@@ -1,0 +1,173 @@
+@import "../App.scss";
+
+
+.homehero{
+
+    background: linear-gradient(149deg, #FBFBFD 0%, rgba(255,255,255,1) 87%, rgba(255,255,255,1) 100%);
+    background: #FBFBFD;
+    border-bottom: 0.5px solid hsla(0deg, 20%, 5%, 0.1);
+    
+    
+
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5rem;
+
+    overflow: hidden;
+    padding: 1rem 1rem 1rem 1rem;
+
+    h3{
+        position: absolute;
+        font-size: 0.7rem; 
+        color: white;
+
+        span{
+            padding-left: 0rem;
+        }
+    }
+
+    .home-hero-bottom{
+        text-align: right;
+        h3{
+            right: 2rem;
+            animation: get 8s linear;
+
+            span{
+                animation: get 9s linear;
+            }
+        }
+    }
+}
+
+.home-hero-center{
+    padding: 0;
+    position: relative;
+    width: 100%;
+    transform: rotate(-35deg);
+
+
+    
+    .box{
+        padding-top: 2rem;
+        position: relative;
+        left: -5rem;
+        display: flex;
+        justify-content: center;
+        width: calc(100% + 16rem);
+        -webkit-box-reflect: below 1px linear-gradient(transparent, white);
+        animation: animateSurface 1.5s ease-in-out infinite;   
+
+        .cube{
+            position: relative;
+            width: 8rem;
+            height: 8rem;
+            border-radius: 5px;
+            transform-origin: bottom right;
+            animation: animate 1.5s ease-in-out infinite, colorSwitch 6s ease-in-out infinite;
+        }
+    }
+
+    @keyframes animateSurface{
+        0%{
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(-8rem)
+        }
+    }
+
+    @keyframes animate{
+        0%{
+            transform: rotate(0deg);
+        }
+        60%{
+            transform: rotate(90deg);
+        }
+        65%{
+            transform: rotate(85deg);
+        }
+        70%{
+            transform: rotate(90deg);
+        }
+        75%{
+            transform: rotate(87.5deg);
+        }
+        80%,100%{
+            transform: rotate(90deg);
+        }
+    }
+}
+@keyframes colorSwitch{
+    0%{
+        background: #D23214;
+        box-shadow: 0 0 5px hsla(10, 100%, 63%, 1),
+        0 0 25px hsla(10, 100%, 63%, 1),
+        0 0 50px hsla(10, 100%, 63%, 1),
+        0 0 100px hsla(10, 100%, 63%, 1),
+        0 0 200px hsla(10, 100%, 63%, 0.3),
+        0 0 300px hsla(10, 100%, 63%, 0.2);
+    }
+    25%{
+        background: #381DA8;
+        box-shadow: 0 0 5px hsla(252, 81%, 60%, 1),
+        0 0 25px hsla(252, 81%, 60%, 1),
+        0 0 50px hsla(252, 81%, 60%, 1),
+        0 0 100px hsla(252, 81%, 60%, 1),
+        0 0 200px hsla(252, 81%, 60%, 0.3),
+        0 0 300px hsla(252, 81%, 60%, 0.2);
+    }
+    50%{
+        background: #39CABE;
+        box-shadow: 0 0 5px hsla(175, 100%, 66%, 1),
+        0 0 25px hsla(175, 100%, 66%, 1),
+        0 0 50px hsla(175, 100%, 66%, 1),
+        0 0 100px hsla(175, 100%, 66%, 1),
+        0 0 200px hsla(175, 100%, 66%, 0.3),
+        0 0 300px hsla(175, 100%, 66%, 0.2);
+    }
+    75%{
+        background: #FBB52B;
+        box-shadow: 0 0 5px hsla(40, 100%, 69%, 1),
+        0 0 25px hsla(40, 100%, 69%, 1),
+        0 0 50px hsla(40, 100%, 69%, 1),
+        0 0 100px hsla(40, 100%, 69%, 1),
+        0 0 200px hsla(40, 100%, 69%, 0.3),
+        0 0 300px hsla(40, 100%, 69%, 0.2);
+    }
+    100%{
+        background: #D23214;
+        box-shadow: 0 0 5px hsla(10, 100%, 63%, 1),
+        0 0 25px hsla(10, 100%, 63%, 1),
+        0 0 50px hsla(10, 100%, 63%, 1),
+        0 0 100px hsla(10, 100%, 63%, 1),
+        0 0 200px hsla(10, 100%, 63%, 0.3),
+        0 0 300px hsla(10, 100%, 63%, 0.2);
+    }
+}
+
+@keyframes getNav{
+    0%{
+        opacity: (0);
+    }
+    90%{
+        opacity: (0);
+    }
+    100%{
+        opacity: (100%);
+    }
+}
+
+@keyframes get{
+    0%{
+        opacity: (0);
+    }
+    50%{
+        opacity: (0);
+    }
+    100%{
+        opacity: (100%);
+    }
+}

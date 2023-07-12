@@ -1,0 +1,54 @@
+@import "../App.scss";
+
+.read{
+    background: $ux100;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+
+    .iconcontainer{background: url(../../public/assets/icons/SECTION*/readsection.svg); }
+    .sectionhead{border-bottom: 0.75px solid $white-50;}
+    .sectionhead h3{color: $white;}
+
+    .container{
+        h4, p{
+            color: $white;
+        }
+    
+        .title{
+            margin-bottom: 2rem;
+        }
+        .text{
+            margin-bottom: 3rem;
+        }
+    }
+    .boxgrid{
+        display: grid;
+        height: auto;
+        width: 100%;
+        gap: 1.5rem;
+        
+        .box{
+            width: 100%;
+            height: auto;
+            padding: 1.2rem 1.5rem;
+            border-radius: 5px;
+            border: 1px solid $white;
+
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            .checkbox{
+                width: 20px; height: 20px;
+                background: url(../../public/assets/icons/UX100/checkmark.svg);
+                background-size: cover;
+                background-position: center;
+            }
+            .boxtext{
+                color: $white;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,44 @@
+@import "../App.scss";
+
+
+.cards{
+    .iconcontainer{background: url(../../public/assets/icons/UX100/cardsicon.svg); }
+
+    padding: 1.5rem;
+    background: $ligth-v2;
+    height: 100%;
+    width: 100%;
+    background: $ligth-v2;
+    border: 0px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+
+    .card{
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 5px;
+        border: 0px solid firebrick;
+
+        box-shadow: 0px 0px 10px 0px $dark-10;
+
+
+        img{
+            height: 50px;
+            width: auto;
+            margin-bottom: 1rem;
+        }
+        .title, .substring{
+            color: $ux100;
+        }
+        .title{
+            margin-bottom: 1.5rem;
+        }
+        .text{
+            margin-bottom: 2.5rem;
+        }
+    }
+}

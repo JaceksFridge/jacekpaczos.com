@@ -1,0 +1,58 @@
+
+@import '../App.scss';
+
+.section{
+    display: block;
+    height: 100svh;
+    width: 100%;
+    background: white;
+}
+
+.hero-top{
+    background: $ux100;
+    height: 250px;
+}
+
+.hero-bottom{
+    .header{
+        padding: $spacing-phone;
+        padding-top: 1.25rem;
+    
+        h1{
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+    
+        .underline{
+            height: 1px;
+            width: 100%;
+            background: $dark-20;
+        }
+    }
+    
+    .flex-header{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: $spacing-phone;
+    
+        .header-box{
+            border-radius: 5px;
+            border: 1px solid $dark-20;
+            padding: 1.25rem;
+    
+            :first-child{
+                text-transform: uppercase;
+                color: $dark-50;
+            }
+        }
+    }
+}
+
+.fifty{
+    height: 25px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border: 0.4px solid grey;
+}

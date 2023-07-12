@@ -1,0 +1,39 @@
+@import "../App.scss";
+
+.test {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+
+    .upper-bg {
+        height: 60%;
+        background: lightblue;
+        border-bottom: 1px solid $dark-50;
+    }
+
+    .carousel {
+        width: calc(7rem * 24);
+        background: transparent;
+        border: 0px solid olive;
+        margin-top: -1.94rem;
+
+        animation: infinite_float 30s linear 0s infinite;
+
+        img {
+            width: 6rem;
+            height: 3.88rem;
+            margin-left: 1rem;
+            border: 0px solid red;
+        }
+    }
+}
+
+@keyframes infinite_float {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-7rem * 12));
+    }
+  }
