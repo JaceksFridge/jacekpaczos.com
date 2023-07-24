@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectTab from './ProjectTab'
 import '../styles/Home.scss'
 
 const Card = ({ data }) => {
@@ -20,6 +21,11 @@ const Card = ({ data }) => {
             <div className="content-card">
                 <h4>{data.title}</h4>
                 <p>{data.text}</p>
+                <div className="tabs-pool">
+                    {data.tabs && data.tabs.map((tab) => (
+                        <ProjectTab key={tab} tab={tab} />
+                    ))}
+                </div>
             </div>
         </div>
     </div>

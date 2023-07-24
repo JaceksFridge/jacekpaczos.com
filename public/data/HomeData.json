@@ -6,21 +6,24 @@
             "text": "design of crypto app sign up flow",
             "color": "#3554D1",
             "mockup": "./assets/home/blocka.png",
-            "link": "caseblockify"
+            "link": "caseblockify",
+            "tabs": ["UX Design", "UI Design"]
         },
         {
             "title": "Daily Log",
             "text": "discipline tracker for life",
             "color": "#46A49F",
             "mockup": "./assets/home/daild.png",
-            "link": "casedailylog"
+            "link": "casedailylog",
+            "tabs": ["UX Design", "Frontend", "Backend"]
         },
         {
             "title": "React-20",
             "text": "small collection of react projects",
             "color": "#EE5B53",
             "mockup": "./assets/home/arrrr.png",
-            "link": "casereact20"
+            "link": "casereact20",
+            "tabs": ["Coding"]
         }
     ],
     "trainings": [
@@ -28,7 +31,8 @@
             "title": "UX-100",
             "text": "notes on user behavior patterns",
             "color": "",
-            "link": "caseux100"
+            "link": "caseux100",
+            "tabs": ["UX Design", "UI Design"]
        }
     ]
 
