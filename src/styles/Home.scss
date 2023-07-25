@@ -80,6 +80,7 @@
                 }
                 p{
                     font-weight: 200;
+                    font-size: 0.8rem;
                     color: $dark-50;
                 }
 
@@ -91,28 +92,28 @@
                 }
 
                 .tabs-container{
-                    height: 2rem;
+                    height: 1.4rem;
                     width: auto;
-                    border-radius: 5px;
-                    border: 1px solid grey;
+                    border-radius: 3px;
+                    border: 1px solid hsla(0, 0%, 50%, 0.5);
                     padding: 6px;
-                    background: hsla(0, 0%, 50%, 0.10);
+                    background: hsla(0, 0%, 50%, 0.01);
 
                     display: flex;
                     align-items: center;
 
 
                     .tabs-color{
-                        height: 0.8rem;
-                        width: 0.8rem;
-                        background: black;
+                        height: 0.6rem;
+                        width: 0.6rem;
+                        background: hsla(0, 0%, 50%, 0.5);
                         margin-right: 6px;
-                        border-radius: 3px;
+                        border-radius: 1.5px;
                     }
 
                     .tabs-text{
                         color: black;
-                        font-size: 0.8rem;
+                        font-size: 0.5rem;
                     }
                 }
             }
@@ -129,42 +130,65 @@
     }
 }
 
-$designTabs: (
-    userresearch: #A1BFE4,
-    uxdesign: #9ECBE6,
-    interactiondesign: #9BD7E9,
-    visualdesign: #A2DFE8,
-    uidesign: #B0EFE6,
-);
+// $designTabs: (
+//     userresearch: #A1BFE4,
+//     uxdesign: #9ECBE6,
+//     interactiondesign: #9BD7E9,
+//     visualdesign: #A2DFE8,
+//     uidesign: #B0EFE6,
+// );
 
-$codingTabs: (
-    mobile: #F3A541,
-    coding: #EA823F,
-    frontend: #E15F3E,
-    backend: #D83C3C,
-    datascience: #B23E42
-);
+// $codingTabs: (
+//     mobile: #F3A541,
+//     coding: #EA823F,
+//     frontend: #E15F3E,
+//     backend: #D83C3C,
+//     datascience: #B23E42
+// );
 
-@each $class, $color in $designTabs {
-    .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
-        background: rgba($color, 0.1);
-        border-color: $color;
+// @each $class, $color in $designTabs {
+//     .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
+//         background: rgba($color, 0.1);
+//         border-color: $color;
       
-        .tabs-color {
-          background: $color;
-        }
-      }
-}
+//         .tabs-color {
+//           background: $color;
+//         }
+//     }
+// }
 
-@each $class, $color in $codingTabs {
-    .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
-        background: rgba($color, 0.1);
-        border-color: rgba($color, 0.5);
+// @each $class, $color in $codingTabs {
+//     .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
+//         background: rgba($color, 0.1);
+//         border-color: rgba($color, 0.5);
       
-        .tabs-color {
-          background: $color;
-        }
-      }
-}
+//         .tabs-color {
+//           background: $color;
+//         }
+//     }
+// }
 
+
+@media only screen and (min-width: 1200px) {
+    .projects{
+        padding: 0rem $p-mobile 7rem $p-mobile;
+        display: flex;
+        flex-direction: column;
+
+        .projectcard{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 400px;
+
+            .top-card .content-card .tabs-container{
+                height: 1.6rem;
+                padding: 0.5rem;
+
+                .tabs-text{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}
 
