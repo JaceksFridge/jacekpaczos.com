@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 
 import { useMediaQuery } from 'react-responsive'
 
+
 const Home = () => {
 
   const isDesktoporLaptop = useMediaQuery({
@@ -33,12 +34,14 @@ const Home = () => {
   return (
     <div className="home">
       <HomeHero />
-      <SectionIntro name={"Projects"}/>
+      <div className="placeholder"></div>
+        <SectionIntro name={"Projects"}/>
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects}/>
       ) : (
         <Projects projects={projects}/>
       )}
+
       <SectionIntro name={"Trainings"}/>
       { isDesktoporLaptop ? (
         <TrainingsDesktop trainings={trainings}/>
