@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/Test.scss';
 
 const Test = () => {
   const [logos, setLogos] = useState([]);

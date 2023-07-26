@@ -5,8 +5,6 @@ import Test from '../components/Test'
 import CourseSection from '../components/CourseSection'
 import Footer from '../components/Footer'
 
-import '../styles/About.scss'
-
 const About = () => {
 
   const [data, setData] = useState([])

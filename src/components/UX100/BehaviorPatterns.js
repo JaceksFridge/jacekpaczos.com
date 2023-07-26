@@ -1,7 +1,6 @@
 import React from 'react'
 import Swipe from './Swipe'
 import Pattern from './Pattern'
-import '../../styles/BehaviorPatterns.scss'
 
 const BehaviorPatterns = ({ behaviorPatterns }) => {
   return (

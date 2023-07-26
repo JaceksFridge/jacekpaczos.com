@@ -3,7 +3,6 @@ import React from 'react';
 import Card from '../Card';
 
 // import styling files
-import '../../styles/Home.scss';
 import { Link } from 'react-router-dom';
 
 const Projects = ({ projects }) => {

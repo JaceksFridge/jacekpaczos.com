@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
-import '../styles/Footer.scss';
 
 const Footer = () => {
   const scrollToTop = () => {

@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectTab from './ProjectTab'
-import '../styles/Home.scss'
 
 const Card = ({ data }) => {
   return (

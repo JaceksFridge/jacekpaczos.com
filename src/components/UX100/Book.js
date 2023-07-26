@@ -3,9 +3,6 @@ import React from 'react'
 import SectionHead from '../SectionHead'
 import Button from '../Button'
 
-
-import '../../styles/Book.scss'
-
 const Book = ({ book }) => {
   return (
     <div className="book">

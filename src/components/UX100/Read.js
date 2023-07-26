@@ -1,6 +1,5 @@
 import React from 'react'
 import SectionHead from '../SectionHead'
-import '../../styles/Read.scss'
 
 const Read = ({ read }) => {
   return (

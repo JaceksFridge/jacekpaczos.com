@@ -1,8 +1,7 @@
 
 import React from 'react'
-import Card from './Card'
+import Card from '../Card'
 
-import '../styles/Trainings.scss'
 import { Link } from 'react-router-dom'
 
 const Trainings = ({ trainings }) => {

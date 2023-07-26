@@ -136,8 +136,34 @@ body{
 
 
 // responsive
-
-
 $p-mobile: 5%;
+
+
+
+// stylesheets
+@import './styles/Home.scss';
+@import './styles/Trainings.scss';
+@import './styles/About.scss';
+
+
+@import './styles/BehaviorPatterns.scss';
+@import './styles/Book.scss';
+@import './styles/Button.scss';
+@import './styles/Cards.scss';
+@import './styles/CaseHero.scss';
+@import './styles/CaseReact20.scss';
+
+@import './styles/Footer.scss';
+@import './styles/HomeHero.scss';
+@import './styles/Modal.scss';
+@import './styles/Navbar.scss';
+@import './styles/Read.scss';
+@import './styles/SectionHead.scss';
+@import './styles/SectionIntro.scss';
+@import './styles/Swipe.scss';
+@import './styles/Test.scss';
+@import './styles/Trainings.scss';
+
+
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../styles/Cards.scss'
 import SectionHead from '../SectionHead'
 
 

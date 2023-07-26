@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import HomeHero from '../components/Home/HomeHero'
 import Projects from '../components/Home/Projects'
-import Trainings from '../components/Trainings'
+import ProjectsDesktop from '../components/Home/ProjectsDesktop'
+import Trainings from '../components/Home/Trainings'
+import TrainingsDesktop from '../components/Home/TrainingsDesktop'
 import SectionIntro from '../components/SectionIntro.js'
 import Footer from '../components/Footer'
 
-import '../styles/HomeHero.scss'
-import '../styles/Home.scss'
+import { useMediaQuery } from 'react-responsive'
 
 const Home = () => {
+
+  const isDesktoporLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
+
 
   const [data, setData] = useState({ projects: [], trainings: [] });
 
@@ -28,9 +34,17 @@ const Home = () => {
     <div className="home">
       <HomeHero />
       <SectionIntro name={"Projects"}/>
-      <Projects projects={projects}/>
+      { isDesktoporLaptop ? (
+        <ProjectsDesktop projects={projects}/>
+      ) : (
+        <Projects projects={projects}/>
+      )}
       <SectionIntro name={"Trainings"}/>
-      <Trainings trainings={trainings}/>
+      { isDesktoporLaptop ? (
+        <TrainingsDesktop trainings={trainings}/>
+      ) : (
+        <Trainings trainings={trainings}/>
+      )}
       <Footer />
     </div>
   )

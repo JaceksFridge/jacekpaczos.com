@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/SectionIntro.scss'
 
 const SectionIntro = ({ name }) => {
   return (
