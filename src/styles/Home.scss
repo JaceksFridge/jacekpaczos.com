@@ -43,7 +43,7 @@
 
             .bg-card{
                 height: 52.5%;
-                border: 0px solid orange;
+                border: 1px solid orange;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
                 overflow: hidden;
@@ -200,14 +200,14 @@
     
 
     .project-desk-sec{
-        height: 50vh;
+        height: 100vh;
         display: flex;
 
 
         .project-desk-text{
-            height: 50vh;
+            height: 100%;
             width: 15rem;
-            border: 1px solid grey;
+            border: 0px solid grey;
             flex: 1;
 
             display: flex;
@@ -217,11 +217,78 @@
 
         }
         .project-desk-image{
-            height: 50vh;
+            height: 100%;
             width: 15rem;
-            border: 1px solid grey;
+            border: 0px solid grey;
             flex: 1;
+
+            display: grid;
+            place-items: center;
+
+            .desk-card{
+                border: 0px solid red;
+
+                position: relative;
+                cursor: pointer;
+                width: 400px;
+                height: 500px;
+
+  
+                .desk-bottom-card{
+                    position: absolute;
+                    top: 6px; right: 6px;
+                    bottom: -6px; left: -6px;
+                    background: none;
+                    border-radius: 10px;
+                    border: 1.5px solid hsl(0, 0%, 0%, 30%);
+                }
+
+                .desk-top-card{
+                    position: absolute;
+                    top: 0; right:0;
+                    bottom: 0; left: 0;
+                    background: white;
+                    border-radius: 10px;
+                    border: 1.5px solid $dark-80;
+        
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+        
+                    transition: all 0.3s ease;
+
+                    .desk-bg-card{
+                        height: 100%;
+                        border: 0px solid orange;
+                        border-radius: 10px;
+                        overflow: hidden;
+        
+                        position: relative;
+                        display: grid;
+                        place-items: center;
+
+                        .desk-bg-card-image{
+                            position: absolute;
+                            top: 0; bottom: 0;
+                            right: 0; left: 0;
+                            width: 400px;
+                            height: auto;
+        
+                            border: 0px solid orange;
+                        }
+                    }
+                }
+                &:hover{
+                    .desk-top-card{
+                        top: -6px; right: -6px;
+                        bottom: 6px; left: 6px;
+                    }
+                }
+                
+            }
         }
+
     }
 
     .project-desk-sec:nth-child(even) {

@@ -1,4 +1,5 @@
 import React from 'react'
+import CardDesktop from '../CardDesktop'
 
 import { Link } from 'react-router-dom';
 
@@ -14,7 +15,7 @@ const ProjectsDesktop = ({ projects }) => {
                     <Link to={`/${project.link}`} class="project-link">open</Link>
                 </div>
                 <div className="project-desk-image">
-
+                    <CardDesktop key={index} data={project}/>
                 </div>
             </div>
         ))}
