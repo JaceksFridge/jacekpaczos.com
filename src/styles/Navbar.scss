@@ -98,11 +98,38 @@ $newblack-50: rgba(15, 15, 15, 0.005);
   }
 
   li{
-    margin: 1rem 0;
-    font-family: $os;
-    font-size: 3rem;
-    font-weight: 500;
-    text-transform: uppercase;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .pageLink{
+    color: $dark;
+
+    h3{
+      font-family: $os;
+      font-size: 1.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      transition: color 0.5s ease-out;
+    }
+
+    .underline{
+      background: $dark;
+      width: 0;
+      height: 3.5px;
+      transition: width 0.5s ease-out;
+    }
+  }
+
+  .pageLink:hover{
+    h3{
+      color: black;
+    }
+    .underline{
+      width: 100%;
+    }
   }
 
   a{
@@ -125,6 +152,10 @@ $newblack-50: rgba(15, 15, 15, 0.005);
   position: absolute;
   top: 10%; right: 10%;
   cursor: pointer;
+
+  p{
+    font-size: 1.2rem;
+  }
 }
 
 

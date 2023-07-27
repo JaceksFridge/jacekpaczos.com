@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Button from './Button'
 
 const Navbar = () => {
 
@@ -26,18 +27,20 @@ const Navbar = () => {
             <div className={`overlay-menu${menuOpen ? ' open' : ''}`}>
                 <ul>
                 <li>
-                    <Link to="/home" onClick={toggleMenu}>
-                        Work
+                    <Link to="/home" onClick={toggleMenu} className="pageLink">
+                        <h3>Work</h3>
+                        <div className="underline"></div>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" onClick={toggleMenu}>
-                        About
+                    <Link to="/about" onClick={toggleMenu} className="pageLink">
+                        <h3>About</h3>
+                        <div className="underline"></div>
                     </Link>
                 </li>
                 </ul>
                 <div className="close" onClick={toggleMenu}>
-                    X
+                    <Button  text={'X'}/>
                 </div>
             </div>
         </header>
