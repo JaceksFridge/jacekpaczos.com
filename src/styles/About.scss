@@ -30,10 +30,10 @@
         background: white;
         height: 100%;
         border-radius: 5px;
-        box-shadow: $shadow;
+        box-shadow: $box-shadow;
 
         margin-bottom: $spacing-phone;
-        transition: all .3s ease-in-out;
+        transition: transform 200ms ease-out, box-shadow 200ms ease-out;
 
         a{
             text-decoration: none;
@@ -139,7 +139,7 @@
             .card-open{
                 width: 14px;
                 height: 14px;
-                background: url(../../public/assets/icons/About/open.svg);
+                background: url(../../public/assets/icons/About/opengrey.png);
                 background-position: center;
                 background-size: cover;
             }
@@ -205,8 +205,8 @@
             }
         }
         .block:hover{
-            box-shadow: $shadow-hover;
-            transform: scale(1.01);
+            box-shadow: $box-shadow-hover;
+            transform: scale(1.02) !important;
         }
     }
 }
