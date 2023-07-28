@@ -1,19 +1,35 @@
-
-
 .module {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    margin: 0 auto;
-    max-width: 30%;
-  }
+  height: auto;
+  height: calc(var(--vh, 1vh) * 100);
+  max-width: 30%;
+}
 
-  .r10{
-    width: 30%;
-    height: 10%;
-    display: grid;
-    place-items: center;
-  }
+.red-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+}
 
-  .black{
-    background: lightgrey
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  display: grid;
+  place-items: center;
+
+
+  .text {
+    font-size: 5rem;
+    font-family: $os;
+    color: white;
   }
+}
+
+
+
