@@ -12,7 +12,7 @@ const About = () => {
 
   const [data, setData] = useState([])
 
-  const [facts, setFacts] = useState([])
+  const [facts, setFacts] = useState('courses')
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,22 +24,19 @@ const About = () => {
     fetchData()
   }, [])
 
-  setFacts('books')
-  console.log(facts)
-
 
   return (
     <div className="about">
         <Test logos={data.logos}/>
         <div className="section-switch">
-          <div className="course-tab" onclick={() => setFacts('courses')}></div>
-          <div className="books-tab" onclick={() => setFacts('books')}></div>
-          <div className="skills-tab" onclick={() => setFacts('skills')}></div>
+          <div className="course-tab" onClick={() => setFacts('courses')}>courses</div>
+          <div className="books-tab" onClick={() => setFacts('books')}>books</div>
+          <div className="skills-tab" onClick={() => setFacts('skills')}>skills</div>
         </div>
-        <div className="course-section">
-            {facts === "courses" && <CourseSection courses={data.courses} />}
-            {facts === "books" && <BooksSection books={data.books} />}
-            {facts === "skills" && <SkillsSection skills={data.skills} />}
+        <div className="facts-section">
+          {facts === "courses" && <CourseSection courses={data.courses} />}
+          {facts === "books" && <BooksSection books={data.books} />}
+          {facts === "skills" && <SkillsSection skills={data.skills} />}
         </div>
         <Footer />
     </div>

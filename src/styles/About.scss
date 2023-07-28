@@ -133,7 +133,8 @@
             align-items: center;
             gap: 0.5rem;                                
             border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px; 
+            border-bottom-right-radius: 5px;
+            
 
             .card-open{
                 width: 14px;
@@ -216,4 +217,29 @@
             margin-bottom: 3rem;
         }
     }
+}
+
+
+.section-switch{
+    border: 0px solid salmon;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+
+    padding: 0 14%;
+
+    div{
+        background: lightgoldenrodyellow;
+        border: 1px solid black;
+        flex: 1;
+
+        display: grid;
+        place-items: center;
+    }
+}
+
+.facts-section{
+    background: #FBFBFD;
+    // background: white;
+    padding: 4rem 0;
 }
