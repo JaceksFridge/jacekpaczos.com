@@ -8,8 +8,8 @@
 <path d="M257.258 81.1909V101.191H261.258V81.1909H257.258ZM22.2578 101.191V81.1909H18.2578V101.191H22.2578Z" fill="white" fill-opacity="0.2" mask="url(#path-3-inside-1_524_1293)"/>
 <rect width="162.59" height="161.841" rx="40" transform="matrix(0.866025 -0.5 0.857616 0.51429 0 81.2949)" fill="#1B1F23"/>
 <rect x="1.50819" y="0.0125037" width="160.84" height="160.091" rx="39.125" transform="matrix(0.866025 -0.5 0.857616 0.51429 0.191335 82.0551)" stroke="white" stroke-opacity="0.2" stroke-width="1.75"/>
-<rect width="122.472" height="122.472" transform="matrix(0.866044 -0.499967 0.866044 0.499967 34 81.2319)" fill="#222222"/>
-<rect width="114.307" height="114.307" transform="matrix(0.866044 -0.499967 0.866044 0.499967 41.071 81.2319)" fill="url(#pattern0)"/>
+<rect width="122.472" height="122.472" transform="matrix(0.866044 -0.499967 0.866044 0.499967 34 81.2319)" fill="#1B1F23"/>
+<rect width="114.307" height="114.307" transform="matrix(0.866044 -0.499967 0.866044 0.499967 41.0713 81.2319)" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_524_1293" transform="scale(0.000276319)"/>

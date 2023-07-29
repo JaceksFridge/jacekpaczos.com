@@ -50,11 +50,11 @@ const CourseSection = ({ courses = [] }) => {
 
   return (
     <div className="course-section">
-      <div className="courses-title">
+      {/* <div className="courses-title">
         <h3>Courses</h3>
         <div className="courses-title-line"></div>
       </div>
-      <div className="section_line"></div>
+      <div className="section_line"></div> */}
       <ul>{coursesList}</ul>
     </div>
   )

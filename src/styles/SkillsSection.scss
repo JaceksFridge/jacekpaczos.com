@@ -1,19 +1,18 @@
 
 
-
-.books-section{
+.skills-section{
     padding: 0 1.5rem;
     width: 100%;
 
-    .books-grid{
+    .skills-grid{
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
 
-        .books-card{
+        .skills-card{
             position: relative;
-            aspect-ratio: 1 / 1;
-
+            aspect-ratio: 1 / 1.6;
+            
             border: 0px solid salmon;
             background: #F8F8F8;
             border-radius: 5px;
@@ -22,39 +21,35 @@
 
             display: grid;
             place-items: center;
-            
+
             img{
-                height: 45%;
+                height: 30%;
                 width: auto;
+                margin-top: -30%;
                 filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
                 transition: transform ease-out 300ms, filter ease-out 300ms,
             }
-            .books-count{
-                position: absolute;
-                top: 5%; left: 5%;
-                color: $dark-20;
-            }
-            .book-info{
+
+            .skill-info{
                 position: absolute;
                 bottom: 10%;
 
                 text-align: center;
                 transition: transform ease-out 300ms;
 
-                .book-title{
+                .skill-title{
                     font-size: 1rem;
                     text-transform: lowercase;
                     color: $dark-80;
-                    margin-bottom: 0.85rem;
+                    margin-bottom: 0.5rem;
                 }
-                .book-author{
+                .skill-type{
                     font-size: 0.85rem;
-                    color: $dark-20
+                    color: $dark-20;
                 }
             }
         }
-
-        .books-card:hover{
+        .skills-card:hover{
             box-shadow: $box-shadow-hover;
             transform: scale(1.005);
 
@@ -62,7 +57,7 @@
                 filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.3));
                 transform: scale(1.03);
             }
-            .book-info{
+            .skill-info{
                 transform: scale(1.03);
             }
         }
@@ -70,27 +65,23 @@
 }
 
 
-
-
 @media only screen and (min-width: 1200px) {
-    .books-section{
+    .skills-section{
         padding: 0 14%;
-        .books-grid{
-            grid-template-columns: 1fr 1fr;
-            .books-card{
-                // border-radius: 10px;
-                img{
-                    height: 52%;
-                }
-                .books-count{
-                    font-size: 1.25 rem;
-                }
+        .skills-grid{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-                .book-info{
-                    .book-title{
+            .skills-card{
+                // border-radius: 10px;
+
+                img{
+                    height: 32%;
+                }
+                .skill-info{
+                    .skill-title{
                         font-size: 1.25rem;
                     }
-                    .book-author{
+                    .skill-author{
                         font-size: 0.85rem;
                     }
                 }
@@ -98,12 +89,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-

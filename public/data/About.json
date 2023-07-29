@@ -81,6 +81,83 @@
             "url": "./assets/about_logos/react.svg"
         }
     ],
+    "skills": [
+        {
+            "title": "html",
+            "type": "language",
+            "url": "./assets/about_logos/html.svg"
+        },
+        {
+            "title": "css",
+            "type": "language",
+            "url": "./assets/about_logos/css.svg"
+        },
+        {
+            "title": "sass",
+            "type": "superset",
+            "url": "./assets/about_logos/sass.svg"
+        },
+        {
+            "title": "tailwind",
+            "type": "framework",
+            "url": "./assets/about_logos/tailwind.svg"
+        },
+        {
+            "title": "bulma",
+            "type": "framework",
+            "url": "./assets/about_logos/bulma.svg"
+        },
+        {
+            "title": "javascript",
+            "type": "language",
+            "url": "./assets/about_logos/javascript.svg"
+        },
+        {
+            "title": "typescript",
+            "type": "language",
+            "url": "./assets/about_logos/typescript.svg"
+        },
+        {
+            "title": "react",
+            "type": "framework",
+            "url": "./assets/about_logos/react.svg"
+        },
+        {
+            "title": "node",
+            "type": "framework",
+            "url": "./assets/about_logos/node.svg"
+        },
+        {
+            "title": "python",
+            "type": "language",
+            "url": "./assets/about_logos/python.svg"
+        },
+        {
+            "title": "next",
+            "type": "framework",
+            "url": "./assets/about_logos/next.svg"
+        },
+        {
+            "title": "mongo-db",
+            "type": "database",
+            "url": "./assets/about_logos/mongodb.svg"
+        },
+        {
+            "title": "mysql",
+            "type": "database",
+            "url": "./assets/about_logos/mysql.svg"
+        },
+        {
+            "title": "git",
+            "type": "tool",
+            "url": "./assets/about_logos/git.svg"
+        },
+        {
+            "title": "github",
+            "type": "tool",
+            "url": "./assets/about_logos/github.svg"
+        }
+    ],
     "courses": [
         {
             "title": "React Basics",
@@ -185,22 +262,6 @@
             "grade": "100%",
             "courseurl": "https://www.coursera.org/learn/figma-css-website-design",
             "certificate": "https://www.coursera.org/account/accomplishments/verify/7J6CFS3M4X4W"
-        },
-        {
-            "title": "Introduction to User Interface (UI) Design",
-            "teacher": "Google",
-            "date": "6 May 2022",
-            "grade": "95.00%",
-            "courseurl": "https://www.coursera.org/learn/introduction-user-interface-design",
-            "certificate": "https://www.coursera.org/account/accomplishments/verify/38ZYSYTJ7DND"
-        },
-        {
-            "title": "Introduction to Web Accessibility",
-            "teacher": "W3C",
-            "date": "26 April 2022",
-            "grade": "96.42%",
-            "courseurl": "https://www.edx.org/course/introduction-to-web-accessibility",
-            "certificate": "https://www.edx.org/account/certificates/5dc5ebe1-6d64-40f7-9e5c-8ab6b75c6e7a"
         }
     ]
 }
