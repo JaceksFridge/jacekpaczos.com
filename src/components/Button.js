@@ -9,7 +9,12 @@ const Button = ({ url, text, img, width }) => {
     >
       <div className="bottom-layer"></div>
       <div className="top-layer">
-        <p>{text}</p>
+        {img ? (
+          <img src={img} alt={text} className={text} />
+          ) : (
+            <p>{text}</p>
+          )
+        }
       </div>
     </a>
   )

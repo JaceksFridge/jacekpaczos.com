@@ -1,10 +1,42 @@
 
 
 
-.scoials{
+.socials{
+    padding: 4.5rem 1.5rem;
+    background: white;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
+    .section-content{
+        text-align: center;
+        a{
+            text-decoration: none;
+            .section-link{
+                color: $red;
+            }
+        }
+    }
+    .social-buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+
+        .top-layer{
+            display: grid;
+            place-items: center;
+
+            img{
+                height: 50%;
+                width: auto;
+            }
+            .medium{
+                height: 40%;
+            }
+        }
+    }
 }
