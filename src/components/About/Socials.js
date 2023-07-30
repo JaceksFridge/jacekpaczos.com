@@ -6,7 +6,7 @@ const Socials = () => {
     <div className="socials">
       <h4 className="section-title">Let's Connect</h4>
       <div className="section-content">
-          <p className="section-text">Feel free to reach out for collaborations or just a hello ✌️</p>
+          <p className="section-text">Feel free to send a hello ✌️</p>
           <a href="mailto:yes@jacekpaczos.com">
             <p className="section-link">yes@jacekpaczos.com</p>
           </a>
@@ -37,3 +37,4 @@ const Socials = () => {
 }
 
 export default Socials
+

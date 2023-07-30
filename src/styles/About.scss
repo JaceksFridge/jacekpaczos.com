@@ -8,9 +8,6 @@
     justify-content: center;
     align-items: center;
 
-    .section-title{
-        margin-bottom: 2rem;
-    }
     .facts-switch{
         width: 100%;
         line-height: 2.5rem;
@@ -22,6 +19,22 @@
         .switcher:hover{
             text-decoration: underline;
         }
+    }
+}
+
+.section-title{
+    margin-bottom: 2rem;
+}
+
+.section-text{
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    .section-link{
+        color: $red;
     }
 }
 
@@ -47,7 +60,7 @@
 .facts-section{
     background: #FBFBFD;
     // background: white;
-    padding: 4rem 0;
+    padding: 0;
 }
 
 

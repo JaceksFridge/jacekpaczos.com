@@ -12,14 +12,12 @@
     align-items: center;
     gap: 2rem;
 
+    border-bottom: 0.5px solid $dark-50;
+    border-top: 0.5px solid $dark-50;
+
     .section-content{
         text-align: center;
-        a{
-            text-decoration: none;
-            .section-link{
-                color: $red;
-            }
-        }
+        margin-bottom: 1rem;
     }
     .social-buttons{
         display: grid;

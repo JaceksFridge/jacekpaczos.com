@@ -3,7 +3,7 @@
     "projects": [
         {
             "title": "Blockify",
-            "text": "design of crypto app sign up flow",
+            "text": "an elegant and intuitive sign-up flow.",
             "color": "#3554D1",
             "mockup": "./assets/home/blocka.png",
             "link": "caseblockify",
@@ -12,7 +12,7 @@
         },
         {
             "title": "Daily Log",
-            "text": "discipline tracker for life",
+            "text": "a useful and fast discipline tracker",
             "color": "#46A49F",
             "mockup": "./assets/home/daild.png",
             "link": "casedailylog",
@@ -21,7 +21,7 @@
         },
         {
             "title": "React-20",
-            "text": "small collection of react projects",
+            "text": "small collection of some coding projects",
             "color": "#EE5B53",
             "mockup": "./assets/home/arrrr.png",
             "link": "casereact20",

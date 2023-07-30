@@ -1,0 +1,50 @@
+
+
+.about-me{
+    padding: 4.5rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+    .button{
+        height: 20rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+
+        .bottom-layer{
+            background: black;
+            top: 8px;
+            right: 8px;
+            bottom: -8px;
+            left: -8px;
+            border-radius: 10px;
+        }
+        .top-layer{
+            border-radius: 10px;
+            background: $red;
+            border: 1.5px solid rgba(0, 0, 0, 0.8);
+            justify-content: end;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: auto;
+                margin-bottom: -2px;
+            }
+        }
+
+        &:hover {
+            .top-layer {
+              top: -8px;
+              right: -8px;
+              bottom: 8px;
+              left: 8px;
+            }
+          }
+    }
+}
+  

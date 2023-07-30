@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button'
 
@@ -8,8 +8,15 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
+        document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
     }
     
+    useEffect(() => {
+        return () => {
+          document.body.style.overflow = 'auto'
+        }
+      }, [])
+
     return(
         <header className="navbar">
             <Link to="/" className="home-button navbutton">
