@@ -120,12 +120,59 @@
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
-    
+                            
                             .desk-bg-card-image{
                                 width: 100%;
                                 height: auto;
             
                                 border: 0px solid orange;
+                                display: none;
+                            }
+
+                            .border-animation {
+                                position: absolute;
+                                padding: 0;
+                                margin: 0;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                background: none;
+                                overflow: hidden;
+                              
+                                display: grid;
+                                place-items: center;
+                                &::before {
+                                  content: "";
+                                  position: absolute;
+                                  width: 139%;
+                                  height: 50%;
+                                  background: linear-gradient(140deg, #ec0045, #ffad55, #20a39e, #0033ff, #ffa72d, #ec0045);
+                                  animation: spin 5s linear infinite;
+                                }
+                              
+                                &::after {
+                                  content: "";
+                                  position: absolute;
+                                  inset: 3px;
+                                  background: white;
+                                  border-top-right-radius: 5px;
+                                  border-top-left-radius: 5px;
+                                  display: block;
+                                }
+                    
+                                &:hover::before{
+                                    background: $dark;
+                                }
+
+                                @keyframes spin {
+                                    0% {
+                                      transform: rotate(0deg);
+                                    }
+                                    100% {
+                                      transform: rotate(360deg);
+                                    }
+                                  }
                             }
                         }
 

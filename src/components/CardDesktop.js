@@ -15,6 +15,7 @@ const CardDesktop = ({ data }) => {
                     alt={data.title}
                     className="desk-bg-card-image"
                 />
+                <div className="border-animation"></div>
             </div>
         </div>
     </div>
