@@ -1,33 +1,65 @@
-.module {
-  height: auto;
-  height: calc(var(--vh, 1vh) * 100);
-  max-width: 30%;
-}
 
-.red-video {
+
+
+.case{
+  height: 100%;
   width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: relative;
-}
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2);
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  display: grid;
-  place-items: center;
+  border: 0px solid red;
 
 
-  .text {
-    font-size: 5rem;
-    font-family: $os;
-    color: white;
+  .case-background{
+
+    border: 0px solid green;
+    background: $red;
+    min-height: 400px;
+    height: 42%;
+    width: 100%;
+  }
+
+  .case-info{
+    padding: 0 1.5rem;
+
+    .case-title{
+      padding: 1.5rem 0;
+
+      letter-spacing: -0.1rem;
+      border-bottom: 1px solid $grey-50;
+    }
+
+    .case-boxes{
+      padding: 1.5rem 0;
+      display: grid;
+      gap: 1rem;
+
+      .case-box{
+        height: 5rem;
+        width: 100%;
+        border: 1px solid $dark-20;
+        border-radius: 5px;
+
+
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        .case-box-key{
+          color: $dark-50;
+          font-size: 0.8rem;
+          font-weight: 200;
+          text-transform: uppercase;
+          letter-spacing: 0.07rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .case-box-value{
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+    }
   }
 }
 
