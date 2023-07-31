@@ -1,7 +1,7 @@
 
 
 .skills-section{
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
     width: 100%;
 
     .skills-grid{
@@ -67,7 +67,7 @@
 
 @media only screen and (min-width: 1200px) {
     .skills-section{
-        padding: 0 14%;
+        padding: 0 14% 3rem 14%;
         .skills-grid{
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 

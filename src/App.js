@@ -12,7 +12,7 @@ import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home'
 import About from './pages/About';
 import CaseUX100 from './pages/CaseUX100';
-import CaseReact20 from './pages/CaseReact20';
+import CaseMoonlog from './pages/CaseMoonlog';
 import CaseDailylog from './pages/CaseDailylog';
 import CaseBlockify from './pages/CaseBlockify';
 
@@ -39,7 +39,7 @@ function App() {
         <Route path="/home" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/caseblockify" element={ <CaseBlockify /> } />
-        <Route path="/casereact20" element={ <CaseReact20 /> } />
+        <Route path="/casemoonlog" element={ <CaseMoonlog /> } />
         <Route path="/casedailylog" element={ <CaseDailylog /> } />
         <Route path="/caseux100" element={ <CaseUX100 /> } />
         <Route path="*" element={<Home />} /> {}

@@ -15,7 +15,7 @@ const About = () => {
 
   const [data, setData] = useState([])
 
-  const [facts, setFacts] = useState('courses')
+  const [facts, setFacts] = useState('skills')
  
   useEffect(() => {
     const fetchData = async () => {
@@ -52,9 +52,9 @@ const About = () => {
         </p>
       </div>
       <div className="facts-section">
-        {facts === "courses" && <CourseSection courses={data.courses} />}
-        {facts === "books" && <BooksSection books={data.books} />}
-        {facts === "skills" && <SkillsSection skills={data.skills} />}
+        {data && data.courses && facts === "courses" && <CourseSection courses={data.courses} />}
+        {data && data.books && facts === "books" && <BooksSection books={data.books} />}
+        {data && data.skills && facts === "skills" && <SkillsSection skills={data.skills} />}
       </div>
       <Footer />
     </div>

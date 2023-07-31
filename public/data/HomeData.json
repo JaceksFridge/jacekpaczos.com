@@ -20,12 +20,12 @@
             "open": "<open"
         },
         {
-            "title": "React-20",
-            "text": "small collection of some coding projects",
+            "title": "Moonlog.io",
+            "text": "discipline tracker for life",
             "color": "#EE5B53",
             "mockup": "./assets/home/arrrr.png",
-            "link": "casereact20",
-            "tabs": ["Coding"],
+            "link": "casemoonlog",
+            "tabs": ["UX Design", "Frontend"],
             "open": "open>"
         }
     ],

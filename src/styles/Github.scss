@@ -10,6 +10,9 @@
     align-items: center;
     gap: 2rem;
 
+    border-top: 0.5px solid $dark-10;
+    border-bottom: 0.5px solid $dark-10;
+
     .button{
         height: 20rem;
         width: 20rem;
@@ -51,3 +54,23 @@
 
 
   
+@media (min-width: $desktop) {
+    .github{
+        padding: 6rem 14%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 7rem;
+
+
+        .section-content{
+            width: auto;
+            gap: 1rem;
+        }
+
+        .button{
+            min-width: 20rem;
+            width: 20rem;
+        }
+    }
+}

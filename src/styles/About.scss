@@ -1,4 +1,6 @@
 
+
+
 .new-switch{
     padding: 4rem 1.5rem;
     text-align: center;
@@ -22,6 +24,13 @@
     }
 }
 
+.section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 .section-title{
     margin-bottom: 2rem;
 }
@@ -67,6 +76,14 @@ a{
 
 @media (min-width: $desktop) {
     .new-switch{
-        padding: 4rem 20%;
+        padding: 6rem 20%;
+    }
+
+    .section-content{
+        align-items: flex-start;
+        // text-align: center;
+        .section-text{
+            text-align: left;
+        }
     }
 }
