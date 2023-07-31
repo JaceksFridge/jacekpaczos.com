@@ -6,15 +6,27 @@ const Card = ({ data }) => {
     <div key={data.index} className="projectcard" data-aos="fade-up">
         <div className="bottom-card"></div>
         <div className="top-card">
-            <div 
+            <div
+                id={data.title}
                 className="bg-card"
                 style={{ background: `${data.color}`}}
             >
-                <img 
-                    src={data.mockup} 
-                    alt={data.title}
-                    className="bg-card-image" 
-                />
+                {data.video ? (
+                    <video 
+                        src={data.video} 
+                        autoPlay 
+                        loop 
+                        muted 
+                        style={{width: "100%", height: "auto"}}
+                    />
+                ) : 
+                (
+                    <img 
+                        src={data.mockup}
+                        alt={data.title}
+                        className="desk-bg-card-image"
+                    />
+                )}
                 <div className="border-animation"></div>
             </div>
             <div className="content-card">
