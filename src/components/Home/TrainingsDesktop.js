@@ -13,7 +13,9 @@ const TrainingsDesktop = ({ trainings }) => {
                   <div className="training-desk-text">
                       <h4 className="training-desk-title">{training.title}</h4>
                       <h3 className="training-desk-large">{training.text}</h3>
-                      <Link to={training.link} className="training-link">open</Link>
+                      <Link to={`/${training.link}`} class="training-link">
+                        <h4 className="training-desk-link">{training.open}</h4>
+                      </Link>
                   </div>
                   <div className="training-desk-image">
                     <CardDesktop key={index} data={training}/>

@@ -8,7 +8,7 @@
             "mockup": "./assets/home/blocka.png",
             "link": "caseblockify",
             "tabs": ["UX Design", "UI Design"],
-            "open": "open>"
+            "open": "<open"
         },
         {
             "title": "Daily Log",
@@ -17,7 +17,7 @@
             "mockup": "./assets/home/daild.png",
             "link": "casedailylog",
             "tabs": ["UX Design", "Frontend", "Backend"],
-            "open": "<open"
+            "open": "open>"
         },
         {
             "title": "Moonlog.io",
@@ -26,7 +26,7 @@
             "mockup": "./assets/home/arrrr.png",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
-            "open": "open>"
+            "open": "<open"
         }
     ],
     "trainings": [
@@ -36,7 +36,7 @@
             "color": "",
             "link": "caseux100",
             "tabs": ["UX Design", "UI Design"],
-            "open": "<open"
+            "open": "open>"
        }
     ]
 

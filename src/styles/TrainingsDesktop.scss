@@ -88,8 +88,8 @@
       
                     .desk-bottom-card{
                         position: absolute;
-                        top: 6px; right: 6px;
-                        bottom: -6px; left: -6px;
+                        top: 6px; right: -6px;
+                        bottom: -6px; left: 6px;
                         background: none;
                         border-radius: 1rem;
                         border: 1.5px solid hsl(0, 0%, 0%, 30%);
@@ -139,8 +139,8 @@
                     }
                     &:hover{
                         .desk-top-card{
-                            top: -6px; right: -6px;
-                            bottom: 6px; left: 6px;
+                            top: -6px; right: 6px;
+                            bottom: 6px; left: -6px;
                         }
                     }  
                 }
@@ -158,13 +158,13 @@
         .training-desk-image .desk-card{
 
             .desk-bottom-card{
-                top: 6px; right: -6px;
-                bottom: -6px; left: 6px;
+                top: 6px; right: 6px;
+                bottom: -6px; left: -6px;
             }
 
             .desk-top-card:hover{
-                top: -6px; right: 6px;
-                bottom: 6px; left: -6px;
+                top: -6px; right: -6px;
+                bottom: 6px; left: 6px;
             }  
         }
     }
