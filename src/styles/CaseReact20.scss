@@ -11,10 +11,21 @@
   .case-background{
 
     border: 0px solid green;
-    background: $red;
+    background: black;
     min-height: 400px;
     height: 42%;
     width: 100%;
+
+    position: relative;
+
+    .case-background-image{
+
+      position: absolute;
+      bottom: -10%;
+      left: 25%;
+      height: 20rem;
+      width: auto;
+    }
   }
 
   .case-info{
