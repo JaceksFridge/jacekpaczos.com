@@ -1,0 +1,175 @@
+
+
+@media only screen and (min-width: 1200px) {
+    .projects{
+        padding: 0rem $p-mobile 7rem $p-mobile;
+        display: flex;
+        flex-direction: column;
+
+        .projectcard{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 400px;
+
+            .top-card .content-card .tabs-container{
+                height: 1.6rem;
+                padding: 0.5rem;
+
+                .tabs-text{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+.projects-desk{
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    border: 0px solid magenta;
+    background: white;
+
+    .projects-desk-container{
+        margin: 0 5%;
+        height: 100%;
+
+
+        .project-desk-sec{
+            height: 100vh;
+            display: flex;
+    
+            .project-desk-text{
+                height: 100%;
+                width: 15rem;
+                padding: 0 10%;
+                border: 0px solid grey;
+                flex: 1;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .project-desk-title{
+                    font-size: 1.8rem;
+                    color: $dark;
+                }
+                .project-desk-large{
+                    font-size: 3rem;
+                    font-weight: 200;
+                    color: $dark-50;
+                    margin: 2rem 0;
+                }
+                .project-desk-link{
+                    font-size: 1rem;
+                    color: $dark-80;
+                    text-transform: lowercase;
+                }
+    
+            }
+            .project-desk-image{
+                height: 100%;
+                width: 15rem;
+                border: 0px solid grey;
+                flex: 1;
+    
+                display: grid;
+                place-items: center;
+    
+                .desk-card{
+                    border: 0px solid red;
+    
+                    position: relative;
+                    cursor: pointer;
+                    width: 20rem;
+                    height: 20rem;
+    
+      
+                    .desk-bottom-card{
+                        position: absolute;
+                        top: 6px; right: 6px;
+                        bottom: -6px; left: -6px;
+                        background: none;
+                        border-radius: 10px;
+                        border: 1.5px solid hsl(0, 0%, 0%, 30%);
+                    }
+
+    
+                    .desk-top-card{
+                        position: absolute;
+                        top: 0; right:0;
+                        bottom: 0; left: 0;
+                        background: white;
+                        border-radius: 10px;
+                        border: 1.5px solid $dark-80;
+            
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+            
+                        transition: all 0.3s ease;
+    
+                        .desk-bg-card{
+                            height: 100%;
+                            border: 0px solid orange;
+                            border-radius: 10px;
+                            overflow: hidden;
+            
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+    
+                            .desk-bg-card-image{
+                                width: 100%;
+                                height: auto;
+            
+                                border: 0px solid orange;
+                            }
+                        }
+
+                        #Blockify{
+                            justify-content: flex-end;
+
+                            img{
+                                width: 35rem;
+                            }
+                        }
+                    }
+                    &:hover{
+                        .desk-top-card{
+                            top: -6px; right: -6px;
+                            bottom: 6px; left: 6px;
+                        }
+                    }  
+                }
+            }
+        }
+    }
+    
+
+
+
+    .project-desk-sec:nth-child(even) {
+        flex-direction: row-reverse;
+
+
+        .project-desk-image .desk-card{
+
+            .desk-bottom-card{
+                top: 6px; right: -6px;
+                bottom: -6px; left: 6px;
+            }
+
+            .desk-top-card:hover{
+                top: -6px; right: 6px;
+                bottom: 6px; left: -6px;
+            }  
+        }
+    }
+}

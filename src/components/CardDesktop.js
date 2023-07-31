@@ -6,6 +6,7 @@ const CardDesktop = ({ data }) => {
         <div className="desk-bottom-card"></div>
         <div className="desk-top-card">
             <div
+                id={data.title}
                 className="desk-bg-card"
                 style={{ background: `${data.color}`}}
             >
