@@ -65,10 +65,31 @@
                     margin: 2rem 0;
                 }
                 .project-desk-link{
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     color: $dark-80;
                     text-transform: lowercase;
+
+                    display: inline-block;
+                    position: relative;
                 }
+
+                .project-desk-link::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: $dark-80;
+                    transform-origin: bottom center;
+                    transition: transform 0.3s ease-out;
+                  }
+                  
+                  .project-desk-link:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom center;
+                  }
     
             }
             .project-desk-image{
@@ -106,6 +127,7 @@
                         background: white;
                         border-radius: 1rem;
                         border: 1.5px solid $dark-80;
+                        overflow: hidden;
             
                         width: 100%;
                         height: auto;
@@ -117,8 +139,6 @@
                         .desk-bg-card{
                             height: 100%;
                             border: 0px solid orange;
-                            border-radius: 1rem;
-                            overflow: hidden;
             
                             display: flex;
                             flex-direction: column;
