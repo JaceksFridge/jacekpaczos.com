@@ -1,47 +1,23 @@
 
 
-@media only screen and (min-width: 1200px) {
-    .projects{
-        padding: 0rem $p-mobile 7rem $p-mobile;
-        display: flex;
-        flex-direction: column;
 
-        .projectcard{
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 400px;
-
-            .top-card .content-card .tabs-container{
-                height: 1.6rem;
-                padding: 0.5rem;
-
-                .tabs-text{
-                    font-size: 0.6rem;
-                }
-            }
-        }
-    }
-}
-
-
-
-.projects-desk{
+.trainings-desk{
     position: relative;
     height: 100%;
     width: 100vw;
     border: 0px solid magenta;
     background: white;
 
-    .projects-desk-container{
+    .trainings-desk-container{
         margin: 0 5%;
         height: 100%;
 
 
-        .project-desk-sec{
+        .training-desk-sec{
             height: 100vh;
             display: flex;
     
-            .project-desk-text{
+            .training-desk-text{
                 height: 100%;
                 width: 15rem;
                 padding: 0 10%;
@@ -54,17 +30,17 @@
                 align-items: center;
                 text-align: center;
 
-                .project-desk-title{
+                .training-desk-title{
                     font-size: 1.8rem;
                     color: $dark;
                 }
-                .project-desk-large{
+                .training-desk-large{
                     font-size: 3rem;
                     font-weight: 200;
                     color: $dark-50;
                     margin: 2rem 0;
                 }
-                .project-desk-link{
+                .training-desk-link{
                     font-size: 1.2rem;
                     color: $dark-80;
                     text-transform: lowercase;
@@ -73,7 +49,7 @@
                     position: relative;
                 }
 
-                .project-desk-link::after {
+                .training-desk-link::after {
                     content: '';
                     position: absolute;
                     width: 100%;
@@ -86,13 +62,13 @@
                     transition: transform 0.3s ease-out;
                   }
                   
-                  .project-desk-link:hover::after {
+                  .training-desk-link:hover::after {
                     transform: scaleX(1);
                     transform-origin: bottom center;
                   }
     
             }
-            .project-desk-image{
+            .training-desk-image{
                 height: 100%;
                 width: 15rem;
                 border: 0px solid grey;
@@ -175,11 +151,11 @@
 
 
 
-    .project-desk-sec:nth-child(odd) {
+    .training-desk-sec:nth-child(even) {
         flex-direction: row-reverse;
 
 
-        .project-desk-image .desk-card{
+        .training-desk-image .desk-card{
 
             .desk-bottom-card{
                 top: 6px; right: -6px;
