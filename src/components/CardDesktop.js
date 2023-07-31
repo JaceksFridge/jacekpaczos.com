@@ -10,11 +10,22 @@ const CardDesktop = ({ data }) => {
                 className="desk-bg-card"
                 style={{ background: `${data.color}`}}
             >
-                <img 
-                    src={data.mockup}
-                    alt={data.title}
-                    className="desk-bg-card-image"
-                />
+                {data.video ? (
+                    <video 
+                        src={data.video} 
+                        autoPlay 
+                        loop 
+                        muted 
+                        style={{width: "100%", height: "auto"}}
+                    />
+                ) : 
+                (
+                    <img 
+                        src={data.mockup}
+                        alt={data.title}
+                        className="desk-bg-card-image"
+                    />
+                )}
                 <div className="border-animation"></div>
             </div>
         </div>

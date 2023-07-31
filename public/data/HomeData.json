@@ -2,18 +2,10 @@
 {
     "projects": [
         {
-            "title": "Blockify",
-            "text": "an elegant and intuitive sign-up flow.",
-            "color": "#3554D1",
-            "mockup": "./assets/home/blocka.png",
-            "link": "caseblockify",
-            "tabs": ["UX Design", "UI Design"],
-            "open": "<open"
-        },
-        {
-            "title": "Daily Log",
-            "text": "a useful and fast discipline tracker",
+            "title": "Not Sure",
+            "text": "an idea on how to make the openai api actually useful",
             "color": "#46A49F",
+            "video": "./assets/videos/redchange.mp4",
             "mockup": "./assets/home/daild.png",
             "link": "casedailylog",
             "tabs": ["UX Design", "Frontend", "Backend"],
@@ -26,6 +18,15 @@
             "mockup": "./assets/home/arrrr.png",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
+            "open": "<open"
+        },
+        {
+            "title": "Blockify",
+            "text": "an elegant and intuitive sign-up flow.",
+            "color": "#3554D1",
+            "mockup": "./assets/home/blocka.png",
+            "link": "caseblockify",
+            "tabs": ["UX Design", "UI Design"],
             "open": "<open"
         }
     ],
