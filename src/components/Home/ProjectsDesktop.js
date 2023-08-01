@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ProjectsDesktop = ({ projects }) => {
   return (
 
-    <div className="projects-desk">
+    <div className="projects-desk" id="projects-section">
         <div className="projects-desk-container">
             {projects.map((project, index) => (
                 <div 

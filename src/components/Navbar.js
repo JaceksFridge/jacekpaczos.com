@@ -10,12 +10,6 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
         document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
     }
-    
-    useEffect(() => {
-        return () => {
-          document.body.style.overflow = 'auto'
-        }
-      }, [])
 
     return(
         <header className="navbar">
@@ -34,7 +28,10 @@ const Navbar = () => {
             <div className={`overlay-menu${menuOpen ? ' open' : ''}`}>
                 <ul>
                 <li>
-                    <Link to="/home" onClick={toggleMenu} className="pageLink">
+                    <Link 
+                        to="/home" 
+                        onClick={toggleMenu} 
+                        className="pageLink">
                         <h3>Work</h3>
                         <div className="underline"></div>
                     </Link>

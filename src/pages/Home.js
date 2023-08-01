@@ -25,9 +25,30 @@ const Home = () => {
       const jsonData = await response.json();
       setData(jsonData);
     };
-
+  
+    const scrollDown = () => { 
+      const top = window.innerHeight;
+      window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: 'smooth',
+      });
+    }; // Added closing bracket
+  
     fetchData();
+
+    setTimeout(() => {
+      scrollDown();
+    }, 1500)
+    // if (sessionStorage.getItem('beenBefore') !== 'true') {
+    //   setTimeout(() => {
+    //     scrollDown();
+    //   }, 1500)
+
+    //   sessionStorage.setItem('beenBefore', 'true')
+    // }
   }, []);
+  
 
   const { projects, trainings } = data;
 
@@ -35,7 +56,7 @@ const Home = () => {
     <div className="home">
       <HomeHero />
       <div className="placeholder"></div>
-        <SectionIntro name={"Projects"}/>
+        <SectionIntro name={"Projects"} />
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects}/>
       ) : (
