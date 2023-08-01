@@ -9,7 +9,7 @@
             "mockup": "./assets/home/daild.png",
             "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
-            "open": "open>"
+            "open": "<open"
         },
         {
             "title": "Moonlog",
@@ -18,7 +18,7 @@
             "mockup": "./assets/home/moonlog-rock.png",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
-            "open": "<open"
+            "open": "open>"
         },
         {
             "title": "Blockify",

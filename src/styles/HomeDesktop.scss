@@ -149,7 +149,11 @@
                                 width: 100%;
                                 height: auto;
             
+                                transition: transform ease-out 0.3s;
                                 border: 0px solid orange;
+                            }
+                            video{
+                                transition: transform ease-out 0.3s;
                             }
                         }
                     }
@@ -159,12 +163,21 @@
                             top: -6px; right: 6px;
                             bottom: 6px; left: -6px;
                         }
+
+                        .desk-top-card:hover{
+                            .desk-bg-card-image{
+                                transform: scale(1.03);
+                            }
+                            video{
+                                transform: scale(1.03);
+                            }
+                        }
                     }  
                 }
 
                 .desk-card .desk-top-card#Blockify{
-                    overflow: visible;
-                    overflow-y: hidden;
+                    overflow-x: visible;
+                    overflow-y: visible;
                     
                     .desk-bg-card{
                         justify-content: flex-end;
@@ -172,13 +185,14 @@
                         img{
                             margin-left: 4.5rem;
                             width: 23rem;
-                            transition: transform ease-out 0.3s;
+                            transition: all ease-out 0.3s;
                         }
                     }
 
                     &:hover{
                         img{
-                            transform: scale(1.05)
+                            margin-bottom: 9px;
+                            transform: scale(1.03);
                         }
                     }
                 }

@@ -1,11 +1,9 @@
-
 import React from 'react'
+import CaseTop from '../components/CaseTop'
 
 const CaseUX100 = () => {
   return (
-    <div>
-      ux100
-    </div>
+    <CaseTop />
   )
 }
 
