@@ -7,12 +7,12 @@
             "color": "#46A49F",
             "video": "./assets/videos/redchange.mp4",
             "mockup": "./assets/home/daild.png",
-            "link": "casedailylog",
+            "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
             "open": "open>"
         },
         {
-            "title": "Moonlog.io",
+            "title": "Moonlog",
             "text": "discipline tracker for life",
             "color": "#121212",
             "mockup": "./assets/home/moonlog-rock.png",
@@ -24,7 +24,7 @@
             "title": "Blockify",
             "text": "an elegant and intuitive sign-up flow.",
             "color": "#3554D1",
-            "mockup": "./assets/home/blocka.png",
+            "mockup": "./assets/home/blockify-mockup.png",
             "link": "caseblockify",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"

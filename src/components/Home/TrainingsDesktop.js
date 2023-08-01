@@ -18,7 +18,9 @@ const TrainingsDesktop = ({ trainings }) => {
                       </Link>
                   </div>
                   <div className="training-desk-image">
-                    <CardDesktop key={index} data={training}/>
+                    <Link to={`/${training.link}`} >
+                      <CardDesktop key={index} data={training} />
+                    </Link>
                   </div>
               </div>
           ))}

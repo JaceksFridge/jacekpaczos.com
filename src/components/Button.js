@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({ url, text, img, width }) => {
+const Button = ({ onClick, text, img, width }) => {
   return (
-    <a 
-      href={url} 
+    <button 
+      onClick={onClick} 
       className="button"
       style={{ width: `${width}` }}
     >
@@ -11,13 +11,13 @@ const Button = ({ url, text, img, width }) => {
       <div className="top-layer">
         {img ? (
           <img src={img} alt={text} className={text} />
-          ) : (
-            <p>{text}</p>
-          )
-        }
+        ) : (
+          <p>{text}</p>
+        )}
       </div>
-    </a>
+    </button>
   )
 }
+
 
 export default Button

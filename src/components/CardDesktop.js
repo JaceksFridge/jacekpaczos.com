@@ -4,9 +4,8 @@ const CardDesktop = ({ data }) => {
   return (
     <div className="desk-card">
         <div className="desk-bottom-card"></div>
-        <div className="desk-top-card">
+        <div className="desk-top-card" id={data.title.replace(/\s/g, '-')}>
             <div
-                id={data.title}
                 className="desk-bg-card"
                 style={{ background: `${data.color}`}}
             >

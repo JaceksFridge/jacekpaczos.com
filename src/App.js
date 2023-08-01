@@ -13,7 +13,7 @@ import Home from './pages/Home'
 import About from './pages/About';
 import CaseUX100 from './pages/CaseUX100';
 import CaseMoonlog from './pages/CaseMoonlog';
-import CaseDailylog from './pages/CaseDailylog';
+import CaseNotSure from './pages/CaseNotSure';
 import CaseBlockify from './pages/CaseBlockify';
 
 // Components
@@ -40,7 +40,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/caseblockify" element={ <CaseBlockify /> } />
         <Route path="/casemoonlog" element={ <CaseMoonlog /> } />
-        <Route path="/casedailylog" element={ <CaseDailylog /> } />
+        <Route path="/casenotsure" element={ <CaseNotSure /> } />
         <Route path="/caseux100" element={ <CaseUX100 /> } />
         <Route path="*" element={<Home />} /> {}
       </Routes>

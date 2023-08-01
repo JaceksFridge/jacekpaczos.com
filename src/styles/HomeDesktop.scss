@@ -152,21 +152,40 @@
                                 border: 0px solid orange;
                             }
                         }
-
-                        #Blockify{
-                            justify-content: flex-end;
-
-                            img{
-                                width: 35rem;
-                            }
-                        }
                     }
+
                     &:hover{
                         .desk-top-card{
                             top: -6px; right: 6px;
                             bottom: 6px; left: -6px;
                         }
                     }  
+                }
+
+                .desk-card .desk-top-card#Blockify{
+                    overflow: visible;
+                    overflow-y: hidden;
+                    
+                    .desk-bg-card{
+                        justify-content: flex-end;
+                        border-radius: 0.95rem;
+                        img{
+                            margin-left: 4.5rem;
+                            width: 23rem;
+                            transition: transform ease-out 0.3s;
+                        }
+                    }
+
+                    &:hover{
+                        img{
+                            transform: scale(1.05)
+                        }
+                    }
+                }
+                .desk-card .desk-top-card#Moonlog{
+                    .desk-bg-card{
+                        justify-content: flex-end;
+                    }
                 }
             }
         }

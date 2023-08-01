@@ -3,7 +3,7 @@ import React from 'react'
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
-const Dailylog = () => {
+const CaseNotSure = () => {
   return (
     <div>
       <div className="hello">Hello Bastard</div>
@@ -33,4 +33,4 @@ const Dailylog = () => {
   )
 }
 
-export default Dailylog
+export default CaseNotSure

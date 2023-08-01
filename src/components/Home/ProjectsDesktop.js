@@ -2,7 +2,6 @@ import React from 'react'
 import CardDesktop from '../CardDesktop'
 
 import { Link } from 'react-router-dom';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 const ProjectsDesktop = ({ projects }) => {
   return (
@@ -13,6 +12,7 @@ const ProjectsDesktop = ({ projects }) => {
                 <div 
                     className="project-desk-sec"
                     pages={projects.length}
+                    key={index}
                 >
                     <div
                         className="project-desk-text"
@@ -21,7 +21,7 @@ const ProjectsDesktop = ({ projects }) => {
                     >
                         <h4 className="project-desk-title">{project.title}</h4>
                         <h3 className="project-desk-large">{project.text}</h3>
-                        <Link to={`/${project.link}`} class="project-link">
+                        <Link to={`/${project.link}`} className="project-link">
                             <h4 className="project-desk-link">{project.open}</h4>
                         </Link>
                     </div>
@@ -30,7 +30,9 @@ const ProjectsDesktop = ({ projects }) => {
                         // speed={2.5}
                         className="project-desk-image"
                     >
-                        <CardDesktop key={index} data={project}/>
+                        <Link to={`/${project.link}`} className="project-link">
+                            <CardDesktop key={index} data={project}/>
+                        </Link>
                     </div>
                 </div>
             ))}
