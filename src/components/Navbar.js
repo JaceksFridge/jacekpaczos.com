@@ -4,39 +4,15 @@ import Button from './Button'
 
 const Navbar = () => {
 
-    const [showNavbar, setShowNavbar] = useState(false)
-
     const [menuOpen, setMenuOpen] = useState(false)
-
-
-    const handleScroll = () => {
-
-        const currentPosition = window.scrollY
-        console.log(currentPosition)
-
-        if (currentPosition > 10) {
-            setShowNavbar(false)
-        } else {
-            setShowNavbar(true)
-        }
-    }
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
         document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
     }
 
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-
-        return (
-            window.removeEventListener('scroll', handleScroll)
-        )
-    }, [])
-
     return(
-        <header className="navbar" style={{ display: showNavbar ? 'block' : 'none' }}>
+        <header className="navbar">
             <Link to="/" className="home-button navbutton">
                 <div className="bottom-layer"></div>
                 <div className="top-layer">

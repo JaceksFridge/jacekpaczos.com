@@ -19,12 +19,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <Link to="/home" onClick={scrollToTop}>
-        <Button width={"120px"} text={"Home"} />
+        <Button width={"120px"} text={"Home"} removeAOS />
       </Link>
       <Link onClick={scrollSmoothly} >
-        <Button width={"120px"} text={"Up"} />
+        <Button width={"120px"} text={"Up"} removeAOS />
       </Link>
-      
     </div>
   );
 };
