@@ -5,20 +5,20 @@ const CaseTopDesktop = ({ casestudy }) => {
 
   return (
     <div className={`case-desk ${casestudy.title}`}>
-        <div className="case-desk-bg">
-            { casestudy.img ? (
-                <img src={casestudy.img} alt={casestudy.title} className="case-desk-image" />
-            ) : (
-                <video 
-                    className="case-desk-image"
-                    src={casestudy.vid} 
-                    autoPlay 
-                    loop 
-                    muted 
-                    style={{width: "100%", height: "100%"}}
-                />
-            )}
-        </div>
+
+        { casestudy.img ? (
+            <img src={casestudy.img} alt={casestudy.title} className="case-desk-bg" />
+        ) : (
+            <video 
+                className="case-desk-image"
+                src={casestudy.vid} 
+                autoPlay 
+                loop 
+                muted 
+                style={{width: "100%", height: "100%"}}
+            />
+        )}
+   
         <motion.div 
             className="case-desk-info"
             initial={{ 

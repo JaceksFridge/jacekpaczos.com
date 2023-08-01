@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import CaseTop from '../components/CaseTop'
+import CaseTopDesktop from '../components/CaseTopDesktop'
+import { useMediaQuery } from 'react-responsive'
 
 const CaseNotSure = () => {
+
+  const isDesktoporLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
 
   const [data, setData] = useState([])
    
@@ -15,7 +21,13 @@ const CaseNotSure = () => {
   }, [])
 
   return (
-    <CaseTop casestudy={data}/>
+    <>
+      { isDesktoporLaptop ? (
+        <CaseTopDesktop casestudy={data} />
+      ) : (
+        <CaseTop casestudy={data} />
+      )}
+    </>
   )
 }
 

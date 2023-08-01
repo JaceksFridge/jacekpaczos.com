@@ -27,7 +27,7 @@
 }
 
 .case-background.UX-100{
-    // background: none;
+    background: none;
     .case-background-image{
         height: 100%;
         width: 100%;
@@ -46,14 +46,22 @@
     }
 }
 
-
-
 .case-desk.Not.Sure{
     background: none;
     overflow-y: hidden;
 
     .case-desk-bg{
+        width: 100%;
+    }
+}
+
+
+.case-desk.UX-100{
+    background: none;
+    .case-desk-bg{
         width: 60%;
+        height: auto;
+        margin-left: 0;
     }
 }
 
