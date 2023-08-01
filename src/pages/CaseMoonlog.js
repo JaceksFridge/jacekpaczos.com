@@ -1,9 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
 import CaseTop from '../components/CaseTop';
+import CaseTopDesktop from '../components/CaseTopDesktop'
+import { useMediaQuery } from 'react-responsive'
 
 
 const CaseMoonlog = () => {
+
+  const isDesktoporLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
 
   const [data, setData] = useState([])
    
@@ -17,7 +23,13 @@ const CaseMoonlog = () => {
   }, [])
 
   return (
-    <CaseTop casestudy={data}/>
+    <>
+      { isDesktoporLaptop ? (
+        <CaseTopDesktop casestudy={data} />
+      ) : (
+        <CaseTop casestudy={data} />
+      )}
+    </>
   )
 }
 

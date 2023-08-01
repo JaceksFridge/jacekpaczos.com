@@ -20,7 +20,7 @@
 .case-background.Not.Sure{
     background: none;
 
-    img{
+    .case-background-image{
         width: 100%;
         height: 100%;
     }
@@ -34,3 +34,27 @@
         left: 0;
     }
 }
+
+
+// Desktop
+.case-desk.Moonlog{
+    background: #121212;
+    overflow-y: hidden;
+
+    .case-desk-bg{
+        margin-bottom: -2%;
+    }
+}
+
+
+
+.case-desk.Not.Sure{
+    background: none;
+    overflow-y: hidden;
+
+    .case-desk-bg{
+        width: 60%;
+    }
+}
+
+

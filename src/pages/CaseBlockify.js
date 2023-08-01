@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from 'react'
 import CaseTop from '../components/CaseTop'
+import CaseTopDesktop from '../components/CaseTopDesktop'
+import { useMediaQuery } from 'react-responsive'
 
 const CaseBlockify = () => {
 
+
+  const isDesktoporLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
+
   const [data, setData] = useState([])
-   
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('./data/CaseBlockify.json')
@@ -15,7 +22,13 @@ const CaseBlockify = () => {
   }, [])
 
   return (
-    <CaseTop casestudy={data} />
+    <>
+      { isDesktoporLaptop ? (
+        <CaseTopDesktop casestudy={data} />
+      ) : (
+        <CaseTop casestudy={data} />
+      )}
+    </>
   )
 }
 
