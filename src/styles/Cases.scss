@@ -19,4 +19,18 @@
 
 .case-background.Not.Sure{
     background: none;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.case-background.UX-100{
+    // background: none;
+    .case-background-image{
+        height: 100%;
+        width: 100%;
+        left: 0;
+    }
 }

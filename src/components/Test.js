@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion'
 
 const Test = () => {
   const [logos, setLogos] = useState([]);
@@ -19,7 +20,19 @@ const Test = () => {
       <div className="lower-bg">
         <div className="carousel">
           {logos.map((item, index) => (
-              <img src={item.url} alt={item.id} />
+              <motion.img 
+                src={item.url} 
+                alt={item.id} 
+                key={index}
+                initial={{ 
+                    opacity: 0, 
+                    translateX: -50, 
+                    // translateY: index % 2 ? -50 : 50
+                    translateY: -50
+                }}
+                animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+                transition={{ duration: 0.2, delay: index * 0.1 }}
+              />
           ))}
         </div>
       </div>

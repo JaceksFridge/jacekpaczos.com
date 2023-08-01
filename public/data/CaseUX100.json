@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "ux-100",
-    "img": "",
+    "title": "UX-100",
+    "img": "./assets/ux100/case-ux100.png",
     "color": "#AD4C7D",
     "type": "learning",
     "time": "two weeks",
