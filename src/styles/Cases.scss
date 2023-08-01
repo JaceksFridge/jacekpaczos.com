@@ -1,0 +1,22 @@
+
+
+.case-background.Blockify{
+    background: $blockify;
+
+    .case-background-image{
+        width: 100%;
+    }
+}
+
+.case-background.Moonlog{
+    background: $moonlog;
+
+    .case-background-image{
+        bottom: -8%;
+    }
+}
+
+
+.case-background.Not.Sure{
+    background: none;
+}

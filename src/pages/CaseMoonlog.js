@@ -1,12 +1,23 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import CaseTop from '../components/CaseTop';
 
 
 const CaseMoonlog = () => {
 
+  const [data, setData] = useState([])
+   
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('./data/CaseMoonlog.json')
+      const jsonData = await response.json()
+      setData(jsonData.hero)
+    }
+    fetchData()
+  }, [])
+
   return (
-    <CaseTop />
+    <CaseTop casestudy={data}/>
   )
 }
 

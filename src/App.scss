@@ -37,6 +37,9 @@ $white: #ffffff;
 $black: #000000;
 $black2: #101010;
 
+$blockify: #3454D1;
+$moonlog: #121212;
+
 $white-80: hsla(0, 0%, 100%, 0.8);
 $white-65: hsla(0, 0%, 100%, 0.65);
 $white-50: hsla(0, 0%, 100%, 0.5);
@@ -158,7 +161,6 @@ $p-mobile: 5%;
 @import './styles/Button.scss';
 @import './styles/Cards.scss';
 @import './styles/CaseHero.scss';
-@import './styles/CaseMoonlog.scss';
 
 @import './styles/Footer.scss';
 @import './styles/HomeHero.scss';
@@ -179,6 +181,9 @@ $p-mobile: 5%;
 @import './styles/Github.scss';
 @import './styles/HomeDesktop.scss';
 @import './styles/TrainingsDesktop.scss';
+@import './styles/CaseStructure.scss';
+@import './styles/Cases.scss';
+
 
 
 

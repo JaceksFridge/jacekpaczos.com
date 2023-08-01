@@ -7,7 +7,6 @@
 
   border: 0px solid red;
 
-
   .case-background{
 
     border: 0px solid green;
@@ -17,13 +16,14 @@
     width: 100%;
 
     position: relative;
+    overflow: hidden;
 
     .case-background-image{
 
       position: absolute;
-      bottom: -10%;
-      left: 25%;
-      height: 20rem;
+      bottom: 0;
+      left: 16%;
+      height: 16rem;
       width: auto;
     }
   }
@@ -66,8 +66,10 @@
         }
 
         .case-box-value{
-          font-size: 1rem;
+          color: $dark-80;
+          font-size: 0.9rem;
           font-weight: 400;
+          text-transform: capitalize;
         }
       }
     }

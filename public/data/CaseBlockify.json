@@ -1,0 +1,11 @@
+
+
+{
+    "hero": {
+        "title": "Blockify",
+        "img": "./assets/home/blockify-mockup.png",
+        "type": "ux-design",
+        "time": "Five days",
+        "role": "lead designer"
+    }
+}

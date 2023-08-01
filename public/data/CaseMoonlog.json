@@ -1,0 +1,11 @@
+
+
+{
+    "hero": {
+        "title": "Moonlog",
+        "img": "./assets/home/moonlog-rock.png",
+        "type": "Coding",
+        "time": "3 weeks",
+        "role": "Designer & Developer"
+    }
+}

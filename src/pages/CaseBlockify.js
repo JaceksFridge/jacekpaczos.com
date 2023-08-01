@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import CaseTop from '../components/CaseTop'
 
 const CaseBlockify = () => {
@@ -7,15 +7,15 @@ const CaseBlockify = () => {
    
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('./data/About.json')
+      const response = await fetch('./data/CaseBlockify.json')
       const jsonData = await response.json()
-      setData(jsonData)
+      setData(jsonData.hero)
     }
     fetchData()
   }, [])
 
   return (
-    <CaseTop case={data} />
+    <CaseTop casestudy={data} />
   )
 }
 
