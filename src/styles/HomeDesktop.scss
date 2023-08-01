@@ -191,7 +191,7 @@
 
                     &:hover{
                         img{
-                            margin-bottom: 9px;
+                            margin-bottom: 5px;
                             transform: scale(1.03);
                         }
                     }
@@ -226,3 +226,33 @@
         }
     }
 }
+
+
+
+@media (min-width: $desktop) {
+    #Moonlog{
+        .desk-bg-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                height: 120%;
+                width: auto;
+                margin-bottom: -10%;
+                margin-left: 0%;
+            }
+        }
+    }
+
+
+    #Blockify{
+        .desk-bg-card{
+            img{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+

@@ -50,8 +50,10 @@
                 overflow: hidden;
 
                 position: relative;
-                display: grid;
-                place-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
 
                 .bg-card-img{
                     position: absolute;
@@ -130,43 +132,23 @@
     }
 }
 
-// $designTabs: (
-//     userresearch: #A1BFE4,
-//     uxdesign: #9ECBE6,
-//     interactiondesign: #9BD7E9,
-//     visualdesign: #A2DFE8,
-//     uidesign: #B0EFE6,
-// );
 
-// $codingTabs: (
-//     mobile: #F3A541,
-//     coding: #EA823F,
-//     frontend: #E15F3E,
-//     backend: #D83C3C,
-//     datascience: #B23E42
-// );
+#Blockify{
+    justify-content: flex-end;
+    img{
+        width: 50%;
+        margin-left: -10%;
+        margin-bottom: -2%;
+    }
+}
 
-// @each $class, $color in $designTabs {
-//     .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
-//         background: rgba($color, 0.1);
-//         border-color: $color;
-      
-//         .tabs-color {
-//           background: $color;
-//         }
-//     }
-// }
-
-// @each $class, $color in $codingTabs {
-//     .projects .projectcard .content-card .tabs-pool .tabs-container.#{$class} {
-//         background: rgba($color, 0.1);
-//         border-color: rgba($color, 0.5);
-      
-//         .tabs-color {
-//           background: $color;
-//         }
-//     }
-// }
+#Moonlog{
+    img{
+        width: 100%;
+        margin-bottom: -10%;
+        margin-left: 0%;
+    }
+}
 
 
 

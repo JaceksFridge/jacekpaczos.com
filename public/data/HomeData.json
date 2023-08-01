@@ -15,7 +15,7 @@
             "title": "Moonlog",
             "text": "discipline tracker for life",
             "color": "#121212",
-            "mockup": "./assets/home/moonlog-rock.png",
+            "mockup": "./assets/home/moonlog-cube.png",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
             "open": "open>"
