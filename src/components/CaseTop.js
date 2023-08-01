@@ -6,7 +6,7 @@ const CaseTop = ({ case }) => {
   return (
     <div className="case">
         <div className="case-background">
-            <img src="./assets/images/moonlog/moonglog-mockup.png" alt={case.title} className="case-background-image" />
+            <img src={case.img} alt={case.title} className="case-background-image" />
         </div>
         <div className="case-info">
             <h1 className="case-title">{case.title}</h1>
