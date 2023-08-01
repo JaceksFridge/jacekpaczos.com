@@ -6,6 +6,7 @@ const Button = ({ onClick, text, img, width }) => {
       onClick={onClick} 
       className="button"
       style={{ width: `${width}` }}
+      data-aos="fade-up"
     >
       <div className="bottom-layer"></div>
       <div className="top-layer">

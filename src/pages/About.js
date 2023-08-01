@@ -27,16 +27,17 @@ const About = () => {
     fetchData()
   }, [])
 
+ 
 
   return (
     <div className="about">
-      <Test logos={data.logos}/>
+      <Test logos={data.logos} />
       <AboutMe />
       <Github />
       <Socials />
       <div className="new-switch">
-        <h4 className="section-title">Facts</h4>
-        <p className="facts-switch">Hop aboard the roller coaster of my 
+        <h4 className="section-title" data-aos="fade-up" >Facts</h4>
+        <p className="facts-switch" data-aos="fade-up" >Hop aboard the roller coaster of my 
           <span 
             className="switcher"
             onClick={() => setFacts('courses')}
@@ -51,7 +52,7 @@ const About = () => {
           > Books</span> that sparked 'Eureka!' moments!
         </p>
       </div>
-      <div className="facts-section">
+      <div className="facts-section" data-aos="fade-up" >
         {data && data.courses && facts === "courses" && <CourseSection courses={data.courses} />}
         {data && data.books && facts === "books" && <BooksSection books={data.books} />}
         {data && data.skills && facts === "skills" && <SkillsSection skills={data.skills} />}

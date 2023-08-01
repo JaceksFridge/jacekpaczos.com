@@ -8,7 +8,7 @@ const Github = () => {
         url="https://github.com/JaceksFridge"
         img="./assets/images/github.png"
       />
-      <div className="section-content">
+      <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">Github</h4>
         <p className="section-text">What began as a curiosity to create 
           and build things evolved into a profession that I’m passionate 

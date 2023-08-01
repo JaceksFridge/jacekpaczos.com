@@ -3,12 +3,12 @@ import Button from '../Button'
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
+    <div className="about-me" >
       <Button
         url=""
         img="./assets/images/jacek.png"
       />
-      <div className="section-content">
+      <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">About Me</h4>
         <p className="section-text">What began as a curiosity to create 
           and build things evolved into a profession that I’m passionate 
