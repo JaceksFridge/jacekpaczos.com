@@ -37,19 +37,19 @@ const About = () => {
       <Socials />
       <div className="new-switch">
         <h4 className="section-title" data-aos="fade-up" >Facts</h4>
-        <p className="facts-switch" data-aos="fade-up" >Hop aboard the roller coaster of my 
+        <p className="facts-switch" data-aos="fade-up" >Hop aboard the roller coaster of my&nbsp;
           <span 
             className={`switcher ${facts === "courses" ? "active" : "" }`}
             onClick={() => setFacts('courses')}
-          > Learnings,</span> test drive some of my trusty 
+          >Learnings,</span> test drive some of my trusty&nbsp;
           <span 
             className={`switcher ${facts === "skills" ? "active" : "" }`}
             onClick={() => setFacts('skills')}
-          > Skills,</span> and peek at the 
+          >Skills,</span> and peek at the&nbsp;
           <span 
             className={`switcher ${facts === "books" ? "active" : "" }`}
             onClick={() => setFacts('books')}
-          > Books</span> that sparked 'Eureka!' moments!
+          >Books</span> that sparked 'Eureka!' moments! 
         </p>
       </div>
       <div className="facts-section" data-aos="fade-up" >

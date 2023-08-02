@@ -39,7 +39,6 @@ const Home = () => {
       setData(jsonData);
     };
 
-  
     fetchData();
 
     setTimeout(() => {
