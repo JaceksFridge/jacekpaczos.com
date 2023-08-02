@@ -17,12 +17,43 @@
         .switcher{
             color: $red;
             cursor: pointer;
+            position: relative;
         }
-        .switcher:hover{
-            text-decoration: underline;
+        .switcher.active::before {
+            transform: scaleX(1);
+            transform-origin: left;
         }
+        .switcher::before {
+            background: #FFC5B2;
+            content: "";
+            inset: 0;
+            position: absolute;
+            top: -10%; left: 2%;
+            bottom: -10%; right: -5%;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+        .switcher:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }        
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section-content{
     display: flex;
