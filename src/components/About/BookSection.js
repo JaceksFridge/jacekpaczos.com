@@ -7,8 +7,9 @@ const BookSection = ({ books }) => {
     <div className="books-section">
         <div className="books-grid">
             {books.map((book, index) => (
-                <motion.div 
+                <motion.a 
                     className="books-card" 
+                    href={book.link}
                     key={index}
                     initial={{ 
                         opacity: 0, 
@@ -32,7 +33,7 @@ const BookSection = ({ books }) => {
                         <h4 className="book-title">{book.title}</h4>
                         <h4 className="book-author">{book.author}</h4>
                     </div>
-                </motion.div>
+                </motion.a>
             ))}
         </div>
     </div>
