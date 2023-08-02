@@ -37,7 +37,14 @@ const BookSection = ({ books }) => {
                     transition={{ duration: 0.3, delay: index * 0.3 }}
                 >
                     <h4 className="books-count">0{index}</h4>
-                    <img src={book.url} alt={book.image} className="books-image" />
+                    <motion.img 
+                        src={book.url} 
+                        alt={book.image} 
+                        className="books-image" 
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3, delay: index * 0.3 }}
+                    />
                     <div className="book-info">
                         <h4 className="book-title">{book.title}</h4>
                         <h4 className="book-author">{book.author}</h4>

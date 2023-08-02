@@ -29,13 +29,27 @@
         border: 0px solid magenta;
         background: white;
     
+        ::-webkit-scrollbar {
+            width: 1px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: white;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: white;
+        }
+
         .projects-desk-container{
             margin: 0 5%;
             height: 100%;
-    
-    
+            scroll-snap-type: y mandatory;
+            overflow-y: auto;
+            height: 100vh;
+              
             .project-desk-sec{
                 height: 100vh;
+                scroll-snap-align: start;
                 display: flex;
         
                 .project-desk-text{

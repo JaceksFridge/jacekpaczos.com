@@ -7,15 +7,24 @@ const CaseTopDesktop = ({ casestudy }) => {
     <div className={`case-desk ${casestudy.title}`}>
 
         { casestudy.img ? (
-            <img src={casestudy.img} alt={casestudy.title} className="case-desk-bg" />
+            <motion.img 
+                src={casestudy.img} 
+                alt={casestudy.title} 
+                className="case-desk-bg" 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+            />
         ) : (
-            <video 
+            <motion.video 
                 className="case-desk-image"
                 src={casestudy.vid} 
                 autoPlay 
                 loop 
                 muted 
-                style={{width: "100%", height: "100%"}}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
             />
         )}
    
