@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button'
 
@@ -11,8 +11,33 @@ const Navbar = () => {
         document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
     }
 
+
+    const [show, setShow] = useState(true)
+
+    const lastScrollY = useRef(0)
+
+    const controlNavbar = () => {
+        const currentScrollY = window.scrollY
+        if (currentScrollY < lastScrollY.current) {
+            setShow(true)
+        } else if (currentScrollY > 100) {
+            setShow(false)
+        }
+        lastScrollY.current = currentScrollY
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', controlNavbar)
+
+        return () => {
+            window.removeEventListener('scroll', controlNavbar)
+        }
+    }, [])
+
+
+
     return(
-        <header className="navbar">
+        <header className={` navbar ${show ? 'visible' : 'hidden'}`} id="navbar">
             <Link to="/" className="home-button navbutton">
                 <div className="bottom-layer"></div>
                 <div className="top-layer">
