@@ -39,15 +39,15 @@ const About = () => {
         <h4 className="section-title" data-aos="fade-up" >Facts</h4>
         <p className="facts-switch" data-aos="fade-up" >Hop aboard the roller coaster of my 
           <span 
-            className="switcher"
+            className={`switcher ${facts === "courses" ? "active" : "" }`}
             onClick={() => setFacts('courses')}
           > Learnings,</span> test drive some of my trusty 
           <span 
-            className="switcher"
+            className={`switcher ${facts === "skills" ? "active" : "" }`}
             onClick={() => setFacts('skills')}
           > Skills,</span> and peek at the 
           <span 
-            className="switcher"
+            className={`switcher ${facts === "books" ? "active" : "" }`}
             onClick={() => setFacts('books')}
           > Books</span> that sparked 'Eureka!' moments!
         </p>
