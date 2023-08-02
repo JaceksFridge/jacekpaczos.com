@@ -92,80 +92,103 @@
         {
             "title": "html",
             "type": "language",
-            "url": "./assets/images/about/self-logos/webp/html.webp"
+            "url": "./assets/images/about/self-logos/webp/html.webp",
+            "link": "https://html.com/"
         },
         {
             "title": "css",
             "type": "language",
-            "url": "./assets/images/about/self-logos/webp/css.webp"
+            "url": "./assets/images/about/self-logos/webp/css.webp",
+            "link": "https://www.w3.org/Style/CSS/Overview.en.html"
         },
         {
             "title": "sass",
             "type": "superset",
-            "url": "./assets/images/about/self-logos/webp/sass.webp"
+            "url": "./assets/images/about/self-logos/webp/sass.webp",
+            "link": "https://sass-lang.com/"
         },
         {
             "title": "tailwind",
             "type": "framework",
-            "url": "./assets/images/about/self-logos/webp/tailwind.webp"
+            "url": "./assets/images/about/self-logos/webp/tailwind.webp",
+            "link": "https://tailwindcss.com/"
         },
         {
             "title": "bulma",
             "type": "framework",
-            "url": "./assets/images/about/self-logos/webp/bulma.webp"
+            "url": "./assets/images/about/self-logos/webp/bulma.webp",
+            "link": "https://bulma.io/"
         },
         {
             "title": "javascript",
             "type": "language",
-            "url": "./assets/images/about/self-logos/webp/javascript.webp"
+            "url": "./assets/images/about/self-logos/webp/javascript.webp",
+            "link": "https://sass-lang.com/"
         },
         {
             "title": "typescript",
             "type": "language",
-            "url": "./assets/images/about/self-logos/webp/typescript.webp"
+            "url": "./assets/images/about/self-logos/webp/typescript.webp",
+            "link": "https://www.typescriptlang.org/"
         },
         {
             "title": "react",
             "type": "framework",
-            "url": "./assets/images/about/self-logos/webp/react.webp"
+            "url": "./assets/images/about/self-logos/webp/react.webp",
+            "link": "https://react.dev/"
         },
         {
             "title": "node",
             "type": "framework",
-            "url": "./assets/images/about/self-logos/webp/node.webp"
+            "url": "./assets/images/about/self-logos/webp/node.webp",
+            "link": "https://nodejs.org/en"
         },
         {
             "title": "python",
             "type": "language",
-            "url": "./assets/images/about/self-logos/webp/python.webp"
+            "url": "./assets/images/about/self-logos/webp/python.webp",
+            "link": "https://www.python.org/"
         },
         {
             "title": "next",
             "type": "framework",
-            "url": "./assets/images/about/self-logos/webp/next.webp"
+            "url": "./assets/images/about/self-logos/webp/next.webp",
+            "link": "https://nextjs.org/"
         },
         {
             "title": "mongo-db",
             "type": "database",
-            "url": "./assets/images/about/self-logos/webp/mongodb.webp"
+            "url": "./assets/images/about/self-logos/webp/mongodb.webp",
+            "link": "https://www.mongodb.com/"
         },
         {
             "title": "mysql",
             "type": "database",
-            "url": "./assets/images/about/self-logos/webp/mysql.webp"
+            "url": "./assets/images/about/self-logos/webp/mysql.webp",
+            "link": "https://www.mysql.com/"
         },
         {
             "title": "git",
             "type": "tool",
-            "url": "./assets/images/about/self-logos/webp/git.webp"
+            "url": "./assets/images/about/self-logos/webp/git.webp",
+            "link": "https://git-scm.com/"
         },
         {
             "title": "github",
             "type": "tool",
-            "url": "./assets/images/about/self-logos/webp/github.webp"
+            "url": "./assets/images/about/self-logos/webp/github.webp",
+            "link": "https://github.com/"
         }
     ],
     "courses": [
+        {
+            "title": "Advanced React",
+            "teacher": "Meta",
+            "date": "June 27, 2023",
+            "grade": "94.40%",
+            "courseurl": "https://www.coursera.org/learn/advanced-react",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/AHP7WSCGWSC6"
+        },
         {
             "title": "React Basics",
             "teacher": "Meta",

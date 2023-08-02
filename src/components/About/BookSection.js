@@ -11,6 +11,8 @@ const BookSection = ({ books }) => {
                     className="books-card" 
                     href={book.link}
                     key={index}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     initial={{ 
                         opacity: 0, 
                         translateX: -50, 

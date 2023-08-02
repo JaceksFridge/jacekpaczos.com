@@ -12,10 +12,13 @@ const BookSection = ({ skills }) => {
     <div className="skills-section" ref={ref}>
         <div className="skills-grid">
             {skills.map((skill, index) => (
-                <motion.div 
+                <motion.a
                     className="skills-card" 
+                    href={skill.link}
                     data-aos="fade-up"
                     key={index}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     initial={{ 
                         opacity: 0, 
                         translateX: -50, 
@@ -30,7 +33,7 @@ const BookSection = ({ skills }) => {
                         <h4 className="skill-title">{skill.title}</h4>
                         <h4 className="skill-type">{skill.type}</h4>
                     </div>
-                </motion.div>
+                </motion.a>
             ))}
         </div>
     </div>
