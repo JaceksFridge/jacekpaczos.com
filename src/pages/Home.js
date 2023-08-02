@@ -19,38 +19,32 @@ const Home = () => {
 
   const [data, setData] = useState({ projects: [], trainings: [] });
 
+
+  const scrollToProjects = () => { 
+    const projectsElement = document.querySelector('#projects-section');
+    if (projectsElement) {
+      const top = projectsElement.offsetTop;
+      window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: 'smooth',
+      });
+    }
+  }
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('/data/HomeData.json');
       const jsonData = await response.json();
       setData(jsonData);
     };
-  
-    const scrollDown = () => { 
-      const projectsElement = document.querySelector('#projects-section')
-      if (projectsElement) {
-        const top = projectsElement.offsetTop;
-        window.scrollTo({
-          top: top,
-          left: 0,
-          behavior: 'smooth',
-        });
-      }
 
-    }
   
     fetchData();
 
     setTimeout(() => {
-      scrollDown();
+      scrollToProjects();
     }, 2000)
-    // if (sessionStorage.getItem('beenBefore') !== 'true') {
-    //   setTimeout(() => {
-    //     scrollDown();
-    //   }, 1500)
-
-    //   sessionStorage.setItem('beenBefore', 'true')
-    // }
   }, []);
   
 

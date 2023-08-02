@@ -1,10 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer';
 
 const BookSection = ({ skills }) => {
 
+    const [ref, inView] = useInView({
+        threshold: 0.1,
+    })
+
   return (
-    <div className="skills-section">
+    <div className="skills-section" ref={ref}>
         <div className="skills-grid">
             {skills.map((skill, index) => (
                 <motion.div 
@@ -17,7 +22,7 @@ const BookSection = ({ skills }) => {
                         // translateY: index % 2 ? -50 : 50
                         translateY: -50
                     }}
-                    animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+                    animate={inView ? { opacity: 1, translateX: 0, translateY: 0 } : {}}
                     transition={{ duration: 0.1, delay: index * 0.2 }}
                 >
                     <img src={skill.url} alt={skill.image} className="skill-image" />

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 
-const Footer = () => {
+const Footer = ({ scrollToProjects }) => {
   const scrollToTop = () => {
     window.scrollTo(0, 0)
   }
