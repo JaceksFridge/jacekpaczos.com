@@ -3,32 +3,32 @@
         {
             "title": "Antifragile",
             "author": "Nassim Taleb",
-            "url": "./assets/images/book-covers/antifragile.png"
+            "url": "./assets/images/book-covers/antifragile.webp"
         },
         {
             "title": "Brave New World",
             "author": "Aldous Huxley",
-            "url": "./assets/images/book-covers/bravenewworld.png"
+            "url": "./assets/images/book-covers/bravenewworld.webp"
         },
         {
             "title": "Sapiens",
             "author": "Yuval Noah Harari",
-            "url": "./assets/images/book-covers/sapiens.png"
+            "url": "./assets/images/book-covers/sapiens.webp"
         },
         {
             "title": "The Alchemist",
             "author": "Paulo Coelho",
-            "url": "./assets/images/book-covers/alchemist.png"
+            "url": "./assets/images/book-covers/alchemist.webp"
         },
         {
             "title": "Thinking, Fast and Slow",
             "author": "Daniel Kahneman",
-            "url": "./assets/images/book-covers/fastandslow.png"
+            "url": "./assets/images/book-covers/fastandslow.webp"
         },
         {
             "title": "The Almanack of Naval",
             "author": "Eric Jorgenson",
-            "url": "./assets/images/book-covers/almanack.png"
+            "url": "./assets/images/book-covers/almanack.webp"
         }
     ],
     "logos": [

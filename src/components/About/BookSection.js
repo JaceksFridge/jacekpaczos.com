@@ -3,23 +3,6 @@ import { motion } from 'framer-motion'
 
 const BookSection = ({ books }) => {
 
-    // const skillsVariants = {
-
-    //     hidden: {
-    //         opacity: 0,
-    //         translateX: -50,
-    //     },
-
-    //     visible: {
-    //         opacity: 1,
-    //         translateX: 0,
-    //         transition: {
-    //             duration: 3,
-    //             delay: index * 0.3,
-    //         }
-    //     }
-    // }
-
   return (
     <div className="books-section">
         <div className="books-grid">
