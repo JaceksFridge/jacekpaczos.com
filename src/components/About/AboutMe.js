@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div className="about-me" >
       <Button
         url=""
-        img="./assets/images/jacek.png"
+        img="./assets/images/about/jacek.png"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">About Me</h4>

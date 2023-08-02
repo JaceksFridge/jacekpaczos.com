@@ -48,7 +48,7 @@
                 .card-logo{
                     height: 41px;
                     width: 41px;
-                    background: url(../../public/assets/logos/codecademy.png);
+                    background: url('../../public/assets/images/about/course-logos/ccd.png');
                     background-size: cover;
                     background-position: center;
                     box-shadow: $shadow-logo;
@@ -56,19 +56,19 @@
                 }
 
                 .coursera{
-                    background: url(../../public/assets/logos/coursera_logo.png);
+                    background: url('../../public/assets/images/about/course-logos/coursera_logo.png');
                     background-position: center; background-size: cover;
                 }
                 .google{
-                    background: url(../../public/assets/logos/google.png);
+                    background: url('../../public/assets/images/about/course-logos/google.png');
                     background-position: center; background-size: cover;
                 }
                 .meta{
-                    background: url(../../public/assets/logos/meta_logo.png);
+                    background: url('../../public/assets/images/about/course-logos/meta_logo.png');
                     background-position: center; background-size: cover;
                 }
                 .codecademy{
-                    background: url(../../public/assets/logos/codecademy.png);
+                    background: url('../../public/assets/images/about/course-logos/codecademy.png');
                     background-position: center; background-size: cover;
                 }
             }
@@ -109,7 +109,7 @@
                 .card-star{
                     width: 12px;
                     height: 12px;
-                    background: url(../../public/assets/icons/About/star.svg);
+                    background: url('../../public/assets/images/about/course-logos/star.svg');
                     background-position: center;
                     background-size: cover;
                     margin: auto 0;
@@ -117,7 +117,7 @@
                 .card-checkmark{
                     width: 11px;
                     height: 8.6px;
-                    background: url(../../public/assets/icons/About/checkmark.svg);
+                    background: url('../../public/assets/images/about/course-logos/checkmark.svg');
                     background-position: center;
                     background-size: cover;
                     margin: auto 0;
@@ -139,7 +139,7 @@
             .card-open{
                 width: 14px;
                 height: 14px;
-                background: url(../../public/assets/icons/About/opengrey.png);
+                background: url('../../public/assets/images/about/course-logos/opengrey.png');
                 background-position: center;
                 background-size: cover;
             }

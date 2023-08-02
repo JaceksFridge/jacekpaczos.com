@@ -10,7 +10,6 @@ import SkillsSection from '../components/About/SkillsSection'
 import Footer from '../components/Footer'
 
 
-
 const About = () => {
 
   const [data, setData] = useState([])
@@ -26,8 +25,6 @@ const About = () => {
 
     fetchData()
   }, [])
-
- 
 
   return (
     <div className="about">

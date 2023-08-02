@@ -6,7 +6,7 @@
             "text": "an idea on how to make the openai api actually useful",
             "color": "#46A49F",
             "video": "./assets/videos/redchange.mp4",
-            "mockup": "./assets/home/daild.png",
+            "mockup": "./assets/images/home/daild.png",
             "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
             "open": "<open"
@@ -15,7 +15,7 @@
             "title": "Moonlog",
             "text": "discipline tracker for life",
             "color": "#121212",
-            "mockup": "./assets/home/moonlog-cube.png",
+            "mockup": "./assets/images/home/moonlog-cube.png",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
             "open": "open>"
@@ -24,7 +24,7 @@
             "title": "Blockify",
             "text": "an elegant and intuitive sign-up flow.",
             "color": "#3554D1",
-            "mockup": "./assets/home/blockify-mockup.png",
+            "mockup": "./assets/images/home/blockify-mockup.png",
             "link": "caseblockify",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"

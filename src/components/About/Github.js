@@ -6,7 +6,7 @@ const Github = () => {
     <div className="github">
       <Button
         url="https://github.com/JaceksFridge"
-        img="./assets/images/github.png"
+        img="./assets/images/about/github.png"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">Github</h4>
