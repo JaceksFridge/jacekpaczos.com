@@ -26,12 +26,13 @@
     }
 }
 
-.case-background.UX-100{
+.case-background#UX-100{
     background: none;
+    video{
+        display: none;
+    }
     .case-background-image{
-        height: 100%;
-        width: 100%;
-        left: 0;
+        display: none;
     }
 }
 
@@ -60,10 +61,12 @@
 
 .case-desk.UX-100{
     background: none;
-    .case-desk-bg{
+    overflow-y: hidden;
+    .case-desk-image{
         width: 60%;
         height: auto;
         margin-left: 0;
+        margin-bottom: -5%;
     }
 }
 

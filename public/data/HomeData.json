@@ -35,6 +35,7 @@
             "title": "UX-100",
             "text": "notes on user behavior patterns",
             "color": "",
+            "video": "./assets/videos/waveee.mp4",
             "link": "caseux100",
             "tabs": ["UX Design", "UI Design"],
             "open": "open>"
