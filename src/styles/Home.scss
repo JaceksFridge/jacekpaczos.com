@@ -43,7 +43,7 @@
             transition: all 0.3s ease;
 
             .bg-card{
-                height: 52.5%;
+                height: 40vh;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
                 overflow: hidden;
@@ -60,7 +60,7 @@
                     right: 0; left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(../../public/assets/images/home/b2.png);
+                    // background: url(../../public/assets/images/home/b2.png);
                     background-size: cover;
                     background-position: center;
                 }
@@ -128,6 +128,7 @@
         }
     }
 }
+
 
 
 #Blockify{

@@ -4,7 +4,6 @@
         {
             "title": "Not Sure",
             "text": "an idea on how to make the openai api actually useful",
-            "color": "#46A49F",
             "video": "./assets/videos/redchange.mp4",
             "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
