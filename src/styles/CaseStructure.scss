@@ -10,21 +10,22 @@
   .case-background{
 
     border: 0px solid green;
-    background: black;
-    min-height: 350px;
-    height: 42%;
+    // background: black;
+    min-height: 320px;
+    height: 38%;
     width: 100%;
-
+    
     position: relative;
     overflow: hidden;
 
     .case-background-image{
 
       position: absolute;
-      bottom: 0;
+      bottom: 0%;
       left: 16%;
-      height: 16rem;
+      height: auto;
       width: 100%;
+      max-width: 20rem;
     }
   }
 
@@ -32,14 +33,14 @@
     padding: 0 1.5rem;
 
     .case-title{
-      padding: 1.5rem 0;
+      padding: 1rem 0;
 
       letter-spacing: -0.1rem;
       border-bottom: 1px solid $grey-50;
     }
 
     .case-boxes{
-      padding: 1.5rem 0;
+      padding: 1rem 0;
       display: grid;
       gap: 1rem;
 

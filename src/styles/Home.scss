@@ -44,7 +44,6 @@
 
             .bg-card{
                 height: 52.5%;
-                border: px solid orange;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
                 overflow: hidden;
@@ -64,8 +63,6 @@
                     background: url(../../public/assets/images/home/b2.png);
                     background-size: cover;
                     background-position: center;
-
-                    border: 0px solid orange;
                 }
             }
             .content-card{
@@ -147,6 +144,17 @@
         width: 100%;
         margin-bottom: -10%;
         margin-left: 0%;
+    }
+}
+
+
+.bg-card#UX-100{
+    background: none;
+    video{
+        display: none;
+    }
+    .case-background-image{
+        display: none;
     }
 }
 
