@@ -182,6 +182,22 @@
     ],
     "courses": [
         {
+            "title": "CS50 Python",
+            "teacher": "Harvard",
+            "date": "...",
+            "grade": "...",
+            "courseurl": "https://www.coursera.org/learn/principles-of-ux-ui-design",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/TXTMUQZCQDR7"
+        },
+        {
+            "title": "Principles of UX/UI Design",
+            "teacher": "Meta",
+            "date": "August 6, 2023",
+            "grade": "93.62%",
+            "courseurl": "https://www.edx.org/learn/computer-programming/harvard-university-cs50s-introduction-to-programming-with-python?index=product&queryID=76989ab02bf49f2d6623762a2d809532&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch",
+            "certificate": "https://www.edx.org/learn/computer-programming/harvard-university-cs50s-introduction-to-programming-with-python?index=product&queryID=76989ab02bf49f2d6623762a2d809532&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch"
+        },
+        {
             "title": "Advanced React",
             "teacher": "Meta",
             "date": "June 27, 2023",

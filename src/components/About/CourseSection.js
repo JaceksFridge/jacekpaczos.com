@@ -8,18 +8,7 @@ const CourseSection = ({ courses = [] }) => {
       <a href={course.courseurl}>
         <div className="card-top">
           <div className="card-left">
-            {course.teacher === 'Coursera' && (
-              <div className="card-logo coursera"></div>
-            )}
-            {course.teacher === 'Google' && (
-              <div className="card-logo google"></div>
-            )}
-            {course.teacher === 'Meta' && (
-              <div className="card-logo meta"></div>
-            )}
-            {course.teacher === 'Codecademy' && (
-              <div className="card-logo codecademy"></div>
-            )}
+            <div className={`card-logo ${course.teacher.toLowerCase()}`}></div>
           </div>
           <div className="card-right">
             <h4 className="card-title">{course.title}</h4>
