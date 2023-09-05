@@ -1,0 +1,71 @@
+
+
+
+.big-container{
+    background: lightgrey;
+
+    .down-container{
+        display: flex;
+        height: 12rem;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            font-weight: semibold;
+            text-transform: uppercase;
+            color: lightseagreen;
+        }
+    }
+    .up-container{
+        display: flex;
+        height: 12rem;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            font-weight: semibold;
+            text-transform: uppercase;
+            color: lightseagreen;
+        }
+    }
+
+    .o-section{
+
+        position: relative;
+        height: 300vh;
+        background: white;
+
+        .o-sticky{
+
+            position: sticky;
+            top: 0;
+            border: 1px solid black;
+
+            display: flex;
+            height: 100vh;
+            padding: 50px 0;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .o-scroll{
+                display: flex;
+                height: 100%;
+                gap: 0rem;
+
+                .o-scroll-card{
+                    position: relative;
+                    height: 100%;
+                    width: 400px;
+                    padding: 2.6rem;
+                    overflow: hidden;
+                    border-left: 1px solid $dark-20;
+                }
+            }
+        }
+    }
+}
+
+
+
+

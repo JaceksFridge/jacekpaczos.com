@@ -60,37 +60,6 @@
         "substring": "Small things are fun too!"
       }
     ]
-  },
-  
-  "behaviorPatterns": [
-    {
-      "id": "01",
-      "title": "base rate fallacy",
-      "icon": "./assets/icons/UX100/b1.svg",
-      "maincolor": "#20A39E",
-      "seccolor": "#FFFFFF",
-      "text": "When deciding, we often forget about the base rate information, which is statistical. We tend to perceive specific information stronger. For example, when guessing the profession of a 190cm tall woman who majored in sports studies, one might think she is a basketball or volleyball player. This neglects the fact that less than 1% of the population plays professional sports, and 90.85% of them are men.",
-      "use": [
-        {
-          "text": "For statistics, e.g., '85% of our customers' → '99 of our active customers'"
-        }
-      ],
-      "power": "5/10"
-    },
-    {
-      "id": "02",
-      "title": "cheerleader effect",
-      "icon": "./assets/icons/UX100/b2.svg",
-      "maincolor": "#FFFFFF",
-      "seccolor": "#000000",
-      "text": "Individuals in a group, are rated more attractive as the same individuals for themselves. Bad or unattractive features of a group member are balanced out by complementary features of other group members. Groups get processed as average values and average faces get perceived as friendly.",
-      "use": [
-        {
-          "text": "for product sections and testimonials"
-        }
-      ],
-      "power": "3/10"
-    }
-  ]
+  }
 }
   
