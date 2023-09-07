@@ -43,13 +43,13 @@
         .projects-desk-container{
             margin: 0 5%;
             height: 100%;
-            // scroll-snap-type: y mandatory;
-            // overflow-y: auto;
-            // height: 100vh;
+            scroll-snap-type: y mandatory;
+            overflow-y: auto;
+            height: 100vh;
               
             .project-desk-sec{
                 height: 100vh;
-                // scroll-snap-align: start;
+                scroll-snap-align: start;
                 display: flex;
         
                 .project-desk-text{
