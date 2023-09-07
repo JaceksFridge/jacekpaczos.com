@@ -1,38 +1,40 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom'
-import Button from './Button'
+
+
+import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [show, setShow] = useState(true);
+  const lastScrollY = useRef(0);
 
-    const [menuOpen, setMenuOpen] = useState(false)
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+    document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
+  };
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-        document.body.style.overflow = !menuOpen ? 'hidden' : 'auto';
+  const controlNavbar = (event) => {
+    const currentScrollY = event.target === document ? window.scrollY : event.target.scrollTop;
+
+    if (currentScrollY < lastScrollY.current) {
+      setShow(true);
+    } else if (currentScrollY > 100) {
+      setShow(false);
     }
+    lastScrollY.current = currentScrollY;
+  };
 
+  useEffect(() => {
+    const scrollContainer = document.querySelector('.projects-desk-container');
+    const target = scrollContainer || window;
 
-    const [show, setShow] = useState(true)
+    target.addEventListener('scroll', controlNavbar);
 
-    const lastScrollY = useRef(0)
-
-    const controlNavbar = () => {
-        const currentScrollY = window.scrollY
-        if (currentScrollY < lastScrollY.current) {
-            setShow(true)
-        } else if (currentScrollY > 100) {
-            setShow(false)
-        }
-        lastScrollY.current = currentScrollY
+    return () => {
+      target.removeEventListener('scroll', controlNavbar);
     };
-
-    useEffect(() => {
-        window.addEventListener('scroll', controlNavbar)
-
-        return () => {
-            window.removeEventListener('scroll', controlNavbar)
-        }
-    }, [])
+  }, []);
 
 
 

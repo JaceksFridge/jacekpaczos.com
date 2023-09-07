@@ -7,7 +7,8 @@
             "video": "./assets/videos/redchange.mp4",
             "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
-            "open": "<open"
+            "open": "<open",
+            "id": "notsure"
         },
         {
             "title": "Moonlog",
@@ -26,9 +27,11 @@
             "link": "caseblockify",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"
-        }
-    ],
-    "trainings": [
+        },
+        {
+            "type": "section",
+            "title": "trainings"
+        },
         {
             "title": "UX-100",
             "text": "notes on user behavior patterns",

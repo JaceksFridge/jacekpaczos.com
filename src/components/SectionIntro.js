@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SectionIntro = ({ name }) => {
+const SectionIntro = ({ name, sectionClass = "sectionIntro" }) => {
   return (
-    <div className="sectionIntro">
+    <div className={sectionClass}>
         <h3>{name}</h3>
         <div className="section-title-line"></div>
     </div>

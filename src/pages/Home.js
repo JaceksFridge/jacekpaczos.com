@@ -5,7 +5,6 @@ import ProjectsDesktop from '../components/Home/ProjectsDesktop'
 import Trainings from '../components/Home/Trainings'
 import TrainingsDesktop from '../components/Home/TrainingsDesktop'
 import SectionIntro from '../components/SectionIntro.js'
-import Footer from '../components/Footer'
 
 import { useMediaQuery } from 'react-responsive'
 
@@ -21,16 +20,18 @@ const Home = () => {
 
 
   const scrollToProjects = () => { 
-    const projectsElement = document.querySelector('#projects-section');
-    if (projectsElement) {
-      const top = projectsElement.offsetTop;
-      window.scrollTo({
+    const projectsElement = document.querySelector('#notsure')
+    const scrollContainer = document.querySelector('.projects-desk-container')
+    if (projectsElement && scrollContainer) {
+      const top = projectsElement.offsetTop
+      scrollContainer.scrollTo({
         top: top,
         left: 0,
         behavior: 'smooth',
-      });
+      })
     }
   }
+  
 
   useEffect(() => {
     const fetchData = async () => {
@@ -53,16 +54,11 @@ const Home = () => {
   return (
     <div className="home">
       <HomeHero />
-      <div className="placeholder"></div>
-        <SectionIntro name={"Projects"} />
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects} trainings={trainings}/>
       ) : (
         <Projects projects={projects} trainings={trainings}/>
       )}
-
-      {/* <SectionIntro name={"Trainings"}/> */}
-      <Footer />
     </div>
   )
 }

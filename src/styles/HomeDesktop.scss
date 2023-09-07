@@ -27,7 +27,7 @@
         height: 100%;
         width: 100vw;
         border: 0px solid magenta;
-        background: white;
+        // background: white;
     
         ::-webkit-scrollbar {
             width: 1px;
@@ -41,8 +41,8 @@
         }
 
         .projects-desk-container{
-            margin: 0 5%;
-            // smooth-scroll
+            // margin: 0 5%;
+            //smooth-scroll
             height: 100%;
             scroll-snap-type: y mandatory;
             overflow-y: auto;
@@ -52,6 +52,7 @@
                 height: 100vh;
                 scroll-snap-align: start;
                 display: flex;
+                background: white;
         
                 .project-desk-text{
                     height: 100%;
@@ -222,14 +223,22 @@
                     }
                 }
             }
-            // smooth-scroll
+            //smooth-scroll
             .sectionIntro{
                 height: 100vh;
+                scroll-snap-align: end;
+            }
+            .no-scroll-snap{
+                height: 250px;
                 scroll-snap-align: start;
+            }
+            .footer{
+                scroll-snap-align: end;
+                z-index: 30;
             }
         }
     
-        .project-desk-sec:nth-child(odd) {
+        .project-desk-sec.odd {
             flex-direction: row-reverse;
     
     
