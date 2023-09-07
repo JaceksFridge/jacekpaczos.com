@@ -49,23 +49,19 @@ const Home = () => {
 
   const { projects, trainings } = data;
 
+
   return (
     <div className="home">
       <HomeHero />
       <div className="placeholder"></div>
         <SectionIntro name={"Projects"} />
       { isDesktoporLaptop ? (
-        <ProjectsDesktop projects={projects}/>
+        <ProjectsDesktop projects={projects} trainings={trainings}/>
       ) : (
-        <Projects projects={projects}/>
+        <Projects projects={projects} trainings={trainings}/>
       )}
 
-      <SectionIntro name={"Trainings"}/>
-      { isDesktoporLaptop ? (
-        <TrainingsDesktop trainings={trainings}/>
-      ) : (
-        <Trainings trainings={trainings}/>
-      )}
+      {/* <SectionIntro name={"Trainings"}/> */}
       <Footer />
     </div>
   )
