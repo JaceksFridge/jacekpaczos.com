@@ -84,16 +84,17 @@ const HorizontalScrollCarousel = ({ patterns }) => {
       let minDelta = 0
       let maxDelta = scrollingRect.width
 
-      console.log("maxD: ", maxDelta)
+      // console.log("maxD: ", maxDelta)
 
       const containerStart = containerRect.left
       const centerStart = centerRect.left
 
       const change = Math.ceil((centerStart - (containerStart + scrollingRect.left)) + 0.5)
-      setDelta(change)
-
       const percentage = ((change - minDelta) / (maxDelta - minDelta)) * 100
-      console.log(percentage)
+  
+      setDelta(percentage)
+
+      // console.log(percentage)
     }
   }
 
@@ -137,30 +138,18 @@ const HorizontalScrollCarousel = ({ patterns }) => {
 const PlaceholderCard = ({ pattern, index, percentage }) => {
 
   const imgRef = useRef(null)
+  const position = Math.ceil(percentage)
 
   useEffect(() => {
-    // if (imgRef.current) {
-    //   imgRef.current.animate(
-    //     { objectPosition: [`${100}% center`, `${100 + percentage}% center`] },
-    //     { duration: 1200, fill: 'forwards' }
-    //   )
-    // }
 
-    // const newspaperSpinning = [
-    //   { transform: "rotate(0) scale(1)" },
-    //   { transform: "rotate(360deg) scale(0)" },
-    // ]
+    if (imgRef.current) {
+      imgRef.current.animate(
+        { objectPosition: `${position}% center`}, 
+        { duration: 1200, fill: "forwards" }
+        );
 
-    // const newspaperTiming = {
-    //   duration: 2000,
-    //   iterations: 1,
-    // };
-
-    // console.log("___")
-    // console.log(imgRef.current)
-    // imgRef.current.animate( newspaperSpinning, newspaperTiming )
-    // console.log(imgRef.current)
-
+      console.log(position)
+    }
   }, [percentage])
 
   return (
