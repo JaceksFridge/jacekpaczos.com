@@ -130,7 +130,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
   })
   const x = useTransform(scaleX, [0, 1], ["50%", "-50%"])
 
-  patterns = patterns.slice(0, 10)
+  patterns = patterns.slice(0, 15)
 
 
   return (
