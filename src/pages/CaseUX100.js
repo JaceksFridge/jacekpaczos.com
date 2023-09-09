@@ -114,7 +114,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
   const { scrollYProgress } = useScroll({ target: containerRef })
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
-    damping: 30,
+    damping: 50,
     restDelta: 0.001
   })
   const x = useTransform(scaleX, [0, 1], ["50%", "-50%"])
