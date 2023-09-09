@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import { useMediaQuery } from 'react-responsive'
-import { motion, useTransform, useScroll } from 'framer-motion'
+import { motion, useTransform, useScroll, useSpring } from 'framer-motion'
 
 import CaseTop from '../components/CaseTop'
 import CaseTopDesktop from '../components/CaseTopDesktop'
@@ -112,7 +112,12 @@ const HorizontalScrollCarousel = ({ patterns }) => {
 
 
   const { scrollYProgress } = useScroll({ target: containerRef })
-  const x = useTransform(scrollYProgress, [0, 1], ["50%", "-50%"])
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  })
+  const x = useTransform(scaleX, [0, 1], ["50%", "-50%"])
 
   patterns = patterns.slice(0, 10)
 
@@ -163,7 +168,6 @@ const PlaceholderCard = ({ pattern, index, percentage }) => {
       <div className="pattern-cover">
         <div>{index}</div>
         <div>{pattern.title}</div>
-        <div>{percentage}</div>
       </div>
     </div>
   )
