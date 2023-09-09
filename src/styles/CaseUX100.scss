@@ -53,9 +53,9 @@
                 top: 50%;
                 left: 50%;
                 height: 15px;
-                width: 15px;
+                width: 200px;
                 transform: translate(-50%, -50%);
-                background: plum;
+                background: none;
 
                 display: grid;
                 place-items: center;
@@ -77,9 +77,11 @@
                 .o-scroll-card{
                     position: relative;
                     height: 100%;
-                    width: 300px;
+                    width: 280px;
                     overflow: hidden;
                     border-left: 1px solid $dark-20;
+                    filter: grayscale(100%);
+                    transition: ease-in-out 300ms;
 
                     .pattern-image{
                         height: 100%;
@@ -94,9 +96,16 @@
                         padding: 2.6rem;
 
                         div{
+                            font-family: carbon-bold;
                             color: white;
                         }
                     }
+                }
+
+                .o-scroll-card.selected{
+                    // transform: scale(1.05);
+                    filter: none;
+
                 }
             }
         }

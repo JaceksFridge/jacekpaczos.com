@@ -73,6 +73,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
   const centerRef = useRef(null)
   const scrollingRef = useRef(null)
   const [delta, setDelta] = useState(0)
+  const [selectedCard, setSelectedCard] = useState(null)
 
 
   const handleScroll = () => {
@@ -84,18 +85,28 @@ const HorizontalScrollCarousel = ({ patterns }) => {
       let minDelta = 0
       let maxDelta = scrollingRect.width
 
-      // console.log("maxD: ", maxDelta)
-
       const containerStart = containerRect.left
       const centerStart = centerRect.left
 
       const change = Math.ceil((centerStart - (containerStart + scrollingRect.left)) + 0.5)
       const percentage = ((change - minDelta) / (maxDelta - minDelta)) * 100
-  
-      setDelta(percentage)
 
-      // console.log(percentage)
+      // selected Card
+      const cardElements = Array.from(document.querySelectorAll('.o-scroll-card'))
+      cardElements.forEach((card, index) => {
+        if (intersectingWithCenter(card, centerRect)) {
+          setSelectedCard(index)
+        }
+      }) 
+
+      setDelta(percentage)
     }
+  }
+
+  const intersectingWithCenter = (element, centerRect) => {
+
+    const cardRect = element.getBoundingClientRect()
+    return cardRect.left < centerRect.left && centerRect.left < cardRect.right
   }
 
   useEffect(() => {
@@ -114,7 +125,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
   const { scrollYProgress } = useScroll({ target: containerRef })
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
-    damping: 50,
+    damping: 30,
     restDelta: 0.001
   })
   const x = useTransform(scaleX, [0, 1], ["50%", "-50%"])
@@ -130,7 +141,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
         </div>
         <motion.div style={{ x }} className="o-scroll" ref={scrollingRef}>
           {patterns.map((pattern, i) => (
-            <PlaceholderCard key={i} index={i} pattern={pattern} percentage={delta} />
+            <PlaceholderCard key={i} index={i} pattern={pattern} percentage={delta} selected={selectedCard}/>
           ))}
         </motion.div>
       </div>
@@ -140,7 +151,9 @@ const HorizontalScrollCarousel = ({ patterns }) => {
 
 
 
-const PlaceholderCard = ({ pattern, index, percentage }) => {
+
+
+const PlaceholderCard = ({ pattern, index, percentage, selected }) => {
 
   const imgRef = useRef(null)
   const position = Math.ceil(percentage)
@@ -158,7 +171,7 @@ const PlaceholderCard = ({ pattern, index, percentage }) => {
   }, [percentage])
 
   return (
-    <div className="o-scroll-card">
+    <div className={`o-scroll-card ${index === selected ? 'selected' : ''}`}>
       <img 
         ref={imgRef} 
         src={pattern.img} 
