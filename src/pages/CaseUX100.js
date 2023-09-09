@@ -37,8 +37,8 @@ const CaseNotSure = () => {
     fetchData()
   }, [])
 
-  console.log("Pattens JSON")
-  console.log(patterns)
+  // console.log("Pattens JSON")
+  // console.log(patterns)
 
   return (
     <>
@@ -66,18 +66,65 @@ const CaseNotSure = () => {
   )
 }
 
-const HorizontalScrollCarousel = ({patterns}) => {
 
-  const targetRef = useRef(null)
-  const { scrollYProgress } = useScroll({ target: targetRef })
+const HorizontalScrollCarousel = ({ patterns }) => {
+
+  const containerRef = useRef(null)
+  const centerRef = useRef(null)
+  const scrollingRef = useRef(null)
+  const [delta, setDelta] = useState(0)
+
+
+  const handleScroll = () => {
+    if (containerRef.current && centerRef.current) {
+      const containerRect = containerRef.current.getBoundingClientRect()
+      const centerRect = centerRef.current.getBoundingClientRect()
+      const scrollingRect = scrollingRef.current.getBoundingClientRect()
+
+      let minDelta = 0
+      let maxDelta = scrollingRect.width
+
+      console.log("maxD: ", maxDelta)
+
+      const containerStart = containerRect.left
+      const centerStart = centerRect.left
+
+      const change = Math.ceil((centerStart - (containerStart + scrollingRect.left)) + 0.5)
+      setDelta(change)
+
+      const percentage = ((change - minDelta) / (maxDelta - minDelta)) * 100
+      console.log(percentage)
+    }
+  }
+
+  useEffect(() => {
+    if (containerRef.current && centerRef.current) {
+
+      window.addEventListener('scroll', handleScroll)
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll)
+      }
+    }
+  }, [])
+
+
+
+  const { scrollYProgress } = useScroll({ target: containerRef })
   const x = useTransform(scrollYProgress, [0, 1], ["50%", "-50%"])
 
+  patterns = patterns.slice(0, 10)
+
+
   return (
-    <div className="o-section" ref={targetRef}>
+    <div className="o-section" ref={containerRef}>
       <div className="o-sticky">
-        <motion.div style={{ x }} className="o-scroll">
+        <div id="centerDiv">
+          <div id="centerPoint" ref={centerRef}></div>
+        </div>
+        <motion.div style={{ x }} className="o-scroll" ref={scrollingRef}>
           {patterns.map((pattern, i) => (
-            <PlaceholderCard key={i} index={i} pattern={pattern} />
+            <PlaceholderCard key={i} index={i} pattern={pattern} percentage={delta} />
           ))}
         </motion.div>
       </div>
@@ -87,12 +134,47 @@ const HorizontalScrollCarousel = ({patterns}) => {
 
 
 
-const PlaceholderCard = ({ pattern, index }) => {
+const PlaceholderCard = ({ pattern, index, percentage }) => {
+
+  const imgRef = useRef(null)
+
+  useEffect(() => {
+    // if (imgRef.current) {
+    //   imgRef.current.animate(
+    //     { objectPosition: [`${100}% center`, `${100 + percentage}% center`] },
+    //     { duration: 1200, fill: 'forwards' }
+    //   )
+    // }
+
+    // const newspaperSpinning = [
+    //   { transform: "rotate(0) scale(1)" },
+    //   { transform: "rotate(360deg) scale(0)" },
+    // ]
+
+    // const newspaperTiming = {
+    //   duration: 2000,
+    //   iterations: 1,
+    // };
+
+    // console.log("___")
+    // console.log(imgRef.current)
+    // imgRef.current.animate( newspaperSpinning, newspaperTiming )
+    // console.log(imgRef.current)
+
+  }, [percentage])
+
   return (
     <div className="o-scroll-card">
-      <div className="o-scroll-card-top">
+      <img 
+        ref={imgRef} 
+        src={pattern.img} 
+        alt={pattern.title} 
+        className="pattern-image"
+      />
+      <div className="pattern-cover">
         <div>{index}</div>
         <div>{pattern.title}</div>
+        <div>{percentage}</div>
       </div>
     </div>
   )

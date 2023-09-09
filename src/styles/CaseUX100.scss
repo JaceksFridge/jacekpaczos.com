@@ -32,14 +32,13 @@
     .o-section{
 
         position: relative;
-        height: 1000vh;
+        height: 200vh;
         background: white;
 
         .o-sticky{
 
             position: sticky;
             top: 0;
-            border: 1px solid black;
 
             display: flex;
             height: 100vh;
@@ -48,18 +47,56 @@
             align-items: center;
             overflow: hidden;
 
+            #centerDiv{
+                position: absolute;
+                z-index: 50;
+                top: 50%;
+                left: 50%;
+                height: 15px;
+                width: 15px;
+                transform: translate(-50%, -50%);
+                background: plum;
+
+                display: grid;
+                place-items: center;
+
+                #centerPoint{
+                    width: 1px;
+                    height: 1px;
+                    background: white;
+                }
+
+            }
+
             .o-scroll{
+                padding: 5rem 0;
                 display: flex;
+                gap: 2rem;
                 height: 100%;
-                gap: 0rem;
 
                 .o-scroll-card{
                     position: relative;
                     height: 100%;
-                    width: 400px;
-                    padding: 2.6rem;
+                    width: 300px;
                     overflow: hidden;
                     border-left: 1px solid $dark-20;
+
+                    .pattern-image{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: 100% 0%;
+                    }
+                    .pattern-cover{
+                        position: absolute;
+                        top: 0; bottom: 0;
+                        left: 0; right: 0;
+                        padding: 2.6rem;
+
+                        div{
+                            color: white;
+                        }
+                    }
                 }
             }
         }

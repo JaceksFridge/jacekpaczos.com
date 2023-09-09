@@ -6,6 +6,7 @@
         "text": "Availability heuristic is the cognitive ease with which we find a relevant example in our memory. If it is easy to find examples, we consider the product relevant and make an intuitive purchase decision. Availability heuristic is an illusory correlation between ease of finding an example and frequency of need. Factors influencing cognitive ease include repeated experience, clear representation, priming, good mood, and subjective effort in searching for examples. What we easily remember appears more probable or relevant. This explains the fear of flying due to media coverage of plane crashes. In e-commerce, familiar product names, text formatting, repetition of key messages, and linking products to media events can influence availability. The availability heuristic can also be used to influence satisfaction surveys by making it easy for customers to identify areas for improvement.",
         "use": "Decision-making, customer satisfaction, marketing",
         "power": "7",
+        "img": "https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a lightbulb with a bright yellow color and a positive vibe."
     },
     {
@@ -13,6 +14,7 @@
         "text": "People tend to overestimate their abilities and knowledge. This effect is more pronounced in complex tasks and is known as the \"Hard-is-Easy Effect\". Overconfidence is prevalent in professions such as lawyers, doctors, and businessmen. It is more common in men and less intelligent individuals. Overconfidence can affect decision-making and customer behavior. In e-commerce, it can be corrected by providing immediate feedback and additional information.",
         "use": "Decision-making, customer behavior, e-commerce",
         "power": "7",
+        "img": "https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
         "midjourney": "A 3D render of a person with a confident posture and a thought bubble with a question mark, symbolizing the uncertainty caused by overconfidence. The color should be bold and vibrant to represent confidence."
     },
     {
@@ -20,6 +22,7 @@
         "text": "The presence of others inhibits the impulse to help, and helpfulness decreases with the number of people present. The effect can be overcome by creating public attention. The Bystander Effect can be implemented in e-commerce by directly addressing users, highlighting them, using targeted customer language, verbalizing the need for action, and alleviating fears of negative consequences. The source of the effect is a study by Darley and Latane in 1968.",
         "use": "Social psychology, e-commerce, customer engagement",
         "power": "7",
+        "img": "https://images.unsplash.com/photo-1618202133208-2907bebba9e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a group of people standing idly by, with a red spotlight on one person who is taking action. The color should be neutral, and the vibe should convey a sense of hesitation and inaction."
     },
     {
@@ -27,6 +30,7 @@
         "text": "Curiosity is a strong motivator and is associated with activation of the amygdala, the region where deep human emotions are located. There are five different forms of curiosity that can drive our behavior: joyful exploration, loss sensitivity, stress tolerance, social curiosity, and thrill-seeking. Curiosity is often underestimated as a motivator, even in the scientific community. In e-commerce, curiosity can be used to attract attention and increase customer engagement, but caution must be taken to avoid clickbaiting. Curiosity works best when some information about the topic has already been provided.",
         "use": "Increase customer engagement in e-commerce, understand the different forms of curiosity",
         "power": "8",
+        "img": "https://images.unsplash.com/photo-1495805442109-bf1cf975750b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a key symbolizing curiosity, with a vibrant color and an energetic vibe."
     },
     {
@@ -34,6 +38,7 @@
         "text": "Direct eye contact leads to facial distraction, where resources are used to decode facial expressions instead of focusing on the intended message. This phenomenon has different effects offline and online. In face-to-face situations, eye contact increases perception of verbal messages, while online attention remains on the person. Facial recognition differs from object recognition neurologically. Implementing this knowledge in e-commerce, testimonials should avoid direct eye contact.",
         "use": "Understanding the impact of facial distraction on attention and perception in offline and online interactions, improving communication in e-commerce",
         "power": "7",
+        "img": "https://images.unsplash.com/photo-1548021682-1720ed403a5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a person with eyes looking away from the viewer, in a calm and neutral color palette, representing the avoidance of facial distraction in online communication."
     },
     {
@@ -41,6 +46,7 @@
         "text": "Unconscious analysis of faces in new environments. Gaze cueing effect directs attention based on where others are looking. Evolutionary explanation suggests it is a response to potential danger. Can be used in e-commerce to guide attention and weaken negative areas. Visual cueing effect uses graphic elements to direct gaze. Effective for guiding attention towards important elements.",
         "use": "Attention, decision-making, implementation in e-commerce",
         "power": "8",
+        "img": "https://images.unsplash.com/photo-1496753480864-3e588e0269b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80",
         "midjourney": "A 3D render of a person looking in a specific direction, with a color scheme that conveys attention and focus."
     },
     {
@@ -48,6 +54,7 @@
         "text": "People do not perceive unexpected events when they are engaged in a basic observation task. The extent of inattentional blindness depends on the difficulty of the task. The Inattentional Blindness Effect has been demonstrated through selective attention tests. Attention is important for decision-making, trust, and customer satisfaction in e-commerce. Implementation in e-commerce includes visually representing background activities, highlighting interface changes, addressing banner blindness, and managing attention-demanding elements in the online shop.",
         "use": "Decision-making, trust, customer satisfaction in e-commerce",
         "power": "7",
+        "img": "https://images.unsplash.com/photo-1613346945084-35cccc812dd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1759&q=80",
         "midjourney": "A 3D render of a person with a blindfold, symbolizing inattentional blindness. The color should be neutral and the vibe should be thought-provoking."
     },
     {
@@ -55,6 +62,7 @@
         "text": "The use of playful and entertaining elements makes unpleasant tasks more bearable and supports intrinsic motivation. Example: VW campaign \"The Fun Theory\" turned everyday actions like climbing stairs into favorite activities by adding entertaining elements. \"Perceived Enjoyment\" is a key driver of acceptance, including in e-commerce. Micro-interactions, engaging content, and avoiding distractions are ways to implement the \"Joy and Fun\" pattern.",
         "use": "Enhancing user experience, increasing engagement, improving acceptance in e-commerce",
         "power": "8",
+        "img": "https://images.unsplash.com/photo-1516681100942-77d8e7f9dd97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a colorful and vibrant staircase with piano keys on the steps, symbolizing the transformation of an unpleasant task into a fun and enjoyable activity."
     },
     {
@@ -62,6 +70,7 @@
         "text": "The Picture Superiority Effect states that humans have separate systems for representing verbal and nonverbal information. Learning is most effective when information is encoded visually and verbally. Adding images to text significantly improves memory retention. Images are also processed faster than text, making them advantageous in the competitive e-commerce industry. Careful selection of images is important to avoid cannibalizing verbal attention. In e-commerce, impressive or controversial images can help stand out in the early stages of the customer journey, while later stages benefit from images that support or speak for themselves. Explaining complex content through combined text and image presentations is recommended. Websites and shops should prioritize visual interaction elements over non-visual ones. High-resolution product photos, interactive 360\u00b0 views, and visual depictions of product usage are effective in product presentation.",
         "use": "Content marketing, E-commerce, Memory retention",
         "power": "8",
+        "img": "https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
         "midjourney": "A 3D render of a product with interactive features, showcasing its usage scenario. Color: vibrant and eye-catching. Vibe: modern and innovative."
     },
     {
@@ -69,6 +78,7 @@
         "text": "Salience refers to the visual stimulus that stands out from its surroundings, capturing our attention. It can be calculated based on color, luminance, orientation, and motion. Salient objects direct our gaze and can be enhanced when they align with our needs or motivations. In e-commerce, salience is crucial for attracting attention and increasing click-through rates. It is also important in button design to create contrast and hierarchy. Additionally, reducing visual noise by de-emphasizing less important elements can enhance salience.",
         "use": "Attention capture, e-commerce marketing, button design",
         "power": "8",
+        "img": "https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         "midjourney": "A 3D render of a yellow rubber duck in a white bathtub, representing a salient object. The color should be vibrant and the vibe should be playful and attention-grabbing."
     },
     {

@@ -1,12 +1,11 @@
-
 ///////  p r e p  ///////
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
@@ -22,6 +21,7 @@ $desktop : 1200px;
     src: url(../public/assets/fonts/carbon-bold/bold.ttf);
     font-family: carbon-bold;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 $os: 'Open Sans', sans-serif;
 
@@ -93,19 +93,20 @@ $spacing-tablet: 5rem;
 $spacing-laptop: 10%;
 $spacing-desktop: 20%;
 
-h1{
+h1 {
     font-family: carbon-bold;
     font-weight: normal;
     color: $dark;
 }
-h2{
+
+h2 {
     font-family: $os;
     font-weight: 600;
     text-transform: capitalize;
 }
 
 // section head title
-h3{
+h3 {
     font-family: $os;
     font-weight: 300;
     font-size: 0.9rem;
@@ -114,7 +115,7 @@ h3{
 }
 
 // section sub title
-h4{
+h4 {
     font-family: carbon-bold;
     font-weight: normal;
     font-size: 1.5rem;
@@ -122,17 +123,20 @@ h4{
     letter-spacing: -0.08rem;
     text-transform: capitalize;
 }
-h5{
+
+h5 {
     font-family: $os;
     font-weight: 600;
     font-size: 1.2rem;
 }
-h6{
+
+h6 {
     font-family: $os;
     font-weight: 600;
     font-size: 1rem;
 }
-p{
+
+p {
     font-family: $os;
     font-size: 1rem;
     font-weight: 400;
@@ -140,7 +144,7 @@ p{
     line-height: 180%;
 }
 
-body{
+body {
     background: $light-bg;
 }
 
@@ -184,9 +188,3 @@ $p-mobile: 5%;
 @import './styles/CaseStructure.scss';
 @import './styles/Cases.scss';
 @import './styles/CaseUX100.scss';
-
-
-
-
-
-
