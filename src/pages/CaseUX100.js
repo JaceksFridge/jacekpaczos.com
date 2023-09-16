@@ -37,8 +37,6 @@ const CaseNotSure = () => {
     fetchData()
   }, [])
 
-  // console.log("Pattens JSON")
-  // console.log(patterns)
 
   return (
     <>
@@ -130,7 +128,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
   })
   const x = useTransform(scaleX, [0, 1], ["50%", "-50%"])
 
-  patterns = patterns.slice(0, 15)
+  patterns = patterns.slice(0, 10)
 
 
   return (
