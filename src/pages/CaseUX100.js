@@ -64,7 +64,7 @@ const CaseNotSure = () => {
   )
 }
 
-
+// Carousel
 const HorizontalScrollCarousel = ({ patterns }) => {
 
   const containerRef = useRef(null)
@@ -150,7 +150,7 @@ const HorizontalScrollCarousel = ({ patterns }) => {
 
 
 
-
+// Carousel Card
 const PlaceholderCard = ({ pattern, index, percentage, selected }) => {
 
   const imgRef = useRef(null)
