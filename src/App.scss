@@ -165,7 +165,6 @@ $p-mobile: 5%;
 @import './styles/Button.scss';
 @import './styles/Cards.scss';
 @import './styles/CaseHero.scss';
-
 @import './styles/Footer.scss';
 @import './styles/HomeHero.scss';
 @import './styles/Modal.scss';
@@ -178,13 +177,16 @@ $p-mobile: 5%;
 @import './styles/Trainings.scss';
 @import './styles/BookSection.scss';
 @import './styles/CourseSection.scss';
-
 @import './styles/SkillsSection.scss';
 @import './styles/Socials.scss';
 @import './styles/AboutMe.scss';
 @import './styles/Github.scss';
-@import './styles/HomeDesktop.scss';
-@import './styles/TrainingsDesktop.scss';
 @import './styles/CaseStructure.scss';
 @import './styles/Cases.scss';
 @import './styles/CaseUX100.scss';
+
+
+
+// Desktop
+@import './styles/HomeDesktop.scss';
+@import './styles/TrainingsDesktop.scss';
