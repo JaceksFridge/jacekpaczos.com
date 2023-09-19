@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react'
 import HomeHero from '../components/Home/HomeHero'
 import Projects from '../components/Home/Projects'
 import ProjectsDesktop from '../components/Home/ProjectsDesktop'
-import Trainings from '../components/Home/Trainings'
-import TrainingsDesktop from '../components/Home/TrainingsDesktop'
-import SectionIntro from '../components/SectionIntro.js'
 
 import { useMediaQuery } from 'react-responsive'
 
