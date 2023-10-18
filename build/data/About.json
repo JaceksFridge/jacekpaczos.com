@@ -1,0 +1,315 @@
+{
+    "books": [
+        {
+            "title": "Antifragile",
+            "author": "Nassim Taleb",
+            "url": "./assets/images/about/book-covers/antifragile.webp",
+            "link": "https://www.amazon.com/Antifragile-Nassim-Nicholas-Taleb-audiobook/dp/B00A2ZIZYQ/ref=sr_1_1?crid=27HOF7MHNWXQ2&keywords=antifragile&qid=1691003758&sprefix=antifragile%2Caps%2C255&sr=8-1"
+        },
+        {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "url": "./assets/images/about/book-covers/bravenewworld.webp",
+            "link": "https://www.amazon.com/s?k=brave+new+world&crid=2RKI9OBRDK5YR&sprefix=brave+new+%2Caps%2C264&ref=nb_sb_ss_ts-doa-p_2_10"
+        },
+        {
+            "title": "Sapiens",
+            "author": "Yuval Noah Harari",
+            "url": "./assets/images/about/book-covers/sapiens.webp",
+            "link": "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1691003979&sr=1-1"
+           
+        },
+        {
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "url": "./assets/images/about/book-covers/alchemist.webp",
+            "link": "https://www.amazon.com/The-Alchemist-Paulo-Coelho-audiobook/dp/B000BO2D3C/ref=sr_1_1?crid=1CPPBQWS2CFC6&keywords=the+alchemist&qid=1691003946&s=audible&sprefix=the+al%2Caudible%2C363&sr=1-1"
+        },
+        {
+            "title": "Thinking, Fast and Slow",
+            "author": "Daniel Kahneman",
+            "url": "./assets/images/about/book-covers/fastandslow.webp",
+            "link": "https://www.amazon.com/Thinking-Fast-and-Slow-audiobook/dp/B005Z9GAJG/ref=sr_1_1?crid=365581BYQK1YE&keywords=thinking+fast+and+slow&qid=1691003912&sprefix=thinking+fast+%2Caps%2C287&sr=8-1"
+        },
+        {
+            "title": "The Almanack of Naval",
+            "author": "Eric Jorgenson",
+            "url": "./assets/images/about/book-covers/almanack.webp",
+            "link": "https://www.amazon.com/Almanack-Naval-Ravikant-Eric-Jorgenson/dp/9698729704/ref=sr_1_2?crid=JCLP5IDWISB2&keywords=the+almanack+of+naval+ravikant&qid=1691003864&sprefix=the+alma%2Caps%2C214&sr=8-2"
+        }
+    ],
+    "logos": [
+        {
+            "id": "html",
+            "url": "./assets/images/about/self-logos/webp/html.webp"
+        },
+        {
+            "id": "tailwind",
+            "url": "./assets/images/about/self-logos/webp/tailwind.webp"
+        },
+        {
+            "id": "css",
+            "url": "./assets/images/about/self-logos/webp/css.webp"
+        },
+        {
+            "id": "javascript",
+            "url": "./assets/images/about/self-logos/webp/javascript.webp"
+        },
+        {
+            "id": "github",
+            "url": "./assets/images/about/self-logos/webp/github.webp"
+        },
+        {
+            "id": "mongodb",
+            "url": "./assets/images/about/self-logos/webp/mongodb.webp"
+        },
+        {
+            "id": "php",
+            "url": "./assets/images/about/self-logos/webp/php.webp"
+        },
+        {
+            "id": "git",
+            "url": "./assets/images/about/self-logos/webp/git.webp"
+        },
+        {
+            "id": "python",
+            "url": "./assets/images/about/self-logos/webp/python.webp"
+        },
+        {
+            "id": "typescript",
+            "url": "./assets/images/about/self-logos/webp/typescript.webp"
+        },
+        {
+            "id": "sass",
+            "url": "./assets/images/about/self-logos/webp/sass.webp"
+        },
+        {
+            "id": "react",
+            "url": "./assets/images/about/self-logos/webp/react.webp"
+        }
+    ],
+    "skills": [
+        {
+            "title": "html",
+            "type": "language",
+            "url": "./assets/images/about/self-logos/webp/html.webp",
+            "link": "https://html.com/"
+        },
+        {
+            "title": "css",
+            "type": "language",
+            "url": "./assets/images/about/self-logos/webp/css.webp",
+            "link": "https://www.w3.org/Style/CSS/Overview.en.html"
+        },
+        {
+            "title": "sass",
+            "type": "superset",
+            "url": "./assets/images/about/self-logos/webp/sass.webp",
+            "link": "https://sass-lang.com/"
+        },
+        {
+            "title": "tailwind",
+            "type": "framework",
+            "url": "./assets/images/about/self-logos/webp/tailwind.webp",
+            "link": "https://tailwindcss.com/"
+        },
+        {
+            "title": "bulma",
+            "type": "framework",
+            "url": "./assets/images/about/self-logos/webp/bulma.webp",
+            "link": "https://bulma.io/"
+        },
+        {
+            "title": "javascript",
+            "type": "language",
+            "url": "./assets/images/about/self-logos/webp/javascript.webp",
+            "link": "https://sass-lang.com/"
+        },
+        {
+            "title": "typescript",
+            "type": "language",
+            "url": "./assets/images/about/self-logos/webp/typescript.webp",
+            "link": "https://www.typescriptlang.org/"
+        },
+        {
+            "title": "react",
+            "type": "framework",
+            "url": "./assets/images/about/self-logos/webp/react.webp",
+            "link": "https://react.dev/"
+        },
+        {
+            "title": "node",
+            "type": "framework",
+            "url": "./assets/images/about/self-logos/webp/node.webp",
+            "link": "https://nodejs.org/en"
+        },
+        {
+            "title": "python",
+            "type": "language",
+            "url": "./assets/images/about/self-logos/webp/python.webp",
+            "link": "https://www.python.org/"
+        },
+        {
+            "title": "next",
+            "type": "framework",
+            "url": "./assets/images/about/self-logos/webp/next.webp",
+            "link": "https://nextjs.org/"
+        },
+        {
+            "title": "mongo-db",
+            "type": "database",
+            "url": "./assets/images/about/self-logos/webp/mongodb.webp",
+            "link": "https://www.mongodb.com/"
+        },
+        {
+            "title": "mysql",
+            "type": "database",
+            "url": "./assets/images/about/self-logos/webp/mysql.webp",
+            "link": "https://www.mysql.com/"
+        },
+        {
+            "title": "git",
+            "type": "tool",
+            "url": "./assets/images/about/self-logos/webp/git.webp",
+            "link": "https://git-scm.com/"
+        },
+        {
+            "title": "github",
+            "type": "tool",
+            "url": "./assets/images/about/self-logos/webp/github.webp",
+            "link": "https://github.com/"
+        }
+    ],
+    "courses": [
+        {
+            "title": "CS50 Python",
+            "teacher": "Harvard",
+            "date": "...",
+            "grade": "...",
+            "courseurl": "https://www.coursera.org/learn/principles-of-ux-ui-design",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/TXTMUQZCQDR7"
+        },
+        {
+            "title": "Principles of UX/UI Design",
+            "teacher": "Meta",
+            "date": "August 6, 2023",
+            "grade": "93.62%",
+            "courseurl": "https://www.edx.org/learn/computer-programming/harvard-university-cs50s-introduction-to-programming-with-python?index=product&queryID=76989ab02bf49f2d6623762a2d809532&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch",
+            "certificate": "https://www.edx.org/learn/computer-programming/harvard-university-cs50s-introduction-to-programming-with-python?index=product&queryID=76989ab02bf49f2d6623762a2d809532&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch"
+        },
+        {
+            "title": "Advanced React",
+            "teacher": "Meta",
+            "date": "June 27, 2023",
+            "grade": "94.40%",
+            "courseurl": "https://www.coursera.org/learn/advanced-react",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/AHP7WSCGWSC6"
+        },
+        {
+            "title": "React Basics",
+            "teacher": "Meta",
+            "date": "17 March 2023",
+            "grade": "100%",
+            "courseurl": "https://www.coursera.org/learn/react-basics",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/4JAE9TL9DF67"
+        },
+        {
+            "title": "Learn SQL",
+            "teacher": "Codecademy",
+            "date": "15 January 2023",
+            "grade": "100%",
+            "courseurl": "https://www.codecademy.com/learn/learn-sql",
+            "certificate": "https://www.codecademy.com/profiles/jp_Xd/certificates/042a4e5884e3eb6ea1f2a12be6abb851"
+        },
+        {
+            "title": "Programming with JavaScript",
+            "teacher": "Meta",
+            "date": "8 December 2022",
+            "grade": "98.54%",
+            "courseurl": "https://www.coursera.org/learn/programming-with-javascript",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/GHAR8ABTNKDB"
+        },
+        {
+            "title": "Version Control",
+            "teacher": "Meta",
+            "date": "3 December 2022",
+            "grade": "97.50%",
+            "courseurl": "https://www.coursera.org/learn/introduction-to-version-control",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/VXJZ79ENH7HC"
+        },
+        {
+            "title": "HTML and CSS in depth",
+            "teacher": "Meta",
+            "date": "5 November 2022",
+            "grade": "90.92%",
+            "courseurl": "https://www.coursera.org/learn/html-and-css-in-depth",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/9JLULYFTQRE2"
+        },
+        {
+            "title": "Introduction to Front-End Development",
+            "teacher": "Meta",
+            "date": "18 October 2022",
+            "grade": "100%",
+            "courseurl": "https://www.coursera.org/learn/introduction-to-front-end-development",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/BB3XMFA5LLNN"
+        },
+        {
+            "title": "Create High-Fidelity Designs and Prototypes in Figma",
+            "teacher": "Google",
+            "date": "2 October 2022",
+            "grade": "94.85%",
+            "courseurl": "https://www.coursera.org/learn/high-fidelity-designs-prototype",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/CH5JVW3DJ4XF"
+        },
+        {
+            "title": "Conduct UX Research and Test Early Concepts",
+            "teacher": "Google",
+            "date": "17 September 2022",
+            "grade": "95.45%",
+            "courseurl": "https://www.coursera.org/learn/conduct-ux-research",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/LK4LUH3YQ2BT"
+        },
+        {
+            "title": "Build Wireframes and Low-Fidelity Prototypes",
+            "teacher": "Google",
+            "date": "23 August 2022",
+            "grade": "100%",
+            "courseurl": "https://www.coursera.org/learn/wireframes-low-fidelity-prototypes",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/T3FXG4WVR9MQ"
+        },
+        {
+            "title": "Start the UX Design Process: Empathize, Define, and Ideate",
+            "teacher": "Google",
+            "date": "5 August 2022",
+            "grade": "93.64%",
+            "courseurl": "https://www.coursera.org/learn/start-ux-design-process",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/VFLTMTBH4WK3"
+        },
+        {
+            "title": "Foundations of User Experience (UX) Design",
+            "teacher": "Google",
+            "date": "26 July 2022",
+            "grade": "99.33%",
+            "courseurl": "https://www.coursera.org/learn/foundations-user-experience-design",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/2S8T594N7J3M"
+        },
+        {
+            "title": "The Language of Design: Form and Meaning",
+            "teacher": "Coursera",
+            "date": "3 June 2022",
+            "grade": "97.78%",
+            "courseurl": "https://www.coursera.org/learn/design-language",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/WHMQ8PRFS3VH"
+        },
+        {
+            "title": "Design and Develop a Website using Figma and CSS",
+            "teacher": "Coursera",
+            "date": "20 May 2022",
+            "grade": "100%",
+            "courseurl": "https://www.coursera.org/learn/figma-css-website-design",
+            "certificate": "https://www.coursera.org/account/accomplishments/verify/7J6CFS3M4X4W"
+        }
+    ]
+}
+
+
