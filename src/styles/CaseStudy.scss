@@ -23,7 +23,7 @@
         letter-spacing: -3px;
     }
 
-    h2.case-subtitle{
+    h3.case-subtitle{
         margin-top: 0.5rem;
         color: $dark-50;
         text-transform: uppercase;
@@ -33,9 +33,24 @@
     }
 }
 
-.hero-btn-container{
-    margin-top: 1.5rem;
-    height: 50vh;
-    display: flex;
-    gap: 1rem;
+.case-info{
+    height: 30vh;
+
+    .hero-btn-container{
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1rem;
+    }
 }
+
+.case-infoblock{
+    height: 100vh;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+

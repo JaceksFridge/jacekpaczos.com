@@ -10,20 +10,20 @@ import Button from "../components/Button"
 
 const CaseMoonlog = () => {
 
-  // const isDesktoporLaptop = useMediaQuery({
-  //   query: '(min-device-width: 1224px)'
-  // })
+  const isDesktoporLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
 
-  // const [data, setData] = useState([])
+  const [data, setData] = useState([])
    
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await fetch('./data/CaseMoonlog.json')
-  //     const jsonData = await response.json()
-  //     setData(jsonData.hero)
-  //   }
-  //   fetchData()
-  // }, [])
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('./data/CaseMoonlog.json')
+      const jsonData = await response.json()
+      setData(jsonData)
+    }
+    fetchData()
+  }, [])
 
   return (
     <>
@@ -42,7 +42,7 @@ const CaseMoonlog = () => {
       </div>
       <div className="case-info">
         <h1 className="case-title">Gamifying Life</h1>
-        <h2 className="case-subtitle">moonlog is a fullstack react app</h2>
+        <h3 className="case-subtitle">moonlog is a fullstack react app</h3>
         <div className="hero-btn-container">
           <Button 
             className="btn-github"
@@ -61,7 +61,9 @@ const CaseMoonlog = () => {
         </div>
       </div>
       <div className="case-infoblock">
-        
+        <h2 className="case-section-title">strategy</h2>
+        <div className="section-line"></div>
+        <p className="section-text"></p>
       </div>
     </>
   )
