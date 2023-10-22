@@ -5,19 +5,16 @@ const AboutMe = () => {
   return (
     <div className="about-me" >
       <Button
-        url=""
-        img="./assets/images/about/jacek.png"
+        url="https://medium.com/@jacekpaczos"
+        img="/assets/images/about/jacek.png"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">About Me</h4>
-        <p className="section-text">What began as a curiosity to create 
-          and build things evolved into a profession that I’m passionate 
-          about. I’m proud to have worked with some of the leading 
-          companies since 2014, designing digital products and services 
-          that millions use in their daily lives, from planning their 
-          public transport routes to sending parcels across the world.
+        <p className="section-text">Hi I'm Jacek :&#41;.  I’m an ambitious, self taught programmer, eager to understand both technology and the world, whilst having an enormous desire to learn. 
+        I was born in Poland but raised in Germany. Throughout my teens I have explored a weird variety of things, from working as Barkeeper in Switzerland to having my own onlineshop at 16, I jumped around a lot
+
         </p>
-        <a href="https://medium.com/@jacekpaczos">
+        <a href="https://medium.com/@jacekpaczos" target="_blank">
           <p className="section-link">medium.com/@jacekpaczos</p>
         </a>
       </div>

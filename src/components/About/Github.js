@@ -6,18 +6,18 @@ const Github = () => {
     <div className="github">
       <Button
         url="https://github.com/JaceksFridge"
-        img="./assets/images/about/github.png"
+        img="/assets/images/about/github.png"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">Github</h4>
-        <p className="section-text">What began as a curiosity to create 
-          and build things evolved into a profession that I’m passionate 
-          about. I’m proud to have worked with some of the leading 
-          companies since 2014, designing digital products and services 
-          that millions use in their daily lives, from planning their 
-          public transport routes to sending parcels across the world.
+        <p className="section-text">My relationship with coding started by accident.
+          I never saw myself being in the tech sector and even less on the technical side of things.
+          Randomly meeting a Data Scientist from Roche changed thins though. He taught me the basics 
+          of python and soon I fell victim to the realm of learnign and building. 
+          Today it is my work. Although I am fairly new to the industry. I love building. You can check 
+          out some small projects on my github.
         </p>
-        <a href="https://github.com/JaceksFridge">
+        <a href="https://github.com/JaceksFridge" target="_blank">
           <p className="section-link">github.com/JaceksFridge</p>
         </a>
       </div>
