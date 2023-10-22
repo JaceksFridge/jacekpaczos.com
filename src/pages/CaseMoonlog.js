@@ -7,6 +7,9 @@ import Button from "../components/Button"
 import Footer from "../components/Footer"
 import CaseTopDesktop from '../components/CaseTopDesktop';
 
+import InfoBlock from '../components/Case/InfoBlock';
+import ImageBlocks from '../components/Case/ImageBlocks';
+
 
 const CaseMoonlog = () => {
 
@@ -61,43 +64,10 @@ const CaseMoonlog = () => {
               />
             </div>
           </div>
-          <div className="case-infoblock">
-            <div className="infoblock-half-left">
-              <h4 className="case-section-title">strategy</h4>
-              <div className="section-line"></div>
-            </div>
-            <div className="infoblock-half-right">
-            <p>
-              {data.sections.strategy.split('\n').map((str, index, array) => 
-                index === array.length - 1 ? str : 
-                <>
-                  {str} <br />
-                </>
-              )}
-            </p>
-            </div>
-          </div>
-          <div className="case-imageblocks">
-            { data.images.map((image) => (
-              <img src={image.url} alt="moonlog" />
-            ))}
-          </div>
-          <div className="case-infoblock">
-            <div className="infoblock-half-left">
-              <h4 className="case-section-title">strategy</h4>
-              <div className="section-line"></div>
-            </div>
-            <div className="infoblock-half-right">
-            <p>
-              {data.sections.strategy.split('\n').map((str, index, array) => 
-                index === array.length - 1 ? str : 
-                <>
-                  {str} <br />
-                </>
-              )}
-            </p>
-            </div>
-          </div>
+          <InfoBlock info={data.synopsis}/>
+          <ImageBlocks images={data.synopsis_images} />
+          <InfoBlock info={data.blueprint}/>
+          <InfoBlock info={data.alchemy} />
           <Footer />
         </div>
       )}
@@ -106,3 +76,7 @@ const CaseMoonlog = () => {
 }
 
 export default CaseMoonlog;
+
+
+
+

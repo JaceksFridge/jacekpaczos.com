@@ -21,7 +21,35 @@
         {"url": "/assets/images/moonlog/health.webp"},
         {"url": "/assets/images/moonlog/laptop.webp"}
     ],
-    "sections": { 
-        "strategy": "What began as a curiosity to create and build things evolved into a profession that I’m passionate about. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from planning their public transport routes to sending parcels across the world. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from "
-    }
+    "synopsis": { 
+        "title": "synopsis",
+        "text": "What began as a curiosity to create and build things evolved into a profession that I’m passionate about. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from planning their public transport routes to sending parcels across the world. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from "
+    },
+    "synopsis_images": [
+        {"url": "/assets/images/moonlog/laptop_dashboard.webp"},
+        {"url": "/assets/images/moonlog/intro1.webp"},
+        {"url": "/assets/images/moonlog/intro2.webp"},
+        {"url": "/assets/images/moonlog/intro3.webp"},
+        {"url": "/assets/images/moonlog/login.webp"}
+    ],
+
+    "blueprint": { 
+        "title": "blueprint",
+        "text": "What began as a curiosity to create and build things evolved into a profession that I’m passionate about. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from planning their public transport routes to sending parcels across the world. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from "
+    },
+    "blueprint_images": [
+        {"url": "/assets/images/moonlog/trees.webp"}
+    ],
+
+    "alchemy": { 
+        "title": "the craft",
+        "text": "What began as a curiosity to create and build things evolved into a profession that I’m passionate about. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from planning their public transport routes to sending parcels across the world. \n \n I’m proud to have worked with some of the leading companies since 2014, designing digital products and services that millions use in their daily lives, from "
+    },
+    "alchemy_images": [
+        {"url": "/assets/images/moonlog/laptop.webp"},
+        {"url": "/assets/images/moonlog/progress.webp"},
+        {"url": "/assets/images/moonlog/logentries.webp"},
+        {"url": "/assets/images/moonlog/health.webp"},
+        {"url": "/assets/images/moonlog/happiness.webp"}
+    ]
 }
