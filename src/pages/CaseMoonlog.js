@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import CaseTop from '../components/CaseTop';
-import CaseTopDesktop from '../components/CaseTopDesktop'
 import { useMediaQuery } from 'react-responsive'
 
 import Navbar from "../components/Navbar"
 import Button from "../components/Button"
+import Footer from "../components/Footer"
+import CaseTopDesktop from '../components/CaseTopDesktop';
 
 
 const CaseMoonlog = () => {
@@ -82,6 +82,23 @@ const CaseMoonlog = () => {
               <img src={image.url} alt="moonlog" />
             ))}
           </div>
+          <div className="case-infoblock">
+            <div className="infoblock-half-left">
+              <h4 className="case-section-title">strategy</h4>
+              <div className="section-line"></div>
+            </div>
+            <div className="infoblock-half-right">
+            <p>
+              {data.sections.strategy.split('\n').map((str, index, array) => 
+                index === array.length - 1 ? str : 
+                <>
+                  {str} <br />
+                </>
+              )}
+            </p>
+            </div>
+          </div>
+          <Footer />
         </div>
       )}
     </>

@@ -1,166 +1,166 @@
 
 
 
-// .case{
-//   height: 100%;
-//   width: 100vw;
+.case{
+  height: 100%;
+  width: 100vw;
 
-//   border: 0px solid red;
+  border: 0px solid red;
 
-//   .case-background{
+  .case-background{
 
-//     border: 0px solid green;
-//     // background: black;
-//     min-height: 320px;
-//     height: 38%;
-//     width: 100%;
+    border: 0px solid green;
+    // background: black;
+    min-height: 320px;
+    height: 38%;
+    width: 100%;
     
-//     position: relative;
-//     overflow: hidden;
+    position: relative;
+    overflow: hidden;
 
-//     .case-background-image{
+    .case-background-image{
 
-//       position: absolute;
-//       bottom: 0%;
-//       left: 16%;
-//       height: auto;
-//       width: 100%;
-//       max-width: 20rem;
-//     }
-//   }
+      position: absolute;
+      bottom: 0%;
+      left: 16%;
+      height: auto;
+      width: 100%;
+      max-width: 20rem;
+    }
+  }
 
-//   .case-info{
-//     padding: 0 1.5rem;
+  .case-info{
+    padding: 0 1.5rem;
 
-//     .case-title{
-//       padding: 1rem 0;
+    .case-title{
+      padding: 1rem 0;
 
-//       letter-spacing: -0.1rem;
-//       border-bottom: 1px solid $grey-50;
-//     }
+      letter-spacing: -0.1rem;
+      border-bottom: 1px solid $grey-50;
+    }
 
-//     .case-boxes{
-//       padding: 1rem 0;
-//       display: grid;
-//       gap: 1rem;
+    .case-boxes{
+      padding: 1rem 0;
+      display: grid;
+      gap: 1rem;
 
-//       .case-box{
-//         height: 5rem;
-//         width: 100%;
-//         border: 1px solid $dark-20;
-//         border-radius: 5px;
-
-
-//         padding: 0 1rem;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
+      .case-box{
+        height: 5rem;
+        width: 100%;
+        border: 1px solid $dark-20;
+        border-radius: 5px;
 
 
-//         .case-box-key{
-//           color: $dark-50;
-//           font-size: 0.8rem;
-//           font-weight: 200;
-//           text-transform: uppercase;
-//           letter-spacing: 0.07rem;
-//           margin-bottom: 0.5rem;
-//         }
-
-//         .case-box-value{
-//           color: $dark-80;
-//           font-size: 0.9rem;
-//           font-weight: 400;
-//           text-transform: capitalize;
-//         }
-//       }
-//     }
-//   }
-// }
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
 
-// // Desktop Styles
+        .case-box-key{
+          color: $dark-50;
+          font-size: 0.8rem;
+          font-weight: 200;
+          text-transform: uppercase;
+          letter-spacing: 0.07rem;
+          margin-bottom: 0.5rem;
+        }
 
-// .case-desk{
-//   background: #3554D1;
-//   height: 100vh;
-//   width: 100%;
-
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-end;
-//   align-items: flex-start;
-
-//   position: relative;
-
-
-//   img{
-//     width: 50%;
-//     margin-left: 5%;
-//   }
-
-//   .case-desk-info{
-//     position: absolute;
-
-//     background: white;
-
-//     width: 40%;
-//     right: 0;
-//     top: 0;
-//     bottom: 0;
-
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//   }
+        .case-box-value{
+          color: $dark-80;
+          font-size: 0.9rem;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
 
 
-//   .case-desk-info{
-//     padding: 0 1.5rem;
+// Desktop Styles
 
-//     .case-desk-title{
-//       padding: 1.5rem 0;
+.case-desk{
+  background: #3554D1;
+  height: 100vh;
+  width: 100%;
 
-//       letter-spacing: -0.1rem;
-//       border-bottom: 1px solid $grey-50;
-//     }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 
-//     .case-desk-boxes{
-//       padding: 1.5rem 0;
-//       display: grid;
-//       gap: 1rem;
-
-//       .case-desk-box{
-//         height: 5rem;
-//         width: 100%;
-//         border: 1px solid $dark-20;
-//         border-radius: 5px;
+  position: relative;
 
 
-//         padding: 0 1rem;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
+  img{
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  .case-desk-info{
+    position: absolute;
+
+    background: white;
+
+    width: 40%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 
-//         .case-desk-box-key{
-//           color: $dark-50;
-//           font-size: 0.8rem;
-//           font-weight: 200;
-//           text-transform: uppercase;
-//           letter-spacing: 0.07rem;
-//           margin-bottom: 0.5rem;
-//         }
+  .case-desk-info{
+    padding: 0 1.5rem;
 
-//         .case-desk-box-value{
-//           color: $dark-80;
-//           font-size: 0.9rem;
-//           font-weight: 400;
-//           text-transform: capitalize;
-//         }
-//       }
-//     }
-//   }
-// }
+    .case-desk-title{
+      padding: 1.5rem 0;
+
+      letter-spacing: -0.1rem;
+      border-bottom: 1px solid $grey-50;
+    }
+
+    .case-desk-boxes{
+      padding: 1.5rem 0;
+      display: grid;
+      gap: 1rem;
+
+      .case-desk-box{
+        height: 5rem;
+        width: 100%;
+        border: 1px solid $dark-20;
+        border-radius: 5px;
+
+
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        .case-desk-box-key{
+          color: $dark-50;
+          font-size: 0.8rem;
+          font-weight: 200;
+          text-transform: uppercase;
+          letter-spacing: 0.07rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .case-desk-box-value{
+          color: $dark-80;
+          font-size: 0.9rem;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
 
 
 
