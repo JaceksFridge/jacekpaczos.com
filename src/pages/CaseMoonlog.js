@@ -72,6 +72,20 @@ const CaseMoonlog = () => {
           <ImageBlocks images={data.alchemy_images} />
           <div className="summing-it-up">
             <InfoBlock info={data.sum} />
+            <div className="stats-container">
+              <div className="stat-box">
+                <div className="stat-value">5.4K</div>
+                <div className="stat-title">Lines Written</div>
+              </div>
+              <div className="stat-box">
+                <div className="stat-value">10%</div>
+                <div className="stat-title">of accounts have</div>
+              </div>
+              <div className="stat-box">
+                <div className="stat-value">150+</div>
+                <div className="stat-title">hours spent</div>
+              </div>
+            </div>
           </div>
           <Footer />
         </div>
