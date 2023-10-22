@@ -6,7 +6,7 @@ import Button from './Button';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const lastScrollY = useRef(0);
 
   const toggleMenu = () => {

@@ -39,6 +39,10 @@
             margin-top: 1.5rem;
             display: flex;
             gap: 1rem;
+
+            .button img{
+                height: 1.2rem;
+            }
         }
     }
     
@@ -64,10 +68,13 @@
             width: 5rem;
         }
 
-        .section-text{
-            margin-top: 2rem;
-            text-align: left;
+        .infoblock-half-right{
+            p{
+                margin-top: 2rem;
+                text-align: left;
+            }
         }
+
     }
 
     .case-imageblocks{
@@ -92,8 +99,8 @@
 
         .case-hero{
             width: 100vw;
-            height: 140vh;
-            background: url("../../public/assets/images/moonlog/moonlog_hero.webp");
+            height: 110vh;
+            background: url("../../public/assets/images/moonlog/hero_branch3.webp");
             background-size: cover;
             background-position: center;
             img{
