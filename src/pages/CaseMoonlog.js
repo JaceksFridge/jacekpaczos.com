@@ -67,7 +67,9 @@ const CaseMoonlog = () => {
           <InfoBlock info={data.synopsis}/>
           <ImageBlocks images={data.synopsis_images} />
           <InfoBlock info={data.blueprint}/>
+          <ImageBlocks images={data.blueprint_images} />
           <InfoBlock info={data.alchemy} />
+          <ImageBlocks images={data.alchemy_images} />
           <Footer />
         </div>
       )}
