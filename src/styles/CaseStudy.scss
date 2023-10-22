@@ -175,11 +175,17 @@
 
 @media only screen and (min-width: 1500px) {
     .casestudy{
+        .case-info{
+            padding: 5rem 14%;
+        }
         .case-imageblocks{
             padding: 14%;
             img{
-            margin-bottom: 14%;
+                margin-bottom: 14%;
             }
+        }
+        .case-infoblock{
+            padding: 5% 14%;
         }
     }
 }
