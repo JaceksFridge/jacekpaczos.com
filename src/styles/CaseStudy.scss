@@ -88,11 +88,12 @@
     }
 
     .summing-it-up{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         width: 100%;
         height: 100%;
 
         .case-infoblock{
-            margin-top: 5rem;
             height: 100%;
 
             p{
@@ -106,6 +107,24 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+            gap: 2rem;
+
+            .stat-box{
+                .stat-value{
+                    font-family: $os;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    letter-spacing: -1px;
+                    color: $dark-80;
+                }
+                .stat-title{
+                    font-family: $os;
+                    margin-top: 0.75rem;
+                    font-size: 0.8rem;
+                    // text-transform: uppercase;
+                    color: $dark-50;
+                }
+            }
         }
     }
 }

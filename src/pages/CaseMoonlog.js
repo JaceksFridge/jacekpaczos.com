@@ -75,15 +75,15 @@ const CaseMoonlog = () => {
             <div className="stats-container">
               <div className="stat-box">
                 <div className="stat-value">5.4K</div>
-                <div className="stat-title">Lines Written</div>
+                <div className="stat-title">Lines of Code</div>
               </div>
               <div className="stat-box">
-                <div className="stat-value">10%</div>
-                <div className="stat-title">of accounts have</div>
+                <div className="stat-value">7</div>
+                <div className="stat-title">Libraries used</div>
               </div>
               <div className="stat-box">
                 <div className="stat-value">150+</div>
-                <div className="stat-title">hours spent</div>
+                <div className="stat-title">Hours spent</div>
               </div>
             </div>
           </div>
