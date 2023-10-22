@@ -212,6 +212,31 @@
                 margin-bottom: 5rem;
             }
         }
+
+        .infoblock-half-right{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+
+            p{
+                align-self: flex-start;
+                padding-right: 5rem;
+            }
+
+            .summing-it-up{
+                margin: 0;
+                .stats-container{
+                    padding: 0;
+                    padding-right: 5rem;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+
     }
 }
 

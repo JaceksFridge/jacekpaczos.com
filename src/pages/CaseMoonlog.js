@@ -73,17 +73,12 @@ const CaseMoonlog = () => {
           
           <div className="case-infoblock">
             <div className="infoblock-half-left">
-                <h4 className="case-section-title">{data.sum.title}</h4>
+                <h4 className="case-section-title">Summing it up</h4>
                 <div className="section-line"></div>
             </div>
             <div className="infoblock-half-right">
               <p>
-                  {data.sum.text.split('\n').map((str, index, array) => 
-                  index === array.length - 1 ? str : 
-                  <>
-                      {str} <br />
-                  </>
-                  )}
+                Here are some Statistics about the Project and me:
               </p>
               <div className="summing-it-up">
                 <div className="stats-container">
