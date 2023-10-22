@@ -70,6 +70,9 @@ const CaseMoonlog = () => {
           <ImageBlocks images={data.blueprint_images} />
           <InfoBlock info={data.alchemy} />
           <ImageBlocks images={data.alchemy_images} />
+          <div className="summing-it-up">
+            <InfoBlock info={data.sum} />
+          </div>
           <Footer />
         </div>
       )}
