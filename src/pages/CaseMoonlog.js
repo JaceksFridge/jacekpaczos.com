@@ -70,20 +70,36 @@ const CaseMoonlog = () => {
           <ImageBlocks images={data.blueprint_images} />
           <InfoBlock info={data.alchemy} />
           <ImageBlocks images={data.alchemy_images} />
-          <div className="summing-it-up">
-            <InfoBlock info={data.sum} />
-            <div className="stats-container">
-              <div className="stat-box">
-                <div className="stat-value">5.4K</div>
-                <div className="stat-title">Lines of Code</div>
-              </div>
-              <div className="stat-box">
-                <div className="stat-value">7</div>
-                <div className="stat-title">Libraries used</div>
-              </div>
-              <div className="stat-box">
-                <div className="stat-value">150+</div>
-                <div className="stat-title">Hours spent</div>
+          
+          <div className="case-infoblock">
+            <div className="infoblock-half-left">
+                <h4 className="case-section-title">{data.sum.title}</h4>
+                <div className="section-line"></div>
+            </div>
+            <div className="infoblock-half-right">
+              <p>
+                  {data.sum.text.split('\n').map((str, index, array) => 
+                  index === array.length - 1 ? str : 
+                  <>
+                      {str} <br />
+                  </>
+                  )}
+              </p>
+              <div className="summing-it-up">
+                <div className="stats-container">
+                  <div className="stat-box">
+                    <div className="stat-value">5.4K</div>
+                    <div className="stat-title">Lines of Code</div>
+                  </div>
+                  <div className="stat-box">
+                    <div className="stat-value">7</div>
+                    <div className="stat-title">Libraries used</div>
+                  </div>
+                  <div className="stat-box">
+                    <div className="stat-value">150+</div>
+                    <div className="stat-title">Hours spent</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
