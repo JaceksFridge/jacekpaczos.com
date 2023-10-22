@@ -26,7 +26,15 @@
 
 @media only screen and (min-width: 1200px) {
  .footer{
-    padding: 0 14%;
+    padding: 0 5rem;
     height: 8rem;
  }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .footer{
+       padding: 0 14%;
+       height: 8rem;
+    }
 }
