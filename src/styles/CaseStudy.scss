@@ -1,11 +1,11 @@
 
 
 .casestudy{
-    width: 100%;
-    height: 100%;
 
+    .invisible-nav{
+        height: 4rem;
+    }
     .case-hero{
-        margin-top: 4rem;
         width: 100%;
         height: 100%;
     
@@ -17,7 +17,7 @@
     
     .case-info{
         width: 100%;
-        height: 50vh;
+        height: 30vh;
         padding: 2rem 1.5rem;
     
         h1.case-title{
@@ -35,17 +35,13 @@
             font-weight: 300;
             letter-spacing: 0.5px;
         }
-    }
-    
-    .case-info{
-        height: 30vh;
-    
         .hero-btn-container{
             margin-top: 1.5rem;
             display: flex;
             gap: 1rem;
         }
     }
+    
     
     .case-infoblock{
         height: 100vh;
@@ -54,9 +50,119 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
+        .case-section-title{
+            color: $dark-80;
+            text-transform: uppercase;
+            letter-spacing: 0;
+        }
+
+        .section-line{
+            margin-top: 2.5rem;
+            height: 1px;
+            background: $dark-20;
+            width: 5rem;
+        }
+
+        .section-text{
+            margin-top: 2rem;
+            text-align: left;
+        }
+    }
+
+    .case-imageblocks{
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem;
+
+        img{
+            margin-bottom: 1.5rem;
+        }
     }
 }
 
+
+@media only screen and (min-width: 1200px) {
+
+    .casestudy{
+
+        .invisible-nav{
+            height: 5rem;
+        }
+
+        .case-hero{
+            width: 100vw;
+            height: 140vh;
+            background: url("../../public/assets/images/moonlog/moonlog_hero.webp");
+            background-size: cover;
+            background-position: center;
+            img{
+                display: none;
+            }
+        }
+
+        .case-info{
+            height: 75vh;
+            padding: 5rem 5rem;
+            h1.case-title{
+                margin-left: -0.5rem;
+                font-size: 6.5rem;
+            }
+            h3.case-subtitle{
+                margin-top: 2rem;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+            .hero-btn-container{
+                margin-top: 2rem;
+                display: flex;
+                gap: 1.5rem;
+                .button{
+                    width: 7rem !important;
+                }
+            }
+        }
+
+        .case-infoblock{
+            padding: 1.5rem 5rem;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+      
+            .infoblock-half-left{
+                flex: 1;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+            }
+
+            .infoblock-half-right{
+                flex: 1;
+                padding-right: 5rem;
+            }
+
+            .case-section-title{
+                margin-right: 25%;
+            }
+
+            .section-line{
+                margin-right: 25%;
+                margin-top: 0;
+                width: 1px;
+                height: 20rem;
+            }
+        }
+    
+        .case-imageblocks{
+            padding: 5rem;
+
+            img{
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}
 
 
 

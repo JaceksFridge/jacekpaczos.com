@@ -34,6 +34,7 @@ const CaseMoonlog = () => {
       ) : (
         <div className="casestudy">
           <Navbar />
+          <div className="invisible-nav"></div>
           <div className="case-hero">
             <img
               src="/assets/images/moonlog/moonlog_hero.webp" 
@@ -49,22 +50,38 @@ const CaseMoonlog = () => {
                 className="btn-github"
                 text="git"
                 url="https://github.com/JaceksFridge"
-                // img="/assets/icons/Moonlog/github.svg"
+                img="/assets/icons/moonlog/github.svg"
                 width="3rem"
               />
               <Button 
                 className="btn-website"
                 text="web"
                 url="https://jacekpaczos.com"
-                // img="./assets/icons/Moonlog/website.svg"
+                img="/assets/icons/moonlog/website.svg"
                 width="3rem"
               />
             </div>
           </div>
           <div className="case-infoblock">
-            <h2 className="case-section-title">strategy</h2>
-            <div className="section-line"></div>
-            <p className="section-text">{data.sections.strategy}</p>
+            <div className="infoblock-half-left">
+              <h4 className="case-section-title">strategy</h4>
+              <div className="section-line"></div>
+            </div>
+            <div className="infoblock-half-right">
+            <p>
+              {data.sections.strategy.split('\n').map((str, index, array) => 
+                index === array.length - 1 ? str : 
+                <>
+                  {str} <br />
+                </>
+              )}
+            </p>
+            </div>
+          </div>
+          <div className="case-imageblocks">
+            { data.images.map((image) => (
+              <img src={image.url} alt="moonlog" />
+            ))}
           </div>
         </div>
       )}
