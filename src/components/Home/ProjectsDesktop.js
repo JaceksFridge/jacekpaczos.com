@@ -18,7 +18,7 @@ const ProjectsDesktop = ({ projects, trainings }) => {
         <div className="projects-desk-container">
             <div className="placeholder"></div>
             < SectionIntro 
-                name={"Projects"} 
+                name={"Code"} 
                 sectionClass="sectionIntro no-scroll-snap" 
             />
 
@@ -33,7 +33,7 @@ const ProjectsDesktop = ({ projects, trainings }) => {
                 const className = counter % 2 === 0 ? "project-desk-sec" : "project-desk-sec odd"
 
                 return isSectionIntro ? (
-                    <SectionIntro name={"Projects"} />
+                    <SectionIntro name={"Design"} />
                 ) : (
                     <div 
                         id={project.id}
