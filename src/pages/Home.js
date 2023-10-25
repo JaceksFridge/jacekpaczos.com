@@ -50,12 +50,14 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className="placeholder"></div>
       <HomeHero />
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects} trainings={trainings}/>
       ) : (
-        <Projects projects={projects} trainings={trainings}/>
+        <>
+          <div className="placeholder"></div>
+          <Projects projects={projects} trainings={trainings}/>
+        </>
       )}
     </div>
   )

@@ -3,7 +3,12 @@ import ProjectTab from './ProjectTab'
 
 const Card = ({ data }) => {
   return (
-    <div key={data.index} className="projectcard" data-aos="fade-up">
+    <div 
+        key={data.index} 
+        className="projectcard" 
+        data-aos="fade-up"
+        id={data.id}
+    >
         <div className="bottom-card"></div>
         <div className="top-card">
             <div
