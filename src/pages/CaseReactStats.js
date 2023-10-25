@@ -90,7 +90,7 @@ const CaseReactStats = () => {
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
-                    <div className="stat-value">7</div>
+                    <div className="stat-value">8</div>
                     <div className="stat-title">Packages used</div>
                   </div>
                   <div className="stat-box">

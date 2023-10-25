@@ -138,7 +138,7 @@
     // background: url(../../public/assets/images/react-stats/casehero3.png);
     background-position: center;
     background-size: cover;
-    // background: none;
+    height: 100vh;
     background: #216282;
     mix-blend-mode: normal;
 
@@ -172,7 +172,7 @@
 
         .case-hero{
             width: 100vw;
-            height: 100vh;
+            height: 110vh;
             background: url("../../public/assets/images/moonlog/hero_branch3.webp");
             background-size: cover;
             background-position: center;
