@@ -1,6 +1,8 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive'
+import { useSpring, animated } from '@react-spring/web'
+import { useInViewport } from 'react-in-viewport';
 
 import Navbar from "../components/Navbar"
 import Button from "../components/Button"
@@ -11,6 +13,7 @@ import InfoBlock from '../components/Case/InfoBlock';
 import ImageBlocks from '../components/Case/ImageBlocks';
 
 
+
 const CaseMoonlog = () => {
 
   const isDesktoporLaptop = useMediaQuery({
@@ -18,6 +21,36 @@ const CaseMoonlog = () => {
   })
 
   const [data, setData] = useState(null)
+  const myRef = useRef();
+  const options = {}; 
+  let config = { disconnectOnLeave: false }; 
+  const props = {};
+  const {
+    inViewport,
+    enterCount,
+    leaveCount,
+  } = useInViewport(
+    myRef,
+    options,
+    config = { disconnectOnLeave: false },
+    props
+  );
+
+
+
+  const Number = ({ n }) => {
+    const { number } = useSpring({
+      from: { number: 0 },
+      number: n,
+      delay: 200,
+      config: { mass: 1, tension: 20, friction: 10}
+    })
+    return (
+      <animated.div>
+        {number.to((n) => n.toFixed(0))}
+      </animated.div>
+    )
+  }
    
   useEffect(() => {
     const fetchData = async () => {
@@ -81,17 +114,23 @@ const CaseMoonlog = () => {
                 Here are some Statistics about the Project and me:
               </p>
               <div className="summing-it-up">
-                <div className="stats-container">
+              <div className="stats-container" ref={myRef}>
                   <div className="stat-box">
-                    <div className="stat-value">5.4K</div>
+                    <div className="stat-value">
+                      <Number n={5481} />
+                    </div>
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
-                    <div className="stat-value">7</div>
-                    <div className="stat-title">Libraries used</div>
+                    <div className="stat-value">
+                      <Number n={12} />
+                    </div>
+                    <div className="stat-title">Packages used</div>
                   </div>
                   <div className="stat-box">
-                    <div className="stat-value">150+</div>
+                    <div className="stat-value">
+                      <Number n={150} />
+                    </div>
                     <div className="stat-title">Hours spent</div>
                   </div>
                 </div>
