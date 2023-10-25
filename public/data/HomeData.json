@@ -2,9 +2,9 @@
 {
     "projects": [
         {
-            "title": "Not Sure",
-            "text": "an idea on how to make the openai api actually useful",
-            "video": "./assets/videos/redchange.mp4",
+            "title": "Auto Connect",
+            "text": "comming soon",
+            "video": "/assets/videos/redchange.mp4",
             "link": "casenotsure",
             "tabs": ["UX Design", "Frontend", "Backend"],
             "open": "<open",
@@ -12,19 +12,19 @@
         },
         {
             "title": "Moonlog",
-            "text": "discipline tracker for life",
+            "text": "full stack app tracking your discipline",
             "color": "#121212",
-            "mockup": "./assets/images/home/moonlog-cube.webp",
+            "mockup": "/assets/images/home/moonlog-cube.webp",
             "link": "casemoonlog",
             "tabs": ["UX Design", "Frontend"],
             "open": "open>"
         },
         {
-            "title": "Blockify",
+            "title": "React-Stats",
             "text": "an elegant and intuitive sign-up flow.",
             "color": "#3554D1",
-            "mockup": "./assets/images/home/blockify-mockup.webp",
-            "link": "caseblockify",
+            "mockup": "",
+            "link": "case",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"
         },
@@ -36,11 +36,20 @@
             "title": "UX-100",
             "text": "notes on user behavior patterns",
             "color": "",
-            "video": "./assets/videos/waveee.mp4",
+            "video": "/assets/videos/waveee.mp4",
             "link": "caseux100",
             "tabs": ["UX Design", "UI Design"],
             "open": "open>"
-       }
+       },
+       {
+            "title": "Blockify",
+            "text": "an elegant and intuitive sign-up flow.",
+            "color": "#3554D1",
+            "mockup": "/assets/images/home/blockify-mockup.webp",
+            "link": "caseblockify",
+            "tabs": ["UX Design", "UI Design"],
+            "open": "<open"
+        }
     ]
 }
 

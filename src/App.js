@@ -15,6 +15,7 @@ import CaseUX100 from './pages/CaseUX100';
 import CaseMoonlog from './pages/CaseMoonlog';
 import CaseNotSure from './pages/CaseNotSure';
 import CaseBlockify from './pages/CaseBlockify';
+import CaseReactStats from './pages/CaseReactStats';
 
 // Components
 import Navbar from './components/Navbar';
@@ -40,6 +41,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/caseblockify" element={ <CaseBlockify /> } />
         <Route path="/casemoonlog" element={ <CaseMoonlog /> } />
+        <Route path="/casereactstats" element={ <CaseReactStats /> } />
         <Route path="/casenotsure" element={ <CaseNotSure /> } />
         <Route path="/caseux100" element={ <CaseUX100 /> } />
         <Route path="*" element={<Home />} /> {}

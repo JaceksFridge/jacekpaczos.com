@@ -1,4 +1,6 @@
 
+
+
 import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive'
 
@@ -11,7 +13,7 @@ import InfoBlock from '../components/Case/InfoBlock';
 import ImageBlocks from '../components/Case/ImageBlocks';
 
 
-const CaseMoonlog = () => {
+const CaseReactStats = () => {
 
   const isDesktoporLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
@@ -21,7 +23,7 @@ const CaseMoonlog = () => {
    
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('./data/CaseMoonlog.json')
+      const response = await fetch('./data/CaseReactStats.json')
       const jsonData = await response.json()
       setData(jsonData)
     }
@@ -37,16 +39,17 @@ const CaseMoonlog = () => {
       ) : (
         <div className="casestudy">
           {/* <div className="invisible-nav"></div> */}
-          <div className="case-hero" id="img-moonlog">
+          <div className="case-hero" id="img-reactstats">
             <img
-              src="/assets/images/moonlog/hero_branch.webp" 
+              src="/assets/images/react-stats/casehero.webp" 
               alt="Moonlog Hero" 
               loading="lazy"
             />
+            <img src="/assets/images/react-stats/casephone.png" alt="" className="alternative-img"/>
           </div>
           <div className="case-info">
-            <h1 className="case-title">Gamifying Life</h1>
-            <h3 className="case-subtitle">moonlog is a fullstack react app</h3>
+            <h1 className="case-title">Visualize Projects</h1>
+            <h3 className="case-subtitle">react stats is a python package</h3>
             <div className="hero-btn-container">
               <Button 
                 className="btn-github"
@@ -83,15 +86,15 @@ const CaseMoonlog = () => {
               <div className="summing-it-up">
                 <div className="stats-container">
                   <div className="stat-box">
-                    <div className="stat-value">5.4K</div>
+                    <div className="stat-value">403</div>
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">7</div>
-                    <div className="stat-title">Libraries used</div>
+                    <div className="stat-title">Packages used</div>
                   </div>
                   <div className="stat-box">
-                    <div className="stat-value">150+</div>
+                    <div className="stat-value">20+</div>
                     <div className="stat-title">Hours spent</div>
                   </div>
                 </div>
@@ -105,7 +108,7 @@ const CaseMoonlog = () => {
   )
 }
 
-export default CaseMoonlog;
+export default CaseReactStats;
 
 
 

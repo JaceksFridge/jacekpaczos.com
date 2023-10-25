@@ -6,12 +6,17 @@
         height: 4rem;
     }
     .case-hero{
+        position: relative;
         width: 100%;
         height: 100%;
     
         img{
             height: 100%;
             width: 100%;
+        }
+
+        .alternative-img{
+            display: none;
         }
     }
     
@@ -129,6 +134,30 @@
 }
 
 
+.case-hero#img-reactstats{
+    // background: url(../../public/assets/images/react-stats/casehero3.png);
+    background-position: center;
+    background-size: cover;
+    // background: none;
+    background: #216282;
+    mix-blend-mode: normal;
+
+    // background: radial-gradient(117.38% 239.16% at 76.76% 29.32%, #787878 0%, #000000 100%);
+    // mix-blend-mode: overlay;
+
+    .alternative-img{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        width: 40%;
+        height: auto;
+        // aspect-ratio: 1 / 2.053;
+    }
+}
+
+
+
 
 
 
@@ -143,7 +172,7 @@
 
         .case-hero{
             width: 100vw;
-            height: 110vh;
+            height: 100vh;
             background: url("../../public/assets/images/moonlog/hero_branch3.webp");
             background-size: cover;
             background-position: center;

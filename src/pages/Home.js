@@ -16,9 +16,18 @@ const Home = () => {
   const [data, setData] = useState({ projects: [], trainings: [] });
 
 
+
   const scrollToProjects = () => { 
+
+    let scrollContainer
     const projectsElement = document.querySelector('#notsure')
-    const scrollContainer = document.querySelector('.projects-desk-container')
+
+    if (isDesktoporLaptop) {
+      scrollContainer = document.querySelector('.projects-desk-container')
+    } else {
+      scrollContainer = document.querySelector('.projects-section')
+    }
+    
     if (projectsElement && scrollContainer) {
       const top = projectsElement.offsetTop
       scrollContainer.scrollTo({
@@ -28,7 +37,7 @@ const Home = () => {
       })
     }
   }
-  
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,7 +49,7 @@ const Home = () => {
     fetchData();
 
     setTimeout(() => {
-      scrollToProjects();
+        scrollToProjects()
     }, 2000)
   }, []);
   
