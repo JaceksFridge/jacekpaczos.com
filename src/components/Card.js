@@ -33,9 +33,9 @@ const Card = ({ data }) => {
                 <h4>{data.title}</h4>
                 <p>{data.text}</p>
                 <div className="tabs-pool">
-                    {data.tabs && data.tabs.map((tab) => (
+                    {/* {data.tabs && data.tabs.map((tab) => (
                         <ProjectTab key={tab} tab={tab} />
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>

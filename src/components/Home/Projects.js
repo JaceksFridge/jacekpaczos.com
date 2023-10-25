@@ -1,18 +1,35 @@
 
 import React from 'react';
 import Card from '../Card';
+import SectionIntro from '../SectionIntro';
 
-// import styling files
 import { Link } from 'react-router-dom';
 
 const Projects = ({ projects }) => {
+
+  
+
   return (
     <div className="projects" id="projects-section">
-      {projects.map((project, index) => (
-        <Link to={`/${project.link}`}>
-          <Card key={index} data={project} />
-        </Link>
-      ))}
+      <SectionIntro 
+        name="Coding"
+        sectionClass="sectionIntro"
+      />
+      {projects.map((project, index) => {
+        
+        const isSectionIntro = project.type == "section"
+
+        return isSectionIntro ? (
+          <SectionIntro 
+            name="Design"
+            sectionClass="sectionIntro"
+          />
+        ) : (
+          <Link to={`/${project.link}`}>
+            <Card key={index} data={project} />
+          </Link>
+        )
+      })}
     </div>
   );
 };

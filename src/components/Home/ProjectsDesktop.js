@@ -18,12 +18,11 @@ const ProjectsDesktop = ({ projects, trainings }) => {
         <div className="projects-desk-container">
             <div className="placeholder"></div>
             < SectionIntro 
-                name={"Code"} 
+                name="Coding"
                 sectionClass="sectionIntro no-scroll-snap" 
             />
 
             {projects.map((project, index) => {
-
                 const isSectionIntro = project.type === "section"
 
                 if (!isSectionIntro) {

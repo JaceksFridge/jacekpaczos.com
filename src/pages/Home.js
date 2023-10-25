@@ -50,6 +50,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <div className="placeholder"></div>
       <HomeHero />
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects} trainings={trainings}/>
