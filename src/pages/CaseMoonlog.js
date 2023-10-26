@@ -11,7 +11,7 @@ import CaseTopDesktop from '../components/CaseTopDesktop';
 
 import InfoBlock from '../components/Case/InfoBlock';
 import ImageBlocks from '../components/Case/ImageBlocks';
-
+import TraceEffect from './CaseBlockify';
 
 
 const CaseMoonlog = () => {
