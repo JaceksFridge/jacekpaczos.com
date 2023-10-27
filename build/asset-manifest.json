@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c61566d2.css",
-    "main.js": "/static/js/main.81f61bc9.js",
+    "main.css": "/static/css/main.cf1449db.css",
+    "main.js": "/static/js/main.f1f00c4c.js",
+    "static/media/hero_branch3.webp": "/static/media/hero_branch3.b3182e186f864ec139ef.webp",
     "static/media/harvard.png": "/static/media/harvard.a712aec91a7d99d8264f.png",
     "static/media/bold.ttf": "/static/media/bold.754bed95169cc31b6589.ttf",
     "static/media/readsection.svg": "/static/media/readsection.4fe856a924c749107d7c.svg",
@@ -11,11 +12,11 @@
     "index.html": "/index.html",
     "static/media/star.svg": "/static/media/star.0d1cfda35c504fa1dca2.svg",
     "static/media/cardsicon.svg": "/static/media/cardsicon.2ed87f5b6fffe0f7cd95.svg",
-    "main.c61566d2.css.map": "/static/css/main.c61566d2.css.map",
-    "main.81f61bc9.js.map": "/static/js/main.81f61bc9.js.map"
+    "main.cf1449db.css.map": "/static/css/main.cf1449db.css.map",
+    "main.f1f00c4c.js.map": "/static/js/main.f1f00c4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c61566d2.css",
-    "static/js/main.81f61bc9.js"
+    "static/css/main.cf1449db.css",
+    "static/js/main.f1f00c4c.js"
   ]
 }

@@ -7,11 +7,10 @@ import { useInViewport } from 'react-in-viewport';
 import Navbar from "../components/Navbar"
 import Button from "../components/Button"
 import Footer from "../components/Footer"
-import CaseTopDesktop from '../components/CaseTopDesktop';
 
 import InfoBlock from '../components/Case/InfoBlock';
 import ImageBlocks from '../components/Case/ImageBlocks';
-import TraceEffect from './CaseBlockify';
+
 
 
 const CaseMoonlog = () => {
