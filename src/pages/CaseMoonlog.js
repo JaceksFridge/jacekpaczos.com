@@ -116,19 +116,19 @@ const CaseMoonlog = () => {
               <div className="stats-container" ref={myRef}>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={5481} />
+                      <Number n={10023} />
                     </div>
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={12} />
+                      <Number n={14} />
                     </div>
                     <div className="stat-title">Packages used</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={150} />
+                      <Number n={180} />
                     </div>
                     <div className="stat-title">Hours spent</div>
                   </div>
