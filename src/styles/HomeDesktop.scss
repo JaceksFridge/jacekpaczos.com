@@ -267,5 +267,34 @@
         }
     }
 }
+#React-Stats{
+    border: none;
+
+    .desk-bg-card{
+        overflow-y: hidden;
+        border-radius: 1rem;
+        border: 1.5px solid $dark-80;
+    }
+
+    img{
+        right: -2rem;
+        z-index: 50;
+        width: 50%;
+        clip-path: inset(4px 0 0 0);
+    }
+}
+
+#React-Stats.desk-top-card:hover{
+    top: -6px; right: -6px;
+    bottom: 6px; left: 6px;
+
+    .desk-bg-card{
+        overflow-y: hidden;
+        background: white;
+    }
+
+}
+
+
 
 

@@ -149,6 +149,16 @@
     }
 }
 
+#React-Stats{
+    overflow: visible;
+    img{
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        z-index: 50;
+        width: 40%;
+    }
+}
 
 .bg-card#UX-100{
     background: none;

@@ -21,9 +21,9 @@
         },
         {
             "title": "React-Stats",
-            "text": "an elegant and intuitive sign-up flow.",
-            "color": "#3554D1",
-            "mockup": "",
+            "text": "a python package for project insights",
+            "color": "#216282",
+            "mockup": "/assets/images/home/pypi-chain.png",
             "link": "casereactstats",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"

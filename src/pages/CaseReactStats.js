@@ -73,11 +73,11 @@ const CaseReactStats = () => {
         <div className="casestudy">
           {/* <div className="invisible-nav"></div> */}
           <div className="case-hero" id="img-reactstats">
-            <img
+            {/* <img
               src="/assets/images/react-stats/casehero.webp" 
               alt="Moonlog Hero" 
               loading="lazy"
-            />
+            /> */}
             <img src="/assets/images/react-stats/casephone.png" alt="" className="alternative-img"/>
           </div>
           <div className="case-info">
