@@ -24,9 +24,11 @@
         align-items: center;
 
         span{
+            font-family: $os;
             font-weight: semibold;
-            text-transform: uppercase;
-            color: lightseagreen;
+            font-size: 1rem;
+            text-transform: lowercase;
+            color: black;
         }
     }
 

@@ -56,7 +56,7 @@ const CaseNotSure = () => {
         <HorizontalScrollCarousel patterns={patterns}/>
         <div className="up-container">
           <span>
-            Scroll Up
+            Currentlty Building...
           </span>
         </div>
       </div>
@@ -64,7 +64,7 @@ const CaseNotSure = () => {
   )
 }
 
-// Carousel
+// Carouselup-container
 const HorizontalScrollCarousel = ({ patterns }) => {
 
   const containerRef = useRef(null)
