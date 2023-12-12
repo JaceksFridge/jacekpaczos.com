@@ -16,6 +16,7 @@ import CaseMoonlog from './pages/CaseMoonlog';
 import CaseNotSure from './pages/CaseNotSure';
 import CaseBlockify from './pages/CaseBlockify';
 import CaseReactStats from './pages/CaseReactStats';
+import Video from './pages/Video';
 
 // Components
 import Navbar from './components/Navbar';
@@ -45,6 +46,7 @@ function App() {
         <Route path="/casenotsure" element={ <CaseNotSure /> } />
         <Route path="/caseux100" element={ <CaseUX100 /> } />
         <Route path="*" element={<Home />} /> {}
+        <Route path="/video/93u4092" element={ <Video /> } />
       </Routes>
     </Router>
   );

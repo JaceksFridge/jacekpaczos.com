@@ -83,14 +83,14 @@ const CaseMoonlog = () => {
               <Button 
                 className="btn-github"
                 text="git"
-                url="https://github.com/JaceksFridge"
+                url="https://github.com/JaceksFridge/moonlog"
                 img="/assets/icons/moonlog/github.svg"
                 width="3rem"
               />
               <Button 
                 className="btn-website"
                 text="web"
-                url="https://jacekpaczos.com"
+                url="https://moonlog.xyz/"
                 img="/assets/icons/moonlog/website.svg"
                 width="3rem"
               />

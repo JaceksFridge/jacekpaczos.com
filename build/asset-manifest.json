@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf1449db.css",
-    "main.js": "/static/js/main.f1f00c4c.js",
+    "main.css": "/static/css/main.22303e84.css",
+    "main.js": "/static/js/main.0c3260b3.js",
     "static/media/hero_branch3.webp": "/static/media/hero_branch3.b3182e186f864ec139ef.webp",
     "static/media/harvard.png": "/static/media/harvard.a712aec91a7d99d8264f.png",
+    "static/media/harvard_pure.png": "/static/media/harvard_pure.8b6e2c1d0183d55c9cf2.png",
     "static/media/bold.ttf": "/static/media/bold.754bed95169cc31b6589.ttf",
     "static/media/readsection.svg": "/static/media/readsection.4fe856a924c749107d7c.svg",
     "static/media/bookicon.svg": "/static/media/bookicon.5490ecfea36d313a3c2c.svg",
@@ -12,11 +13,11 @@
     "index.html": "/index.html",
     "static/media/star.svg": "/static/media/star.0d1cfda35c504fa1dca2.svg",
     "static/media/cardsicon.svg": "/static/media/cardsicon.2ed87f5b6fffe0f7cd95.svg",
-    "main.cf1449db.css.map": "/static/css/main.cf1449db.css.map",
-    "main.f1f00c4c.js.map": "/static/js/main.f1f00c4c.js.map"
+    "main.22303e84.css.map": "/static/css/main.22303e84.css.map",
+    "main.0c3260b3.js.map": "/static/js/main.0c3260b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf1449db.css",
-    "static/js/main.f1f00c4c.js"
+    "static/css/main.22303e84.css",
+    "static/js/main.0c3260b3.js"
   ]
 }

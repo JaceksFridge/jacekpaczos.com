@@ -182,12 +182,28 @@
     ],
     "courses": [
         {
-            "title": "CS50 Python",
+            "title": "CS50 AI",
             "teacher": "Harvard",
             "date": "...",
             "grade": "...",
-            "courseurl": "https://www.coursera.org/learn/principles-of-ux-ui-design",
-            "certificate": "https://www.coursera.org/account/accomplishments/verify/TXTMUQZCQDR7"
+            "courseurl": "",
+            "certificate": ""
+        },
+        {
+            "title": "CS50 X",
+            "teacher": "Harvard",
+            "date": "...",
+            "grade": "...",
+            "courseurl": "https://cs50.harvard.edu/python/2022/",
+            "certificate": ""
+        },
+        {
+            "title": "CS50 Python",
+            "teacher": "CS50",
+            "date": "September 4, 2023",
+            "grade": "100%",
+            "courseurl": "https://cs50.harvard.edu/python/2022/",
+            "certificate": "https://certificates.cs50.io/05d6a7c5-a1ce-450a-9c2d-b89802b809d2.pdf?size=letter"
         },
         {
             "title": "Principles of UX/UI Design",

@@ -5,7 +5,7 @@
             "title": "Auto Connect",
             "text": "comming soon",
             "video": "/assets/videos/redchange.mp4",
-            "link": "casenotsure",
+            "link": "",
             "tabs": ["UX Design", "Frontend", "Backend"],
             "open": "<open",
             "id": "notsure"
@@ -21,9 +21,9 @@
         },
         {
             "title": "React-Stats",
-            "text": "an elegant and intuitive sign-up flow.",
-            "color": "#3554D1",
-            "mockup": "",
+            "text": "a python package for project insights",
+            "color": "#216282",
+            "mockup": "/assets/images/home/pypi-chain.png",
             "link": "casereactstats",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"
@@ -34,7 +34,7 @@
         },
         {
             "title": "UX-100",
-            "text": "notes on user behavior patterns",
+            "text": "comming soon",
             "color": "",
             "video": "/assets/videos/waveee.mp4",
             "link": "caseux100",
@@ -43,10 +43,10 @@
        },
        {
             "title": "Blockify",
-            "text": "an elegant and intuitive sign-up flow.",
+            "text": "comming soon",
             "color": "#3554D1",
             "mockup": "/assets/images/home/blockify-mockup.webp",
-            "link": "caseblockify",
+            "link": "",
             "tabs": ["UX Design", "UI Design"],
             "open": "<open"
         }
