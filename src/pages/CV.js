@@ -1,3 +1,3 @@
 
 
-import cv from './assets/your-cv-file-name.pdf';
+import cv from '/assets/pdfs/jacekpaczos_cv.pdf';
