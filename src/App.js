@@ -46,6 +46,8 @@ function App() {
         <Route path="/casenotsure" element={ <CaseNotSure /> } />
         <Route path="/caseux100" element={ <CaseUX100 /> } />
         <Route path="*" element={<Home />} /> {}
+        <Route path="/cv" element={ <CV /> } />
+        <Route path="/resume" element={ <Resume /> } />
         <Route path="/video/93u4092" element={ <Video /> } />
       </Routes>
     </Router>
