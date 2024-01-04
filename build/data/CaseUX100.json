@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "title": "UX-100",
+    "vid": "./assets/videos/waveee.mp4",
+    "color": "#AD4C7D",
+    "type": "learning",
+    "time": "two weeks",
+    "role": "reader"
+  },
+  "book": {
+      "pretitle": "the book",
+      "title": "PsyConversion",
+      "text": "117 Behavior Patterns for an even better User Experience and a higher Convesion-Rate in the E-Commerce.",
+      "buttonText": "open in amazon",
+      "buttonURL": "https://www.amazon.de/PsyConversion%C2%AE-Behavior-Experience-Conversion-Rate-Commerce/dp/3658322543/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PATDR8OTZ1SB&keywords=phillip+spreer&qid=1669064147&sprefix=philipp+spreer%2Caps%2C94&sr=8-1",
+      "imageURL": "./assets/images/book.png"
+  },
+  "read": {
+    "iconClass": "readSIcon",
+    "pretitle": "read read read",
+    "title": "on why to read",
+    "text": "As part of my UX journey I strive to constantly learn. Sure it’s great to learn the pragmatic way, but sometimes you can avoid stupid mistakes by learning what others did wrong.",
+    "box1": "human decision making process",
+    "box2": "why our mind often deceives us",
+    "box3": "heuristics & behavior patterns"
+  },
+
+  "cards": {
+    "icon": "",
+    "pretitle": "How it wokrs.",
+    "cards": [
+      {
+        "icon": "./assets/icons/UX100/cd1.svg",
+        "title": "Annoying",
+        "text": "Long textblocks on websites can be not readable or simply annoying...just look at wikipedia...if you also hate scrolling through a sea of words, just relax ;)",
+        "substring": "I got your back!"
+      },
+      {
+        "icon": "./assets/icons/UX100/cd2.svg",
+        "title": "Tap Tap",
+        "text": "If you find a particular behavior pattern or effect interesting, just tap on the plus icon. There will display a brief summary of the given pattern you wanted to learn about.",
+        "substring": "Smartphones are great."
+      },
+      {
+        "icon": "./assets/icons/UX100/cd3.svg",
+        "title": "Be a Geek",
+        "text": "Some of these behaviour patters are truly interesting. If you want to learn more about them. Click the button and travel to a source with more information.",
+        "substring": "It's that easy."
+      },
+      {
+        "icon": "./assets/icons/UX100/cd4.svg",
+        "title": "Blend",
+        "text": "Don’t be surprised. It’s a blend of all kinds of heuristics and behavior patterns. To make it more entertaining I did not put them in the original order.",
+        "substring": "Be surprised!"
+      },
+      {
+        "icon": "./assets/icons/UX100/cd5.svg",
+        "title": "Smooth Scroll",
+        "text": "I don’t want your precious fingers to get tired. After all you probably need them to work. Thus you can easily move with swiping left and right.",
+        "substring": "Small things are fun too!"
+      }
+    ]
+  }
+}
+  

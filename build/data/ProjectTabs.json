@@ -1,0 +1,32 @@
+{
+    "User Research": {
+        "color": "A1BFE4"
+    },
+    "UX Design": {
+        "color": "9ECBE6"
+    },
+    "Interaction Design": {
+        "color": "9BD7E9"
+    },
+    "Visual Design": {
+        "color": "A2DFE8"
+    },
+    "UI Design": {
+        "color": "B0EFE6"
+    },
+    "Coding": {
+        "color": "F3A541"
+    },
+    "Mobile": {
+        "color": "EA823F"
+    },
+    "Frontend": {
+        "color": "E15F3E"
+    },
+    "Backend": {
+        "color": "D83C3C"
+    },
+    "Data Sciende": {
+        "color": "B23E42"
+    }
+}

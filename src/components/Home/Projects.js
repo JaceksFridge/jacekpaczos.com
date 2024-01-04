@@ -1,13 +1,13 @@
 
 import React from 'react';
 import Card from '../Card';
+import BigCard from '../BigCard';
 import SectionIntro from '../SectionIntro';
 
 import { Link } from 'react-router-dom';
 
 const Projects = ({ projects }) => {
 
-  
 
   return (
     <div className="projects" id="projects-section">
@@ -26,7 +26,11 @@ const Projects = ({ projects }) => {
           />
         ) : (
           <Link to={`/${project.link}`}>
-            <Card key={index} data={project} />
+            {/* <Card key={index} data={project} /> */}
+            <BigCard 
+              key={index} 
+              data={project}
+            />
           </Link>
         )
       })}
