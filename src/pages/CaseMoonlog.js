@@ -68,10 +68,9 @@ const CaseMoonlog = () => {
         </div>
       ) : (
         <div className="casestudy">
-          {/* <div className="invisible-nav"></div> */}
           <div className="case-hero" id="img-moonlog">
             <img
-              src="/assets/images/moonlog/hero_branch.webp" 
+              src="/assets/images/home/moon1.webp" 
               alt="Moonlog Hero" 
               loading="lazy"
             />
