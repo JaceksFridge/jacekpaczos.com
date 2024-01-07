@@ -17,7 +17,7 @@ const NewHome = ({ projects, media }) => {
             <div className="hero">
                 <div className="hero-content">
                     <h2 className="name-thunder">Hi, I'm Jacek ⚡️</h2>
-                    <h2 className="text">a guy with way to many ideas in his head. Now starting too make them into something more</h2>
+                    <h2 className="text">a guy with way too many ideas in his head. now starting too make them into something more</h2>
                 </div>
                 <div className="scroll-down">
                     <a href="#main" id="hero-scroll">
