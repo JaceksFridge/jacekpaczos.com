@@ -6,7 +6,7 @@ import DesktopCard from '../Home/DesktopCard'
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive'
 
-const NewHome = ({ projects, links}) => {
+const NewHome = ({ projects, media }) => {
 
     const isDesktoporLaptop = useMediaQuery({
         query: '(min-device-width: 1224px)'
@@ -61,8 +61,43 @@ const NewHome = ({ projects, links}) => {
                         )
                     })}
                     </div>
-                )}
-
+                )}    
+                <div className="section-title">
+                    <h3 className="title">media</h3>
+                    <div className="underline"></div>
+                </div>
+                { !isDesktoporLaptop ? (
+                    <div className="content">
+                    {media.map((item, index) => {
+                        return (
+                            <div className="card-section">
+                                <Link to={`/${item.link}`}>
+                                    <BigCard 
+                                        key={index}
+                                        data={item}
+                                    />
+                                </Link>
+                            </div>
+                        )
+                    })}
+                </div>
+                ) : (
+                <div className="content-desktop">
+                    {media.map((item, index) => {
+                    return (
+                        <div className="card-section-desktop">
+                            <Link to={`/${item.link}`}>
+                                <DesktopCard 
+                                    key={index} 
+                                    data={item}
+                                    index={index}
+                                />
+                            </Link>
+                        </div>
+                        )
+                    })}
+                </div>
+                )}    
             </main>
         </div>
   )

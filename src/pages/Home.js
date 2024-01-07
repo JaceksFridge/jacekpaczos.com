@@ -53,22 +53,22 @@ const Home = () => {
     setTimeout(() => {
         scrollToProjects()
     }, 2000)
-  }, []);
+  }, [])
   
 
-  const { projects, trainings } = data;
+  const { projects, media } = data;
 
 
   return (
     <div className="home">
-      <NewHome projects={projects} trainings={trainings} />
+      <NewHome projects={projects} media={media} />
       {/* <HomeHero />
       { isDesktoporLaptop ? (
-        <ProjectsDesktop projects={projects} trainings={trainings}/>
+        <ProjectsDesktop projects={projects} media={media}/>
       ) : (
         <>
           <div className="placeholder"></div>
-          <Projects projects={projects} trainings={trainings}/>
+          <Projects projects={projects} media={media}/>
         </>
       )} */}
     </div>
@@ -76,3 +76,6 @@ const Home = () => {
 }
 
 export default Home
+
+
+

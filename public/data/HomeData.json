@@ -28,6 +28,27 @@
             "link": "case-react-stats",
             "id": "react-stats"
         }
+    ],
+
+    "media": [
+        {
+            "title": "Blog",
+            "subtitle": "Full Stack Discipline App",
+            "open": "",
+            "image": "/assets/images/home/blog1.webp",
+            "text": "Designing and developing smashing Webflow websites for startups",
+            "link": "",
+            "id": "blog"
+        },
+        {
+            "title": "Youtube",
+            "subtitle": "Full Stack Discipline App",
+            "open": "",
+            "image": "/assets/images/home/yt1.webp",
+            "text": "Designing and developing smashing Webflow websites for startups",
+            "link": "",
+            "id": "youtube"
+        }
     ]
 }
 
