@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const DesktopCard = ({ index, data }) => {
+const DesktopCard = ({ index, data, text }) => {
 
 
   return (
@@ -13,7 +13,7 @@ const DesktopCard = ({ index, data }) => {
           <div className="underline"></div>
           <p className="project-text">{data.text}</p>
           <a className="project-button">
-            View Case Study
+            {text}
           </a>
         </div>
       </div>

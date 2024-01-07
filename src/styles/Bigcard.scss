@@ -2,6 +2,7 @@
 .big-card-padding{
     height: 100%;
     width: 100%;
+    padding-bottom: 7.5rem;
     display: grid;
     place-items: center;
 
@@ -45,7 +46,8 @@
         }
         img{
             position: absolute;
-            width: 25%;
+            width: auto;
+            height: 25%;
             bottom: 25%;
             left: 50%;
             transform: translateX(-50%);
@@ -53,11 +55,12 @@
         }
     }
 
-    .big-card#hotboooks-spider{
-        background: #F7F7F7;
+    .big-card#hotbooks-spider{
+        background: white;
+        border: 1px solid $dark;
         
         .card-content{
-            h4{
+            h4.card-title{
                 color: $dark;
             }
             .card-title-line{
@@ -69,9 +72,10 @@
         }
     }
     .big-card#moonlog{
-        background: $dark;
+        background: linear-gradient(102.05deg, #1C2327 1.25%, #040608 100%);
         overflow: hidden;
         img{
+            height: auto;
             width: 62%;
             bottom: -7.5%;
             left: 50%;
@@ -80,11 +84,32 @@
 
     }
     .big-card#react-stats{
-        background: #0880CF;
+        background: linear-gradient(101.5deg, #099CCE -1.29%, #1A17B4 184.24%);
         img{
             width: 40%;
             bottom: 27.5%;
             filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.5));
+        }
+    }
+
+    .big-card#blog{
+        background: linear-gradient(102.05deg, #222D33 1.25%, #0E141A 100%);
+        overflow: hidden;
+        img{
+            width: auto;
+            height: 50%;
+            filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.5));
+            bottom: -5%;
+        }
+    }
+
+    .big-card#youtube{
+        background: linear-gradient(281.48deg, #3E071A 0%, #B5130C 99.42%);
+        img{
+            width: auto;
+            height: 50%;
+            filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.5));
+            bottom: -7.5%;
         }
     }
 }

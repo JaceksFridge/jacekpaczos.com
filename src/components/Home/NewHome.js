@@ -55,6 +55,7 @@ const NewHome = ({ projects, media }) => {
                                     key={index} 
                                     data={project}
                                     index={index}
+                                    text='View Case Study'
                                 />
                             </Link>
                         </div>
@@ -91,6 +92,7 @@ const NewHome = ({ projects, media }) => {
                                     key={index} 
                                     data={item}
                                     index={index}
+                                    text='Open Website'
                                 />
                             </Link>
                         </div>
