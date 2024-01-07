@@ -138,9 +138,10 @@
     // background: url(../../public/assets/images/react-stats/casehero3.png);
     background-position: center;
     background-size: cover;
-    height: 66vh;
-    background: #216282;
+    height: 60vh;
+    background: linear-gradient(101.5deg, #099CCE -1.29%, #1A17B4 184.24%);
     mix-blend-mode: normal;
+    overflow: hidden;
 
     // background: radial-gradient(117.38% 239.16% at 76.76% 29.32%, #787878 0%, #000000 100%);
     // mix-blend-mode: overlay;
@@ -148,8 +149,8 @@
     .alternative-img{
         display: block;
         position: absolute;
-        bottom: 0;
-        right: 10%;
+        bottom: -12%;
+        left: 7.5%;
         width: 40%;
         height: auto;
         // aspect-ratio: 1 / 2.053;

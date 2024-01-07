@@ -78,7 +78,7 @@ const CaseReactStats = () => {
               alt="Moonlog Hero" 
               loading="lazy"
             /> */}
-            <img src="/assets/images/react-stats/casephone.png" alt="" className="alternative-img"/>
+            <img src="/assets/images/home/blue1.webp" alt="" className="alternative-img"/>
           </div>
           <div className="case-info">
             <h1 className="case-title">Visualize Projects</h1>
