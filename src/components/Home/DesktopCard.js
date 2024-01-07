@@ -4,7 +4,6 @@ import React from 'react'
 
 const DesktopCard = ({ index, data }) => {
 
-  console.log(index)
 
   return (
     <div className={`desktop-card ${index % 2 === 0 ? '' : 'reverse'}`} id={data.id}>

@@ -32,7 +32,7 @@ const NewHome = ({ projects, media }) => {
                 </div>
                 { !isDesktoporLaptop ? (
                     <div className="content">
-                    {projects.map((project, index) => {
+                    {projects?.map((project, index) => {
                         return (
                             <div className="card-section">
                                 <Link to={`/${project.link}`}>
@@ -44,10 +44,10 @@ const NewHome = ({ projects, media }) => {
                             </div>
                         )
                     })}
-                </div>
+                    </div>
                 ) : (
-                <div className="content-desktop">
-                    {projects.map((project, index) => {
+                    <div className="content-desktop">
+                    {projects?.map((project, index) => {
                     return (
                         <div className="card-section-desktop">
                             <Link to={`/${project.link}`}>
@@ -68,7 +68,7 @@ const NewHome = ({ projects, media }) => {
                 </div>
                 { !isDesktoporLaptop ? (
                     <div className="content">
-                    {media.map((item, index) => {
+                    {media?.map((item, index) => {
                         return (
                             <div className="card-section">
                                 <Link to={`/${item.link}`}>
@@ -82,8 +82,8 @@ const NewHome = ({ projects, media }) => {
                     })}
                 </div>
                 ) : (
-                <div className="content-desktop">
-                    {media.map((item, index) => {
+                    <div className="content-desktop">
+                    {media?.map((item, index) => {
                     return (
                         <div className="card-section-desktop">
                             <Link to={`/${item.link}`}>
@@ -96,7 +96,7 @@ const NewHome = ({ projects, media }) => {
                         </div>
                         )
                     })}
-                </div>
+                    </div>
                 )}    
             </main>
         </div>

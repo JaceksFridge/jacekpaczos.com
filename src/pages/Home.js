@@ -3,6 +3,7 @@ import HomeHero from '../components/Home/HomeHero'
 import Projects from '../components/Home/Projects'
 import ProjectsDesktop from '../components/Home/ProjectsDesktop'
 import NewHome from '../components/Home/NewHome'
+import Footer from '../components/Footer'
 
 
 import { useMediaQuery } from 'react-responsive'
@@ -71,6 +72,7 @@ const Home = () => {
           <Projects projects={projects} media={media}/>
         </>
       )} */}
+      <Footer />
     </div>
   )
 }
