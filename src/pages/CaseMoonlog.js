@@ -91,7 +91,14 @@ const CaseMoonlog = () => {
                 className="btn-website"
                 text="web"
                 url="https://moonlog.xyz/"
-                img="/assets/icons/moonlog/website.svg"
+                img="/assets/icons/moonlog/web5.svg"
+                width="3rem"
+              />
+              <Button 
+                className="btn-website"
+                text="youtube"
+                url="https://moonlog.xyz/"
+                img="/assets/icons/moonlog/youtube1.svg"
                 width="3rem"
               />
             </div>
