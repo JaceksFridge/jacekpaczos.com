@@ -41,11 +41,11 @@ const ProjectsDesktop = ({ projects, trainings }) => {
                         key={index}
                     >
                         <div className="project-desk-text">
-                             <h4 className="project-desk-title">{project.title}</h4>
-                            <h3 className="project-desk-large">{project.text}</h3>
-                            <Link to={`/${project.link}`} className="project-link">
+                             {/* <h4 className="project-desk-title">{project.title}</h4> */}
+                            <h3 className="project-desk-large">{project.subtitle}</h3>
+                            {/* <Link to={`/${project.link}`} className="project-link">
                                 <h4 className="project-desk-link">{project.open}</h4>
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="project-desk-image">
                             <Link to={`/${project.link}`} className="project-link">

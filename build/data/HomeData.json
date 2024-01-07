@@ -2,53 +2,28 @@
 {
     "projects": [
         {
-            "title": "Auto Connect",
-            "text": "comming soon",
-            "video": "/assets/videos/redchange.mp4",
-            "link": "",
-            "tabs": ["UX Design", "Frontend", "Backend"],
-            "open": "<open",
+            "title": "Hotbooks Spider",
+            "subtitle": "Automated Webcrawler for Amazon",
+            "open": "hotbooks",
+            "image": "/assets/images/home/spider1.webp",
+            "link": "case-hotbooks-spider",
             "id": "notsure"
         },
         {
             "title": "Moonlog",
-            "text": "full stack app tracking your discipline",
-            "color": "#121212",
-            "mockup": "/assets/images/home/moonlog-cube.webp",
-            "link": "casemoonlog",
-            "tabs": ["UX Design", "Frontend"],
-            "open": "open>"
+            "subtitle": "Full Stack Discipline App",
+            "open": "moonlog",
+            "image": "/assets/images/home/moon1.webp",
+            "link": "case-moonlog",
+            "id": "moonlog"
         },
         {
-            "title": "React-Stats",
-            "text": "a python package for project insights",
-            "color": "#216282",
-            "mockup": "/assets/images/home/pypi-chain.png",
-            "link": "casereactstats",
-            "tabs": ["UX Design", "UI Design"],
-            "open": "<open"
-        },
-        {
-            "type": "section",
-            "title": "trainings"
-        },
-        {
-            "title": "UX-100",
-            "text": "comming soon",
-            "color": "",
-            "video": "/assets/videos/waveee.mp4",
-            "link": "caseux100",
-            "tabs": ["UX Design", "UI Design"],
-            "open": "open>"
-       },
-       {
-            "title": "Blockify",
-            "text": "comming soon",
-            "color": "#3554D1",
-            "mockup": "/assets/images/home/blockify-mockup.webp",
-            "link": "",
-            "tabs": ["UX Design", "UI Design"],
-            "open": "<open"
+            "title": "React Stats",
+            "subtitle": "Statistics about your project",
+            "open": "react-stats",
+            "image": "/assets/images/home/blue1.webp",
+            "link": "case-react-stats",
+            "id": "react-stats"
         }
     ]
 }

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import HomeHero from '../components/Home/HomeHero'
 import Projects from '../components/Home/Projects'
 import ProjectsDesktop from '../components/Home/ProjectsDesktop'
+import NewHome from '../components/Home/NewHome'
+
 
 import { useMediaQuery } from 'react-responsive'
 
@@ -59,7 +61,8 @@ const Home = () => {
 
   return (
     <div className="home">
-      <HomeHero />
+      <NewHome projects={projects} trainings={trainings} />
+      {/* <HomeHero />
       { isDesktoporLaptop ? (
         <ProjectsDesktop projects={projects} trainings={trainings}/>
       ) : (
@@ -67,7 +70,7 @@ const Home = () => {
           <div className="placeholder"></div>
           <Projects projects={projects} trainings={trainings}/>
         </>
-      )}
+      )} */}
     </div>
   )
 }

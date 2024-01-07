@@ -1,0 +1,372 @@
+
+
+.new-home{
+    width: 100%;
+    height: 100%;
+    
+    .hero{
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        background: white;
+
+        display: grid;
+        place-items: center;
+        padding: 1rem;
+        
+
+        .hero-content{
+            width: 100%;
+            height: 100%;
+            // border: 1px solid red;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+
+            h2.name-thunder{
+                font-family: $os;
+                font-weight: 300;
+                font-size: 1rem;
+                text-align: center;
+                color: $dark-50;
+            }
+            h2.text{
+                font-size: 1.75rem;
+                font-weight: 400;
+                line-height: 175%;
+                color: $dark-80;
+                text-transform: none;
+                text-align: center;
+            }
+        }
+
+        .scroll-down{
+            position: absolute;
+            bottom: 2.5%;
+            // border: 1px solid purple;
+            width: 100%;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+
+            a#hero-scroll{
+                position: relative;
+                display: inline-block;
+                padding-top: 80px;
+
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-left: -12px;
+                    border-left: 1px solid #000;
+                    border-bottom: 1px solid #000;
+                    transform: rotate(-45deg);
+                    animation: arrows 2s infinite;
+                    opacity: 0;
+                    box-sizing: border-box;
+
+                    &:nth-of-type(1) {
+                        animation-delay: 0s;
+                    }
+
+                    &:nth-of-type(2) {
+                        top: 16px;
+                        animation-delay: .20s;
+                    }
+
+                    &:nth-of-type(3) {
+                        top: 32px;
+                        animation-delay: .40s;
+                    }
+
+                }
+
+                @keyframes arrows {
+                    0% {
+                      opacity: 0;
+                    }
+                    50% {
+                      opacity: 1;
+                    }
+                    100% {
+                      opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .main{
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+
+        .section-title{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            h3{
+                color: $dark-50;
+                letter-spacing: 0.25rem;
+                text-transform: uppercase;
+            }
+
+            .underline{
+                width: 40px;
+                height: 0.8px;
+                background: $dark-20;
+            }
+        }
+        .content{
+            height: 100%;
+            width: 100%;
+
+            .card-section{
+                width: 100%;
+                height: 100%;
+                padding: 1.5rem 0 0 0;
+            }
+        }
+    }
+}
+
+
+@media all and (min-width: 1200px) {
+    .new-home{
+        .hero{
+            height: 100vh;
+            padding: 7.5% 10% 12.5% 10%;
+    
+            .hero-content{
+                gap: 15%;
+                h2.name-thunder{
+                    font-size: 1.25rem;
+                }
+                h2.text{
+                    font-size: 3.5rem;
+                    padding: 0 10%;
+                }
+            }
+        }
+        .main{
+            padding: 0 12.5% 5% 12.5%;
+
+            .section-title{
+                padding: 10% 0;
+            }
+    
+            .content-desktop{
+                width: 100%;
+                height: 100%;
+    
+                .card-section-desktop{
+                    width: 100%;
+                    height: 100%;
+                    padding: 2rem 0;
+                    display: grid;
+                    place-items: center;
+    
+                    .desktop-card{
+                        height: 65vh;
+                        width: 100%;
+                        margin: auto;
+                        border-radius: 1rem;
+                        display: flex;
+                        transition: all 0.4s ease-in-out;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: rgba(255, 255, 255, 0.05);
+                            opacity: 0;
+                            transition: opacity 0.3s ease;
+                            pointer-events: none;
+                        }
+
+                        .desktop-card-content{
+                            height: 100%;
+                            flex: 55;
+                            width: 100%;
+                            box-sizing: border-box;
+                            border: 0px solid green;
+                            border-top-left-radius: 1rem;
+                            border-bottom-left-radius: 1rem;
+                            transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: flex-start;
+
+                            .inner-content{
+                                padding: 10% 10% 10% 12.5%;
+                                margin-bottom: -20%;
+
+                                h1.project-title{
+                                    font-size: 3rem;
+                                    font-weight: normal;
+                                    letter-spacing: -0.15rem; 
+                                    color: $white;
+                                }
+    
+                                .underline{
+                                    margin: 1.25rem 0 1.25rem 0;
+                                    height: 0.5px;
+                                    width: 50px;
+                                    background: $white-50;
+                                }
+    
+                                p.project-text{
+                                    color: $white-80;
+                                    padding-right: 25%;
+                                }
+    
+                                a.project-button{
+                                    margin-top: 10%;
+                                    height: 3.25rem;
+                                    width: 10rem;
+                                    border-radius: 0.625rem;
+                                    background: $white-10;
+                                    transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+    
+                                    text-decoration: none;
+                                    display: grid;
+                                    place-items: center;
+                                    font-family: $os;
+                                    font-weight: 500;
+                                    color: $white-80;
+                                }
+                                a.project-button:hover{
+                                    background: $white-20;
+                                    transform: scale(1.02);
+                                }
+                            }
+                        }
+                        .desktop-card-picture{
+                            position: relative;
+                            height: 100%;
+                            flex: 45;
+                            box-sizing: border-box;
+                            width: 100%;
+                            border: 0px solid red;
+                            border-top-right-radius: 1rem;
+                            border-bottom-right-radius: 1rem;
+                            transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 50%;
+                                filter: drop-shadow(0px 4px 80px rgba(0, 0, 0, 0.4));
+                            }
+                        }
+                    }
+                    .desktop-card.reverse{
+                        flex-direction: row-reverse;
+
+                        .desktop-card-content{
+                            flex: 45;
+                            .inner-content{
+                                padding: 10% 5% 10% 5%;
+                            }
+                        }
+                        .desktop-card-picture{
+                            flex: 55;
+                        }
+                    }
+                    .desktop-card:hover{
+                        // box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+                        width: calc(100% - 2rem);
+                        padding: 0 2rem;
+                    }
+
+                    .desktop-card:hover::after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.content-desktop{
+    a{
+        width: 100%;
+    }
+}
+
+
+#hotbooks-spider{
+    background: white;
+    border: 1px solid black;
+
+    h1.project-title{
+        color: $dark;
+    }
+    .underline{
+        background: $dark-50;
+    }
+    p.project-text{
+        color: $dark-50;
+    }
+    .project-button{
+        background: $dark-10;
+        color: $dark-80;
+    }
+    .project-button:hover{
+        background: $dark-05;
+        color: $dark;
+    }
+    img{
+        width: auto;
+        height: 40%;
+        top: 55%;
+    }
+}
+
+
+#moonlog{
+    background: linear-gradient(102.05deg, #1C2327 1.25%, #040608 100%);
+    
+    .desktop-card-picture{
+        overflow: hidden;
+
+        img{
+            top: auto;
+            bottom: -10%;
+            left: 5%;
+            transform: none;
+            width: 80%;
+        }
+    }
+}
+
+#react-stats{
+    background: linear-gradient(101.5deg, #099CCE -1.29%, #1A17B4 184.24%);
+    img{
+        top: 55%;
+    }
+}
+
+
+
+

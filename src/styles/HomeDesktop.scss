@@ -27,6 +27,7 @@
         height: 100%;
         width: 100vw;
         border: 0px solid magenta;
+
         // background: white;
     
         ::-webkit-scrollbar {
@@ -47,13 +48,15 @@
             scroll-snap-type: y mandatory;
             overflow-y: auto;
             height: 100vh;
+
               
             .project-desk-sec{
                 height: 100vh;
                 scroll-snap-align: start;
                 display: flex;
+                padding: 0 10% 0 10%;
                 background: white;
-        
+                
                 .project-desk-text{
                     height: 100%;
                     width: 15rem;
@@ -119,8 +122,8 @@
         
                         position: relative;
                         cursor: pointer;
-                        width: 20rem;
-                        height: 20rem;
+                        width: 25rem;
+                        height: 30rem;
         
           
                         .desk-bottom-card{
@@ -151,12 +154,13 @@
         
                             .desk-bg-card{
                                 height: 100%;
-                                border: 0px solid orange;
                 
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                                justify-content: center;
+                                padding: 4rem 1.5rem 0 1.5rem;
+                                border-radius: 1rem;
+                                position: relative;
+                        
+                                text-decoration: none;
+                                color: inherit;
         
                                 .desk-bg-card-image{
                                     width: 100%;
@@ -167,6 +171,75 @@
                                 }
                                 video{
                                     transition: transform ease-out 0.3s;
+                                }
+                                .card-content{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    // border: 1px solid red;
+                        
+                                    h4.card-title{
+                                        font-size: 1.75rem;
+                                        font-weight: lighter;
+                                        color: white;
+                                    }
+                                    .card-title-line{
+                                        margin: 1.25rem 0 1rem 0;
+                                        height: 1px;
+                                        width: 40px;
+                                        background: $white-20;
+                                    }
+                                    .card-subtitle{
+                                        color: $white-50;
+                                        font-size: 0.75rem;
+                                        letter-spacing: 0.5px;
+                                        font-weight: 200;
+                                        line-height: normal;
+                                    }
+                                }
+                                img{
+                                    position: absolute;
+                                    width: 25%;
+                                    bottom: 25%;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.5));
+                                }
+                            }                        
+                            .big-card#notsure{
+                                background: #F7F7F7;
+                                
+                                .card-content{
+                                    h4{
+                                        color: $dark;
+                                    }
+                                    .card-title-line{
+                                        background: $dark-20;
+                                    }
+                                    p{
+                                        color: $dark-50;
+                                    }
+                                }
+                            }
+                            .big-card#moonlog{
+                                background: $dark;
+                                overflow: hidden;
+                                img{
+                                    width: 62%;
+                                    bottom: -7.5%;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                }
+                        
+                            }
+                            .big-card#react-stats{
+                                background: #0880CF;
+                                img{
+                                    width: 40%;
+                                    bottom: 27.5%;
+                                    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.5));
                                 }
                             }
                         }
@@ -179,10 +252,7 @@
     
                             .desk-top-card:hover{
                                 .desk-bg-card-image{
-                                    transform: scale(1.03);
-                                }
-                                video{
-                                    transform: scale(1.03);
+                                    // transform: scale(1.03);
                                 }
                             }
                         }  
@@ -256,48 +326,30 @@
             }
         }
     }
-
-
-
-    #React-Stats{
-        border: none;
-    
-        .desk-bg-card{
-            overflow-y: hidden;
-            border-radius: 1rem;
-            border: 1.5px solid $dark-80;
-        }
-    
-        img{
-            right: -2rem;
-            z-index: 50;
-            width: 50%;
-            clip-path: inset(4px 0 0 0);
-        }
-    }
-    
-    #React-Stats.desk-top-card:hover{
-        top: -6px; right: -6px;
-        bottom: 6px; left: 6px;
-    
-        .desk-bg-card{
-            overflow-y: hidden;
-            background: white;
-        }
-    }
 }
 
 
 
-.desk-card .desk-top-card#UX-100{
-    .desk-bg-card{
-        .border-animation{
-            display: none;
-        }
+.desk-top-card#hotbooks-spider{
+    img{
+        width: 20%;
+    }
+}
+
+.desk-top-card#moonlog{
+    background: $dark;
+    img{
+        position: absolute;
+        width: 60%;
+        bottom: 0;
     }
 }
 
 
-
-
+.desk-top-card#react-stats{
+    background: #0880CF;
+    img{
+        width: 35%;
+    }
+}
 

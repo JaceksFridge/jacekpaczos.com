@@ -11,6 +11,7 @@ const BigCard = ({ data }) => {
                 <div className="card-title-line"></div>
                 <p className="card-subtitle">{data.subtitle}</p>
             </div>
+            <img src={data.image} alt="" />
         </div>
     </div>
   )

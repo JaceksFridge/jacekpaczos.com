@@ -10,6 +10,10 @@ img {
     height: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 ///////  s c r e e n s  ///////
 $mobile : 480px;
 $tablet : 768px;
@@ -45,6 +49,7 @@ $white-65: hsla(0, 0%, 100%, 0.65);
 $white-50: hsla(0, 0%, 100%, 0.5);
 $white-30: hsla(0, 0%, 100%, 0.3);
 $white-20: hsla(0, 0%, 100%, 0.2);
+$white-10: hsla(0, 0%, 100%, 0.1);
 
 $blue-80: hsla(228, 63%, 51%, 0.8);
 $dark-90: hsla(0, 20%, 5%, 0.9);
@@ -192,3 +197,8 @@ $p-mobile: 5%;
 // Desktop
 @import './styles/HomeDesktop.scss';
 @import './styles/TrainingsDesktop.scss';
+
+
+
+// test
+@import './styles/NewHome.scss'
