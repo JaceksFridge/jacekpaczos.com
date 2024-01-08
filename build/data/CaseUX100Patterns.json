@@ -1,0 +1,809 @@
+
+
+[
+    {
+        "title": "Availability Heuristic",
+        "text": "Availability heuristic is the cognitive ease with which we find a relevant example in our memory. If it is easy to find examples, we consider the product relevant and make an intuitive purchase decision. Availability heuristic is an illusory correlation between ease of finding an example and frequency of need. Factors influencing cognitive ease include repeated experience, clear representation, priming, good mood, and subjective effort in searching for examples. What we easily remember appears more probable or relevant. This explains the fear of flying due to media coverage of plane crashes. In e-commerce, familiar product names, text formatting, repetition of key messages, and linking products to media events can influence availability. The availability heuristic can also be used to influence satisfaction surveys by making it easy for customers to identify areas for improvement.",
+        "use": "Decision-making, customer satisfaction, marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/1.webp",
+        "midjourney": "A 3D render of a lightbulb with a bright yellow color and a positive vibe."
+    },
+    {
+        "title": "Overconfidence",
+        "text": "People tend to overestimate their abilities and knowledge. This effect is more pronounced in complex tasks and is known as the \"Hard-is-Easy Effect\". Overconfidence is prevalent in professions such as lawyers, doctors, and businessmen. It is more common in men and less intelligent individuals. Overconfidence can affect decision-making and customer behavior. In e-commerce, it can be corrected by providing immediate feedback and additional information.",
+        "use": "Decision-making, customer behavior, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/2.webp",
+        "midjourney": "A 3D render of a person with a confident posture and a thought bubble with a question mark, symbolizing the uncertainty caused by overconfidence. The color should be bold and vibrant to represent confidence."
+    },
+    {
+        "title": "Bystander Effect",
+        "text": "The presence of others inhibits the impulse to help, and helpfulness decreases with the number of people present. The effect can be overcome by creating public attention. The Bystander Effect can be implemented in e-commerce by directly addressing users, highlighting them, using targeted customer language, verbalizing the need for action, and alleviating fears of negative consequences. The source of the effect is a study by Darley and Latane in 1968.",
+        "use": "Social psychology, e-commerce, customer engagement",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/3.webp",
+        "midjourney": "A 3D render of a group of people standing idly by, with a red spotlight on one person who is taking action. The color should be neutral, and the vibe should convey a sense of hesitation and inaction."
+    },
+    {
+        "title": "Curiosity",
+        "text": "Curiosity is a strong motivator and is associated with activation of the amygdala, the region where deep human emotions are located. There are five different forms of curiosity that can drive our behavior: joyful exploration, loss sensitivity, stress tolerance, social curiosity, and thrill-seeking. Curiosity is often underestimated as a motivator, even in the scientific community. In e-commerce, curiosity can be used to attract attention and increase customer engagement, but caution must be taken to avoid clickbaiting. Curiosity works best when some information about the topic has already been provided.",
+        "use": "Increase customer engagement in e-commerce, understand the different forms of curiosity",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/4.webp",
+        "midjourney": "A 3D render of a key symbolizing curiosity, with a vibrant color and an energetic vibe."
+    },
+    {
+        "title": "Facial Distraction",
+        "text": "Direct eye contact leads to facial distraction, where resources are used to decode facial expressions instead of focusing on the intended message. This phenomenon has different effects offline and online. In face-to-face situations, eye contact increases perception of verbal messages, while online attention remains on the person. Facial recognition differs from object recognition neurologically. Implementing this knowledge in e-commerce, testimonials should avoid direct eye contact.",
+        "use": "Understanding the impact of facial distraction on attention and perception in offline and online interactions, improving communication in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/5.webp",
+        "midjourney": "A 3D render of a person with eyes looking away from the viewer, in a calm and neutral color palette, representing the avoidance of facial distraction in online communication."
+    },
+    {
+        "title": "Gaze Cueing Effect",
+        "text": "Unconscious analysis of faces in new environments. Gaze cueing effect directs attention based on where others are looking. Evolutionary explanation suggests it is a response to potential danger. Can be used in e-commerce to guide attention and weaken negative areas. Visual cueing effect uses graphic elements to direct gaze. Effective for guiding attention towards important elements.",
+        "use": "Attention, decision-making, implementation in e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/6.webp",
+        "midjourney": "A 3D render of a person looking in a specific direction, with a color scheme that conveys attention and focus."
+    },
+    {
+        "title": "Inattentional Blindness Effect",
+        "text": "People do not perceive unexpected events when they are engaged in a basic observation task. The extent of inattentional blindness depends on the difficulty of the task. The Inattentional Blindness Effect has been demonstrated through selective attention tests. Attention is important for decision-making, trust, and customer satisfaction in e-commerce. Implementation in e-commerce includes visually representing background activities, highlighting interface changes, addressing banner blindness, and managing attention-demanding elements in the online shop.",
+        "use": "Decision-making, trust, customer satisfaction in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/7.webp",
+        "midjourney": "A 3D render of a person with a blindfold, symbolizing inattentional blindness. The color should be neutral and the vibe should be thought-provoking."
+    },
+    {
+        "title": "Joy and Fun",
+        "text": "The use of playful and entertaining elements makes unpleasant tasks more bearable and supports intrinsic motivation. Example: VW campaign \"The Fun Theory\" turned everyday actions like climbing stairs into favorite activities by adding entertaining elements. \"Perceived Enjoyment\" is a key driver of acceptance, including in e-commerce. Micro-interactions, engaging content, and avoiding distractions are ways to implement the \"Joy and Fun\" pattern.",
+        "use": "Enhancing user experience, increasing engagement, improving acceptance in e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/8.webp",
+        "midjourney": "A 3D render of a colorful and vibrant staircase with piano keys on the steps, symbolizing the transformation of an unpleasant task into a fun and enjoyable activity."
+    },
+    {
+        "title": "Picture Superiority Effect",
+        "text": "The Picture Superiority Effect states that humans have separate systems for representing verbal and nonverbal information. Learning is most effective when information is encoded visually and verbally. Adding images to text significantly improves memory retention. Images are also processed faster than text, making them advantageous in the competitive e-commerce industry. Careful selection of images is important to avoid cannibalizing verbal attention. In e-commerce, impressive or controversial images can help stand out in the early stages of the customer journey, while later stages benefit from images that support or speak for themselves. Explaining complex content through combined text and image presentations is recommended. Websites and shops should prioritize visual interaction elements over non-visual ones. High-resolution product photos, interactive 360\u00b0 views, and visual depictions of product usage are effective in product presentation.",
+        "use": "Content marketing, E-commerce, Memory retention",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/9.webp",
+        "midjourney": "A 3D render of a product with interactive features, showcasing its usage scenario. Color: vibrant and eye-catching. Vibe: modern and innovative."
+    },
+    {
+        "title": "Salience",
+        "text": "Salience refers to the visual stimulus that stands out from its surroundings, capturing our attention. It can be calculated based on color, luminance, orientation, and motion. Salient objects direct our gaze and can be enhanced when they align with our needs or motivations. In e-commerce, salience is crucial for attracting attention and increasing click-through rates. It is also important in button design to create contrast and hierarchy. Additionally, reducing visual noise by de-emphasizing less important elements can enhance salience.",
+        "use": "Attention capture, e-commerce marketing, button design",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/10.webp",
+        "midjourney": "A 3D render of a yellow rubber duck in a white bathtub, representing a salient object. The color should be vibrant and the vibe should be playful and attention-grabbing."
+    },
+    {
+        "title": "Barnum Effect",
+        "text": "The Barnum Effect describes the tendency of people to interpret vague and general statements about themselves as accurate descriptions and to believe that they have been understood very precisely. The effect explains why horoscopes, future predictions, and personality tests are so popular and widespread. The effectiveness of the pattern lies in the fact that the statements made are so general and therefore impossible to refute. The Barnum Effect is often used in marketing and decision-making processes. It can be implemented in e-commerce through vague and flattering statements or by addressing general moods and emotions. Quizzes and tests on social media are also effective in utilizing the Barnum Effect. The Barnum Effect can be used to increase customer engagement, trust, and loyalty. The power of the Barnum Effect is 6 out of 10.",
+        "use": "Marketing, decision-making, customer engagement",
+        "power": "6",
+        "img": "assets/images/ux100/patterns/11.webp",
+        "midjourney": "A 3D render of a crystal ball in purple color with a mystical and intriguing vibe."
+    },
+    {
+        "title": "Empathy Gap",
+        "text": "The Empathy Gap, also known as the Hot-cold Empathy Gap, refers to the underestimation of the influence of visceral drives on decision-making. It describes how our empathy is state-dependent and can be difficult to minimize. It often manifests in the False Consensus Effect, where we assume others share our opinions to avoid the cognitive effort of empathizing. In practice, it affects online discussions and customer feedback. Antidotes include communication codes, moderated discussions, and considering others' viewpoints.",
+        "use": "Understanding decision-making, improving online discussions, managing customer feedback",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/12.webp",
+        "midjourney": "A 3D render of a person with a thought bubble showing different emotional states (e.g., anger, love, confusion) in vibrant colors to represent the Empathy Gap."
+    },
+    {
+        "title": "Focusing Effect",
+        "text": "The Focusing Effect describes how the human brain gives disproportionate weight to a few aspects when making decisions, often favoring mainstream or sensationalized information. This can lead to neglecting other potentially important factors. A study showed that people believed Californians were happier than those in the Midwest based on media portrayals, despite no actual difference in happiness levels. In e-commerce, the Focusing Effect suggests focusing on a few widely recognized and differentiating factors. The effect can also be used to overestimate the importance of money and utilize whitespace in design.",
+        "use": "Decision-making, marketing strategies, perception of happiness and money",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/13.webp",
+        "midjourney": "A 3D render of a magnifying glass symbolizing focus, with a blue color and a professional vibe."
+    },
+    {
+        "title": "Functional Fixation",
+        "text": "Functional fixation limits people to using an object only in its traditional way. It is a cognitive bias that prevents us from seeing alternative uses for objects. This bias develops around the age of seven. The famous candle problem experiment by Duncker (1945) demonstrated functional fixation. It showed that most participants were fixated on using the box of thumbtacks to attach the candle to the wall, instead of using the box as a candle holder. Functional fixation has implications for usability in design and can be used to create memorable and effective interactions. It can also influence consumer behavior in e-commerce.",
+        "use": "Design, problem-solving, consumer behavior",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/14.webp",
+        "midjourney": "A 3D render of a candle being attached to a wall with thumbtacks, with a traditional box as a candle holder. The color should be warm and inviting, with a cozy vibe."
+    },
+    {
+        "title": "Identifiable Victim Effect",
+        "text": "The Identifiable Victim Effect refers to the phenomenon where individuals are more emotionally affected by the fate of a single person than by the fate of a larger group. This effect can be seen in both positive and negative contexts, as people are more inclined to help individual victims but also more willing to hold individual wrongdoers accountable. The effect suggests that images and representations of individual people have a stronger impact on us than statistics and graphs about larger groups. This effect is explained by our self-protective mechanism that prevents us from being overwhelmed by emotions. The effect is often used by charitable organizations during the holiday season to elicit donations or gain support for a cause. Testimonials and stories of individual experiences also have a stronger impact on us than abstracted dangers and statistics. The Identifiable Victim Effect has implications for attention, decision-making, trust, and customer loyalty in e-commerce.",
+        "use": "Fundraising, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/15.webp",
+        "midjourney": "A 3D render of a symbolic object representing the Identifiable Victim Effect. The object should be in a warm color and convey a compassionate and empathetic vibe."
+    },
+    {
+        "title": "Status quo Bias",
+        "text": "People have a tendency to want to maintain the current state. This bias is often seen in politics and decision-making. It can be understood as an efficient heuristic rather than a negative distortion. The bias is explained by the Endowment Effect and Prospect Theory, but it is also considered an independent effect. The longer the status quo exists, the stronger the bias becomes. In e-commerce, emphasizing the convenience of the current state can promote customer loyalty. Discounts may not be effective for regular purchases, but experimental price increases can help maximize consumer surplus. Offering free trials can also create attachment to a product.",
+        "use": "Decision-making, customer loyalty, pricing strategies",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/16.webp",
+        "midjourney": "A 3D render of a person holding onto a familiar object, like a teddy bear, in a comforting color and vibe."
+    },
+    {
+        "title": "Threat",
+        "text": "Threat pattern is effective due to the high activation potential of fear and the shift of decision-making power to System 1. However, this only applies to fears that are perceived as real and certain. The example of climate change is given, where the lack of certainty and immediate consequences diminishes its activation potential.",
+        "use": "Understanding the effectiveness of threat pattern in marketing and persuasion",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/17.webp",
+        "midjourney": "A 3D render of a symbol representing fear, such as a clenched fist or a red warning sign. The color should be intense and the vibe should be alarming."
+    },
+    {
+        "title": "Context Dependent Memory",
+        "text": "People tend to forget things that are outside of the current environment context. Memories are often tied to contextual cues. Examples of \"Context Dependent Memory\" can be seen in everyday life. Memories can also be influenced by the physical and emotional state as a contextual cue. Consistency in defining context across channels is important in e-commerce. Retargeting should use contextual cues to maintain the remembering context. Showing cues from the user's last session can be effective for recurring users.",
+        "use": "Memory enhancement, e-commerce optimization",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/18.webp",
+        "midjourney": "A 3D render of a symbol representing contextual cues, such as an icon or color palette, with a vibrant and energetic vibe."
+    },
+    {
+        "title": "Primacy Effect",
+        "text": "The primacy effect refers to the tendency for people to form opinions early in the decision-making process that are difficult to change. This bias can be explained by the confirmation bias and the way information is stored in memory. The first impression or contact with a seller is particularly important in shaping opinions. In the context of e-commerce, optimizing the homepage or landing pages to highlight pricing can take advantage of the primacy effect. Additionally, starting and ending points in print advertising are most effective for placing ads. It is recommended to begin lists of benefits and unique selling points with the strongest argument. The primacy effect is a powerful factor in decision-making and memory.",
+        "use": "Decision-making, memory, advertising",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/19.webp",
+        "midjourney": "A 3D render of a person forming an opinion based on their first impression, with a strong and impactful color scheme."
+    },
+    {
+        "title": "Recency Effect",
+        "text": "The Recency Effect is the opposite of the Primacy Effect. It states that the last experience or information is better remembered and dominates decision-making. The effect is stronger when information is stored in short-term memory. The Recency Effect is often combined with the Primacy Effect, and both have a high probability of being remembered. Attention, relevance, and trust are some use cases of the Recency Effect. Its power is 8 out of 10. The midjourney prompt for image AI based on this text could be a 3D render of a symbol representing the last impression, with a vibrant color and positive vibe.",
+        "img": "assets/images/ux100/patterns/20.webp"
+    },
+    {
+        "title": "Rhyme-as-Reason Effect",
+        "text": "Rhyme-as-Reason Effect suggests that rhymed statements and aphorisms are perceived as more truthful than unrhymed statements. This effect can be explained by the aesthetic appeal of rhymes and the faster processing of rhymes in the brain. Examples of this effect can be seen in popular slogans and advertisements. Implementing rhymes in e-commerce can enhance attention, relevance, and memory, leading to better decision-making and customer loyalty.",
+        "use": "Enhancing attention, relevance, and memory in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/21.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing the Rhyme-as-Reason Effect, such as a rhyming book or a brain processing rhymes. The color should be vibrant and the vibe should be creative and engaging."
+    },
+    {
+        "title": "Serial Position Effect",
+        "text": "The memory and decision-making process is significantly influenced by the order in which options are presented. Options at the beginning (Primacy Effect) or end (Recency Effect) of a list are most likely to be remembered. Options in the middle are in a difficult position and are not supported by cognitive mechanisms. Memory decreases from the extremes towards the middle. The Serial Position Effect is applied in online advertising, content pages, newsletter marketing, and product listings.",
+        "use": "Decision-making, online advertising, content creation, product listings",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/22.webp",
+        "midjourney": "A 3D render of a list with options at the beginning and end being highlighted, symbolizing the Primacy and Recency Effects. The color should be vibrant and the vibe should be energetic."
+    },
+    {
+        "title": "Story Bias",
+        "text": "Stories are more memorable and engaging than plain facts. They create a sense of logic and meaning, even if the events are unrelated. The use of storytelling in marketing can capture attention and evoke emotions. Companies spend millions on emotional ads during the Superbowl. In e-commerce, using storytelling techniques in product descriptions can be effective. The power of story bias lies in its ability to attract attention, build trust, and influence decision-making.",
+        "use": "Marketing, advertising, content creation",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/23.webp",
+        "midjourney": "A 3D render of a book with vibrant colors and a warm, inviting vibe."
+    },
+    {
+        "title": "Von Restorff Effect",
+        "text": "Surprising content is remembered better and captures attention more than uniform content. The effect can be applied to texts, images, products, or communication messages. The Von Restorff Effect can be used for attention, decision-making, customer loyalty, and implementation in e-commerce. It can be used in language, call-to-actions, physical product experience, and advertising placement. It can also reduce bounce rate and create memorable websites.",
+        "use": "Attention, decision-making, customer loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/24.webp",
+        "midjourney": "A 3D render of a brightly colored, unique object that stands out from its surroundings, representing the Von Restorff Effect."
+    },
+    {
+        "title": "Affektheuristik",
+        "text": "Emotional bias in decision-making replaces rational thinking with feelings. It leads to systematic misjudgment of probabilities. People often deny emotional bias and rationalize their decisions. In e-commerce, emotions can be used to influence users. Appeals to childhood memories and positive emotions can be more effective than rational arguments. Low risk and high benefit can both be emphasized in the affect heuristic.",
+        "use": "decision-making, e-commerce, advertising",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/25.webp",
+        "midjourney": "A 3D render of a simple object representing emotions, such as a colorful heart symbol, with a positive and vibrant vibe."
+    },
+    {
+        "title": "Ambiguity Aversion",
+        "text": "People tend to avoid decisions when there is a lack of information or ambiguity. This leads to suboptimal choices based on known probabilities, as we try to avoid uncertainties. Similar to loss aversion. Experiment: Participants choose between two containers of balls, one with known proportions of red and green balls, and the other with unknown proportions. Most people choose the first container for perceived predictability and safety.",
+        "use": "Decision-making, attention, trust, implementation in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/26.webp",
+        "midjourney": "A 3D render of two containers, one with known proportions and the other with unknown proportions. The known container should be depicted in a more predictable and secure manner, while the unknown container should convey uncertainty and ambiguity. Colors: red and green. Vibe: contrasting feelings of predictability and uncertainty."
+    },
+    {
+        "title": "Authenticity",
+        "text": "Authenticity is valued in human interactions as it fosters trust and openness. In the digital realm, authenticity is perceived as rare and allows for selective self-presentation. The importance of authenticity in advertising and digital communication is emphasized, with the example of Dove's successful \"Natural Beauty\" campaign. Authentic photos are more persuasive but should also meet aesthetic standards.",
+        "use": "Building trust, Effective advertising, Selective self-presentation",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/27.webp",
+        "midjourney": "A 3D render of a genuine smile in a vibrant color, conveying a positive and trustworthy vibe."
+    },
+    {
+        "title": "Authority",
+        "text": "People tend to trust authorities. Authority is taught to us from childhood through respect and obedience to parents, teachers, police, etc. Authority can take many forms: expertise, experience, popularity, uniforms, titles, wealth, physical characteristics, or self-confidence. We use the authority principle as a heuristic because we cannot evaluate all information regarding the trustworthiness of its source. The Milgram experiments demonstrate the effectiveness of authority. Attention, trust, decision-making, customer loyalty, and implementation in e-commerce are influenced by authority. Trust can be established through expert status, recommendations from recognized experts, and the use of authority figures in advertising. Trust can also be influenced by seals of approval from neutral testing institutes and media mentions. The effectiveness of authority is supported by studies and can be explained by the loss of context information and the mere exposure effect.",
+        "use": "Decision-making, customer loyalty, implementation in e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/28.webp",
+        "midjourney": "A 3D render of a seal of approval symbol in a neutral color, representing trust and authority."
+    },
+    {
+        "title": "Bandwagon Effect",
+        "text": "People are more inclined to buy a product if others have already bought it. It is a cognitive bias based on the popularity of a product in the peer group and the desire for group conformity and belonging. The Bandwagon Effect can be explained evolutionarily as humans learn by observing others. It is summarized as \"If everyone has it, I want it too.\"",
+        "use": "Marketing, consumer behavior, social influence",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/29.webp",
+        "midjourney": "A 3D render of a crowd of people following a leader, symbolizing the Bandwagon Effect. The color should be vibrant and energetic to represent the desire to belong and conform."
+    },
+    {
+        "title": "Cheerleader Effect",
+        "text": "Individuals in a group are perceived as more attractive than when alone. Unattractive features are balanced by complementary features of others. Group size, duration, and context do not affect the effect. Implement in e-commerce: present products and testimonials in a group, preferably homogeneous. Use: attention, decision-making, trust. Power: 8. Midjourney: 3D render of a group of people with average facial features, friendly vibe.",
+        "use": "attention, decision-making, trust",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/30.webp",
+        "midjourney": "3D render of a group of people with average facial features, friendly vibe, color: vibrant and energetic"
+    },
+    {
+        "title": "Equality Attraction",
+        "text": "Interacting with someone who has the same name as us increases our willingness to interact significantly. Similar effects can be observed with similarities in birthday or hometown. This can be explained by the Mere Exposure Effect, where familiarity with similar names leads to increased trust. The effect is stronger in women. However, the effect has mainly been observed in the Anglo-American culture, and may be less effective in Central Europe due to a more distant customer approach. Personalization approaches in e-commerce can implement this effect, but testing is recommended to avoid negative reactions.",
+        "use": "Increase interaction and trust, personalize e-commerce experiences",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/31.webp",
+        "midjourney": "A 3D render of two people with the same name shaking hands, symbolizing trust and connection. Colors: warm tones, friendly vibe."
+    },
+    {
+        "title": "In-Group Bias",
+        "text": "People feel safer and more comfortable in social groups and tend to perceive their own group as superior. In-group bias can lead to favoring the opinions of group members, regardless of their competence. Experiments have shown how quickly social groups form and the power they hold. In the context of e-commerce, in-group bias can be utilized by targeting brand-loyal customers and creating a sense of belonging through shared ownership of products. Testimonials from members of the target group can also be effective in establishing this sense of belonging.",
+        "use": "Attention, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/32.webp",
+        "midjourney": "A 3D render of a group of people holding hands, symbolizing the sense of belonging and unity. Color: warm tones. Vibe: inclusive and supportive."
+    },
+    {
+        "title": "Liking",
+        "text": "We are more easily convinced by people we like and find sympathetic. There are four approaches to generating sympathy: similarity, attractiveness/familiarity, contact/cooperation, and praise/recognition. These mechanisms are difficult to resist, even when we are aware of the other person's motives. Attention, decision-making, trust, and customer loyalty are influenced by liking. In e-commerce, building a friendly relationship with customers is important. Showing the people behind the platform or shop and emphasizing shared goals can help establish affection. Making e-commerce brands tangible in real life through events and emphasizing shared goals can also be effective.",
+        "use": "Building customer relationships, influencing decision-making, increasing trust and loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/33.webp",
+        "midjourney": "A 3D render of a handshake symbolizing friendship and trust, with warm colors and a welcoming vibe."
+    },
+    {
+        "title": "Mere Exposure Effect",
+        "text": "The Mere Exposure Effect states that we are more likely to perceive information that we have encountered frequently in the past as true. The repetition of messages creates familiarity and reduces perceived decision risk. The binding hormone dopamine is responsible for this effect. The decision based on familiarity can be neurologically proven. However, relying on familiarity can be misleading. The effect can be applied in marketing through retargeting and using familiar faces or testimonials. Attention, trust, and decision-making are influenced by the Mere Exposure Effect.",
+        "use": "Marketing, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/34.webp",
+        "midjourney": "A 3D render of a familiar object in a vibrant color, representing the concept of familiarity and trust."
+    },
+    {
+        "title": "Smalltalk-Technik",
+        "text": "Smalltalk is a technique that involves starting a conversation off-topic before getting to the main point. It can be used in various contact channels to prevent immediate rejection and activate a friendly interaction script. Implementing Smalltalk in e-commerce can help with attention, decision-making, customer loyalty, and trust. It can be used in phone calls, chats, or even with chatbots. Personalizing the interaction by introducing a staff member and sharing personal information can enhance the effect.",
+        "use": "Conversion optimization, Usability in E-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/35.webp",
+        "midjourney": "A 3D render of a friendly chat bubble in a warm color, conveying a friendly and approachable vibe."
+    },
+    {
+        "title": "Social Proof",
+        "text": "When we are unsure how to make a decision, we look to the actions of others. This reduces the perceived risk of our own decision. Social proof can be implemented in e-commerce through individual testimonials, collective appreciation, and institutional endorsements. The placement of social proof elements should be near the call-to-action and product presentation. The effectiveness of social proof is based on trust.",
+        "use": "Increase trust, influence decision-making, improve customer loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/36.webp",
+        "midjourney": "A 3D render of a thumbs-up gesture in green color, representing positive social proof and trustworthiness."
+    },
+    {
+        "title": "Trust Bias",
+        "text": "Trust is crucial in the customer journey, especially in online shopping. In Germany, trust-building elements are particularly important due to the cautiousness of online users. Trust elements are important in online advertising, start and product pages, and the order process. Trust also plays a role in building sustainable customer relationships. Trust can be built by reducing stress and cognitive effort. Trust has multiple dimensions: perceived competence, integrity, and benevolence. Trust-building elements in e-commerce include trust seals, social and environmental engagement, and technical trust marketing.",
+        "use": "Building trust in online shopping, optimizing conversion, building customer relationships",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/37.webp",
+        "midjourney": "A 3D render of a trust seal symbol in green color, representing trust and reliability."
+    },
+    {
+        "title": "Aesthetics Heuristic",
+        "text": "Good visual design significantly increases the perceived persuasiveness of functional aspects of products. Aesthetic products are described as more exciting and lead to increased pride in ownership. Aesthetics serves as a substitute for functional benefits. Payment willingness also increases. Aesthetics is a fluid concept that requires continuous adaptation to the current zeitgeist. There are universal standards for beauty, such as symmetrical and average faces with curvy contours. High-quality web design is important for product evaluation and desirability in e-commerce. Symmetry is crucial for aesthetic perception. Following universal aesthetic standards in image selection is recommended.",
+        "use": "Product evaluation, decision-making, trust, customer satisfaction, loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/38.webp",
+        "midjourney": "A 3D render of a symmetrical and curvy object in blue color with a mystical aspect, representing universal beauty standards."
+    },
+    {
+        "title": "Curse of Knowledge",
+        "text": "The \"Curse of Knowledge\" is a cognitive bias that makes it difficult for knowledgeable people to consider a topic from the perspective of someone with less information. This leads to concepts and ideas not being clearly explained. It affects E-commerce professionals and can hinder customer-oriented design. Testing new products with users before release and understanding their level of information is important. Product names should be catchy and self-explanatory. In B2B, where multiple people are involved in decision-making, the curse of knowledge is crucial.",
+        "use": "E-commerce design, product testing, understanding user information level",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/39.webp",
+        "midjourney": "A 3D render of a person with a heavy backpack symbolizing the burden of knowledge. The color should be dark and the vibe should be heavy and overwhelming."
+    },
+    {
+        "title": "Decoy Effect",
+        "text": "The Decoy Effect refers to the phenomenon where people struggle to choose between options A and B, but when a third \"asymmetrically dominated option\" C is added, the decision becomes easier. This effect is observed in various scenarios, such as car purchases. The addition of option C makes option B appear significantly better, leading to its selection. The Decoy Effect can be used in marketing and decision-making processes. It should be noted that the number of comparison options should not exceed five. The Decoy Effect can be implemented in e-commerce through product comparison tables and property viewings.",
+        "use": "Marketing, decision-making",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/40.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing the Decoy Effect. Color: Blue. Vibe: Clever and persuasive."
+    },
+    {
+        "title": "Extremeness Aversion",
+        "text": "In situations of uncertainty, people tend to avoid extreme decision alternatives and prefer a compromise. The middle alternative is often chosen as a compromise with sufficient quality and acceptable price. The premium product serves as a reference value for the decision and emphasizes the advantages of the middle alternative. The use of extremeness aversion is possible in any decision-making process involving a comparison of alternatives, particularly when the premium product is only slightly better but disproportionately more expensive. Typical applications include product comparison tables, product finder tools, and contract levels. The product portfolio should not be optimized solely based on the sales figures of individual products, but also consider demand shifts. Highlighting the middle product graphically can further enhance the effect of extremeness aversion and increase the likelihood of customers following the recommendation.",
+        "use": "Product comparison, product finder, contract levels",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/41.webp",
+        "midjourney": "Pure prompt for image AI based on text. Should be a 3D render of a product comparison table with the middle product highlighted in a vibrant color to evoke attention and loss aversion."
+    },
+    {
+        "title": "Framing",
+        "text": "Framing is the idea that the formulation of a problem influences decision-making, even with identical logical statements. Positive framing is activating, while negative framing is inhibiting. Positive framing is more effective because it triggers positive thoughts and creates a mental synergy with the message sender. Examples include attributive framing (e.g. 75% fat-free margarine) and action framing (e.g. promoting preventive examinations). Framing is important in attention, decision-making, trust, product evaluation, and customer loyalty in e-commerce. Language, strong retailer brands, and out-of-stock messaging can be used for effective framing. It is recommended to examine and optimize framing effects on websites to increase conversion potential.",
+        "use": "Attention, decision-making, trust, product evaluation, customer loyalty in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/42.webp",
+        "midjourney": "A 3D render of a symbol representing framing, with a positive and activating color and vibe."
+    },
+    {
+        "title": "Having vs. Using Effect",
+        "text": "People tend to prefer things that offer a wide range of functions, regardless of whether they actually use them. This effect explains the popularity of mobile phone contracts over prepaid offers. The more complex the functions and the less knowledge one has in the product category, the stronger the effect. It reflects materialism and consumerism in society. In e-commerce, highlighting the number of functions or the superiority of a product can trigger the preference for premium products.",
+        "use": "Product evaluation, decision-making, implementation in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/43.webp",
+        "midjourney": "A 3D render of a smartphone with multiple apps and features, in vibrant colors and a modern vibe."
+    },
+    {
+        "title": "Inner Dialogue",
+        "text": "People are constantly engaged in an inner dialogue similar to self-talk. The inner dialogue plays a crucial role in forming intentions and can be influenced by negative or positive framing. Steering the inner dialogue can be an effective conversion tool. In e-commerce, asking users questions, addressing FAQs, describing scenarios, and providing positive reinforcement can enhance the inner dialogue and lead to conversion. Language should be in the present tense and avoid uncertainty-inducing words. Clear instructions stimulate focused inner dialogues.",
+        "use": "Conversion optimization, E-commerce, Communication",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/44.webp",
+        "midjourney": "A 3D render of a thought bubble in a vibrant color, representing the inner dialogue process. The vibe should be energetic and positive."
+    },
+    {
+        "title": "Neomanie",
+        "text": "Neomanie is the preference for things solely based on their novelty. It is considered a negative cognitive bias and can be seen in the product policies of large manufacturers. In e-commerce, the attribute of \"new\" is effective in activating early adopters and trendsetters. Framing a product as \"new\" can also increase willingness to pay. However, some companies exploit this by marketing pseudo-innovations instead of genuine ones. Emphasizing the longevity and durability of products is becoming important in the sustainability era.",
+        "use": "Product marketing, consumer behavior, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/44.webp",
+        "midjourney": "A 3D render of a symbol representing novelty, such as a shiny, futuristic object in vibrant colors."
+    },
+    {
+        "title": "Not-Invented-Here Syndrome",
+        "text": "The Not-Invented-Here Syndrome refers to the tendency to dismiss ideas or solutions that were not generated within one's own peer group. This mindset can hinder innovation and lead to a competitive disadvantage. It is rooted in skepticism towards the unfamiliar and is fueled by vanity, status thinking, ignorance, protectionism, self-interest, and indecisiveness. In the context of e-commerce, it can lead to overestimating the value of in-house solutions and ignoring ideas from other departments. Breaking this pattern requires a focus on company culture and incentivizing idea implementation over generation. Incorporating patriotism and local identity in product presentation can also be effective in a globalized e-commerce landscape. The Not-Invented-Here Syndrome can have a significant impact on decision-making and customer loyalty.",
+        "use": "Decision-making, innovation, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/45.webp",
+        "midjourney": "A 3D render of a closed door symbolizing the rejection of external ideas. The color should be dark and the vibe should be exclusive and closed-minded."
+    },
+    {
+        "title": "Ockhams Rasiermesser",
+        "text": "The principle of Occam's Razor, also known as the principle of parsimony, states that the simplest explanation for a phenomenon is likely the correct one. This principle has been applied in various fields, including hypothesis selection, theoretical modeling, and literature. It emphasizes focusing on the essential and logical aspects. In the context of e-commerce, it suggests eliminating irrelevant content and focusing on conversion goals. The principle is also related to other concepts such as the 80/20 principle and the law of diminishing marginal utility.",
+        "use": "Hypothesis selection, theoretical modeling, literature, e-commerce content optimization",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/46.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing simplicity and focus, such as a razor or a magnifying glass, in a minimalist style with a clean and sharp design."
+    },
+    {
+        "title": "Paradox of Choice",
+        "text": "Having more choices does not lead to better decisions; it increases uncertainty and anxiety. The Paradox of Choice states that with many options, we either make no decision or one that we will not be satisfied with. This is a challenge for online shops with a large assortment of products. To address this, the assortment should be organized into smaller categories, reduce the number of products on the homepage, provide product comparison tables, offer checkbox selection and comparison, and use filters and sorting algorithms to reduce options.",
+        "use": "E-commerce, decision-making, customer satisfaction",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/47.webp",
+        "midjourney": "A 3D render of a person surrounded by a multitude of objects, symbolizing the overwhelming choices, in a color scheme that conveys uncertainty and anxiety."
+    },
+    {
+        "title": "Price-Quality-Illusion",
+        "text": "The perceived value of a product is not only based on its primary attributes but also on expectations regarding its quality. Price plays a crucial role in influencing the perceived value without affecting the perception of primary attributes. In an experiment, participants rated the same wine higher when it had a higher price. The expectation of a better wine activated different brain regions, influencing the actual experienced value. Customers subconsciously rely on the price-quality illusion, even though they claim not to believe in a stable relationship between price and quality. This pattern can be utilized in e-commerce by adjusting product attributes like price to increase perceived value. The effect of the price-quality illusion varies and is influenced by customer learning processes. Providers should consider price elasticity in designing triggers.",
+        "use": "pricing strategies, consumer behavior, marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/48.webp",
+        "midjourney": "A 3D render of a wine bottle with a higher price tag compared to others, symbolizing the price-quality illusion. The color should be elegant and sophisticated, with a luxurious vibe."
+    },
+    {
+        "title": "Time vs. Money Effect",
+        "text": "The Time vs. Money Effect describes how people make their purchasing decisions and subsequent satisfaction based on whether a product is promoted with time or price-oriented arguments. Products defined by time-related factors perform significantly better than those defined by price. Time creates a positive emotional connection between the customer and the product, while money focuses on the transactional aspect. The effect is also effective because time is less replaceable than money. However, for products that primarily define their value through ownership, the effect is reversed. The effect can be used in e-commerce to stimulate preferences beyond financial arguments and can be a way to escape price pressure. Instead of relying on financial benefits, the time saved by using a product can be used as a convincing argument. The effect can also support fast conversion lanes such as express check-out or 1-click order.",
+        "use": "Marketing, pricing strategies, e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/49.webp",
+        "midjourney": "A 3D render of a clock symbolizing time, with a vibrant color and a dynamic vibe."
+    },
+    {
+        "title": "WYSIATI Effect",
+        "text": "People make decisions based on the information available to them, often leading to hasty or incorrect conclusions. This is known as the WYSIATI (What You See Is All There Is) effect. It is a form of attention illusion where we believe we are not missing anything when we only focus on a part of the available information. System 1, our intuitive thinking, is insensitive to the quality and quantity of information, leading to potential biases. The WYSIATI effect explains phenomena such as framing, overconfidence, and the base rate fallacy. In the context of e-commerce, it is recommended to critically assess whether users can make meaningful decisions based on their core target groups/personas to reduce return rates.",
+        "use": "Decision-making, cognitive biases, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/50.webp",
+        "midjourney": "A 3D render of a magnifying glass symbolizing attention and focus. The color should be vibrant and energetic, representing the importance of being attentive to available information."
+    },
+    {
+        "title": "Anchoring",
+        "text": "Anchoring is a cognitive bias where a perceived value is used as a reference point, influencing subsequent judgments. It was first demonstrated in an experiment using a manipulated spinning wheel. The anchor value significantly affected participants' estimations. Anchoring can be implemented in e-commerce by strategically placing high-value items, displaying previous prices before current prices, and showing limited quantities per person. It is a powerful effect that is difficult to overcome even with financial incentives or awareness of the bias.",
+        "use": "Pricing strategies, decision-making, customer satisfaction and loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/51.webp",
+        "midjourney": "A 3D render of an anchor symbol in a bold and contrasting color, representing the concept of anchoring in decision-making."
+    },
+    {
+        "title": "Charm Price Effect",
+        "text": "Prices ending in \"9\" are perceived as cheaper than rounded prices, but only if the first digit of the price changes when increased by one cent. This effect is observed in functional purchases, while rounded prices work better for hedonistic purchases. The phenomenon can be explained by the way our brain processes numbers and by the association between 99 prices and a perception of affordability. In e-commerce, broken 99 prices should be used for non-hedonistic products, while rounded prices are better for discounts and vouchers.",
+        "use": "pricing strategies, consumer behavior, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/52.webp",
+        "midjourney": "A 3D render of a price tag with the number 9 at the end, symbolizing the Charm Price Effect. The color should be vibrant and eye-catching, with a positive and affordable vibe."
+    },
+    {
+        "title": "Dollar Eyes Effect",
+        "text": "The sight of money can influence behavior, putting people in a market-oriented decision-making mode. This can lead to less social behavior and increased focus. The thought of money alone can lead to unethical behavior. In e-commerce, money-associated motifs can be used as psychological triggers to enhance customer engagement. However, displaying money without discounts can have a negative impact on shop conversion and altruistic behavior. Currency symbols can trigger the Dollar Eyes Effect, while their omission can lead to more intuitive decision-making.",
+        "use": "Consumer behavior, e-commerce marketing, decision-making",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/53.webp",
+        "midjourney": "A 3D render of a dollar sign symbol in gold color, representing the Dollar Eyes Effect. The vibe should be sleek and attention-grabbing."
+    },
+    {
+        "title": "External Reference",
+        "text": "The Adaptation Level Theory by Helson is an important reference for Kahneman and Tversky's work on Anchoring. It states that when evaluating prices, people subconsciously consider the prices in the surrounding environment as well. These act as an \"External Reference\" or judgment anchor. The price is compared to the surrounding prices and processed accordingly. The environmental information, along with price knowledge from previous purchasing experiences, forms the adaptation level. Higher prices lead to a higher adaptation level and a corresponding higher willingness to pay. This same concept is sometimes described as a separate behavior pattern called \"Context\".",
+        "use": "Pricing evaluation, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/54.webp",
+        "midjourney": "A 3D render of a price tag symbolizing the concept of external reference. The color should be neutral and the vibe should be informative and analytical."
+    },
+    {
+        "title": "House Money Effect",
+        "text": "The House Money Effect refers to the tendency of people to be more willing to take risks with money that they have won or received passively, compared to money that they have earned through hard work. This behavior pattern is often observed in casinos and can also be seen in everyday language with phrases like \"easy come, easy go.\" The effect can be utilized in e-commerce through strategies such as offering gift vouchers or filled accounts to new customers, using virtual currencies in loyalty programs, and providing time-limited surprise discounts to users who are about to abandon their purchase.",
+        "use": "Customer behavior analysis, E-commerce marketing, Risk management",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/55.webp",
+        "midjourney": "A 3D render of a golden coin with a casino chip symbol on one side and a shopping cart symbol on the other side. The coin should have a vibrant and playful color scheme to represent the allure of easy money and the excitement of shopping."
+    },
+    {
+        "title": "Magnitude Priming",
+        "text": "People are influenced by reference values when making judgments. This includes numerical, physical, and visual influences. Numerical expressions are processed and evaluated based on their relative size. In an experiment, participants who drew short lines underestimated the length of the Mississippi compared to those who drew long lines. This demonstrates that visual stimuli can have an anchoring effect similar to numerical values. The main application of this pattern is in price representation, where smaller font sizes, thinner lines, and gray colors can make prices appear less significant. Placing the price at the lower left corner of the page can also enhance this effect. When showing reductions, the strike-through prices should be larger than the new prices. The timing of perceiving the anchor value is crucial for the effectiveness of the anchoring effect.",
+        "use": "Price representation, decision-making",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/56.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing the anchoring effect. The object should be in a neutral color and convey a sense of influence and perception."
+    },
+    {
+        "title": "Money Illusion",
+        "text": "Money Illusion is the cognitive error of not perceiving inflation. It can lead to significant risks in long-term investments and underestimate the impact of inflation. People also perceive money amounts based on their absolute value. The switch to the Euro led to people feeling poorer due to the lower nominal value. This finding should be considered when using the Money Illusion pattern. It can be implemented in e-commerce for pricing and decision-making. The pattern is effective in contract products such as utilities, telecommunications, insurance, and financial services.",
+        "use": "Pricing, decision-making, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/57.webp",
+        "midjourney": "A 3D render of a shrinking money symbol in red color to represent the devaluation caused by inflation."
+    },
+    {
+        "title": "Pennies-a-day Effect",
+        "text": "Prices of contract products are sometimes communicated on a smaller basis, such as a daily price instead of a yearly price. This strategy has been found to be effective in experiments and can improve price perception. However, it may not work well for products with low daily utility. It is recommended to carefully examine the effect and use suitable measurement methods.",
+        "use": "Pricing strategy, decision-making, customer retention",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/58.webp",
+        "midjourney": "A 3D render of a small coin symbolizing the \"pennies-a-day\" strategy. The color should be vibrant and the vibe should be positive and enticing."
+    },
+    {
+        "title": "Precision Heuristic",
+        "text": "The Precision Heuristic suggests that our perception of a product or price is influenced by the specific price value. People are more willing to pay for a product with a precise price. This effect was observed in a study on real estate transactions. The effect is stronger when the price includes the digits 1, 2, or 3. A precise price is seen as a signal of credibility and reduces the perception of negotiation. The effect is independent of the absolute price. The Precision Heuristic can be implemented in e-commerce to enhance price communication and attract attention. It is effective in limited-time offers and can be used in verbal communication. The effect of precise prices in other contexts, such as quantity indications, is still being explored. In emotional purchase decisions, using round prices may be more beneficial to maintain the flow of the user.",
+        "use": "Pricing strategies, e-commerce, marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/59.webp",
+        "midjourney": "A 3D render of a price tag with precise digits (e.g., 1, 2, or 3) in a vibrant color like blue or green. The vibe should be modern and trustworthy."
+    },
+    {
+        "title": "Rule of Hundred",
+        "text": "Proportional discounts are more effective for products under 100$, while absolute discounts are more effective for products over 100$. In e-commerce, discounts should be expressed as a percentage for cheaper products and as an absolute amount for more expensive products.",
+        "use": "Pricing strategies, E-commerce marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/60.webp",
+        "midjourney": "A 3D render of a price tag with the text \"25% off\" in bold letters, in a vibrant color like red or orange, to convey a sense of urgency and excitement."
+    },
+    {
+        "title": "Smart Syllabication",
+        "text": "The number of syllables in a price affects the perception of its height. The more syllables a price has, the higher it is perceived. The brain processes numbers in an auditory-linguistic format, and visual stimuli are translated and \"read\" in the brain. The longer the processing time or the more resources consumed, the higher the perceived price. The same effect occurs when the thousand separator is removed from a four-digit price. Implementation in e-commerce requires testing and further investigation.",
+        "use": "Pricing strategies, e-commerce optimization, consumer psychology",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/61.webp",
+        "midjourney": "A 3D render of a price tag with multiple syllables, symbolizing higher perceived price. Color: Red. Vibe: Expensive and luxurious."
+    },
+    {
+        "title": "Zero Price Effect",
+        "text": "When a product is free, it is more attractive than if it were slightly more expensive. People are willing to choose a lower quality free product over a higher quality one that costs a small amount. This effect is stronger for hedonic goods that bring joy or pleasure. The effect is driven by the absence of disadvantages and the reduction of stress and cognitive resources. It can be implemented in e-commerce through freemium models, separating components of the price, customer loyalty programs, and free giveaways. It can also be used to discourage unwanted behavior by imposing small penalties.",
+        "use": "Pricing strategies, customer loyalty programs, discouraging unwanted behavior",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/62.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing the zero price effect. The object should be colorful and have a positive vibe."
+    },
+    {
+        "title": "Zero Risk Bias",
+        "text": "We tend to overvalue the complete elimination of a risk compared to a reduction of the same risk that is not reduced to zero. This bias is evident in an experiment where customers were willing to pay more for products with zero risk compared to products with a small remaining risk. The zero risk bias is commonly observed in decisions related to health, safety, and the environment. In e-commerce, it is important to present offers as low-risk to attract customers.",
+        "use": "Decision-making, risk evaluation, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/63.webp",
+        "midjourney": "A 3D render of a green checkmark symbolizing zero risk, with a clean and trustworthy vibe."
+    },
+    {
+        "title": "Base Rate Fallacy",
+        "text": "We often make decisions without considering base rates, estimating probabilities independently of the prevalence of a characteristic in the population. This can lead to fallacious judgments, as demonstrated by Tversky and Kahneman with an example involving taxis. The base rate fallacy can be addressed using the Bayes formula. System 1 thinking and the recency effect contribute to this cognitive bias. Attention, decision-making, and customer loyalty are affected by the base rate fallacy. In e-commerce, manipulating the presentation of statistics can exploit this bias. Positive associations are enhanced by emphasizing a higher reference group, while negative associations are diminished by emphasizing a smaller base rate.",
+        "use": "Decision-making, cognitive biases, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/64.webp",
+        "midjourney": "A 3D render of a taxi with a mix of green and blue colors, representing the base rate fallacy. The vibe should be thought-provoking and visually striking."
+    },
+    {
+        "title": "Belief Bias",
+        "text": "Belief Bias describes the tendency of people to believe information rather than doubt it, without considering the authenticity and validity of the source. Arguments are evaluated based on their plausibility rather than their truthfulness. The belief bias can lead to confirmation bias and the acceptance of information that aligns with one's own beliefs. It can be used in decision-making and persuasion in e-commerce, but caution should be exercised to avoid misleading users. It is recommended to use the belief bias temporarily while the validity of arguments is being established.",
+        "use": "Decision-making, persuasion in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/65.webp",
+        "midjourney": "A 3D render of a symbol representing belief, such as a glowing lightbulb in a warm yellow color, to evoke trust and credibility."
+    },
+    {
+        "title": "Black-and-White Fallacy",
+        "text": "When describing possible solutions, only extreme options are mentioned, ignoring the gray areas. This is due to the availability heuristic, where extreme positions receive more attention than the \"normal\" positions in between. This fallacy is often used to create persuasion and decision-making power. It is implemented in e-commerce through product positioning and marketing strategies. The pattern can be effective in generating preference for a product by presenting two contrasting options and highlighting the negative consequences of the alternative.",
+        "use": "Persuasion, decision-making, marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/66.webp",
+        "midjourney": "A 3D render of a scale with extreme options on each end, symbolizing the black-and-white fallacy. The scale should be in contrasting colors, such as black and white, to emphasize the dichotomy."
+    },
+    {
+        "title": "Disrupt-then-Reframe",
+        "text": "The Disrupt-then-Reframe pattern can be summarized as \"Confuse first, then explain\". It aims to engage the conscious mind with confusing and unexpected content, allowing the subconscious mind to take over. This technique requires the disruption, reframing, and suggestive elements to be effective. It has been used in various contexts, including e-commerce and marketing. However, it should be used carefully to avoid negative impacts.",
+        "use": "Marketing, persuasion, decision-making",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/67.webp",
+        "midjourney": "A 3D render of a puzzle piece with vibrant colors and a playful vibe."
+    },
+    {
+        "title": "Door-in-the-Face-Technik",
+        "text": "The Door-in-the-Face technique involves making a large initial request that is likely to be rejected, followed by a smaller request that is more likely to be accepted. This technique takes advantage of the recipient's guilt and perception of the second request as a cooperative gesture. It also uses the first request as an anchor, making the second request seem more reasonable. However, there is a risk of damaging the relationship between the parties involved. This technique can be used in various contexts, such as e-commerce and magazine subscriptions.",
+        "use": "Influence decision-making, trust building, customer retention",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/68.webp",
+        "midjourney": "A 3D render of a door being slammed in someone's face, symbolizing the rejection and potential negative impact of the technique. The color should be bold and vibrant to capture attention."
+    },
+    {
+        "title": "Evoking Freedom",
+        "text": "The technique of evoking freedom in sales offers or requests is effective in avoiding resistance and creating a sense of friendliness. It has been proven to work in various contexts and is particularly effective in face-to-face interactions. It has also been observed in online communication. This technique can be implemented in e-commerce, such as in fundraising activities or product presentations. The choice of creating a customer account or ordering as a guest is a useful application in the ordering process.",
+        "use": "Sales, fundraising, e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/69.webp",
+        "midjourney": "A 3D render of a person holding a key, symbolizing freedom. The color should be vibrant and energetic, representing the positive impact of evoking freedom in sales."
+    },
+    {
+        "title": "False Consensus",
+        "text": "We tend to overestimate the agreement of others with our opinion, based on the egocentric assumption that everyone thinks, feels, and prefers the same way we do. This leads to a feedback loop that provides us with security in our decision-making. The False Consensus Effect can be explained by the Confirmation Bias, Barnum Effect, and Availability Heuristic. In the context of e-commerce, the False Consensus Effect can be utilized by using the Social Proof Toolbox and targeting individuals with high trust propensity through the Trust Bias Pattern.",
+        "use": "Decision-making, e-commerce, trust building",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/70.webp",
+        "midjourney": "A 3D render of a thumbs-up gesture in green color, representing agreement and confirmation."
+    },
+    {
+        "title": "Foot-in-the-Door-Technik",
+        "text": "The Foot-in-the-Door-Technik involves breaking persuasion efforts into small parts by first asking for a small favor that is difficult to refuse. With the initial agreement, the persuader reveals the actual request later. The technique relies on consistency and the tendency to agree to further favors. It also creates a sense of trust and sympathy, leading to more favors. The technique can be implemented in e-commerce to gradually build customer relationships and encourage purchases.",
+        "use": "Persuasion, customer relationship building, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/71.webp",
+        "midjourney": "A 3D render of a door with a foot sticking out, symbolizing the technique. The color should be inviting and the vibe should be persuasive and friendly."
+    },
+    {
+        "title": "Foot-in-the-Face-Technik",
+        "text": "The Foot-in-the-Face technique is a persuasion method that involves making two medium-sized requests in sequence. It was developed as a less socially explosive alternative to the Door-in-the-Face technique. The technique has been found to increase compliance, but its effectiveness is lower compared to the Foot-in-the-Door and Door-in-the-Face techniques. It can be used in situations where the other techniques are not applicable.",
+        "use": "Influence decision-making, trust, product evaluation, cross-/upselling, customer loyalty",
+        "power": "6",
+        "img": "assets/images/ux100/patterns/72.webp",
+        "midjourney": "A 3D render of a foot stepping on a door, symbolizing the Foot-in-the-Face technique. The color should be bold and vibrant, representing assertiveness and persuasion."
+    },
+    {
+        "title": "Hyperbolic Discounting",
+        "text": "People value events inconsistently depending on the current time. They are impatient in the short term but patient in the long term. This phenomenon is known as hyperbolic discounting. It explains why people struggle to stick to diets and make impulsive decisions. In e-commerce, offering immediate rewards and fast shipping options can leverage hyperbolic discounting.",
+        "use": "Decision-making, E-commerce, Behavioral economics",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/73.webp",
+        "midjourney": "A 3D render of a person choosing between a small reward now and a larger reward later. The color should be vibrant and the vibe should be energetic."
+    },
+    {
+        "title": "Mere Agreement",
+        "text": "Agreeing to a series of questions, even if they are insignificant or obvious, creates a feeling of similarity and rapport with the questioner, making us more helpful and willing to make a purchase. This effect is based on the Liking Pattern. The Foot-in-the-Door Technique suggests that even questions answered with \"No\" can have this effect, but the effect is even stronger with a series of \"Yes\" answers (Mere Agreement) due to the consistency pattern. This pattern can be implemented in e-commerce through intuitive statements on product pages or in newsletters, leading to increased click rates on the call-to-action button. It is also effective in personal sales conversations and can be replicated in e-commerce through chat interactions with a chatbot.",
+        "use": "Sales, customer engagement, e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/74.webp",
+        "midjourney": "A 3D render of a thumbs-up gesture in a vibrant green color, representing agreement and positivity."
+    },
+    {
+        "title": "Money Omission",
+        "text": "Monetary and social incentivization work differently and are not combinable. Monetary incentives are based on System 2 and can override social behavior patterns. Experiment shows that offering money decreases social behavior. In e-commerce, emphasizing the monetary value of a gift is not effective. Financial incentives for customer reviews are not effective, appeals to altruism and social values work better.",
+        "use": "Marketing, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/75.webp",
+        "midjourney": "A 3D render of a gift box with a question mark symbolizing the surprise of a gift, in vibrant colors and a joyful vibe."
+    },
+    {
+        "title": "Reaktanz",
+        "text": "Reaktanz is a psychological defense strategy that occurs when people feel pressured to perform a certain action. It is a reaction to the attempt to limit personal freedom and often manifests as an immediate rejection. Reaktanz is an important behavior pattern in motivating people to take a specific action, highlighting the limits of influence and the need to consider customer needs in conversion optimization. In e-commerce, offering multiple choices and allowing critical customer reviews can help mitigate reaktanz.",
+        "use": "Conversion optimization, behavior patterns, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/76.webp",
+        "midjourney": "A 3D render of a person breaking free from chains, symbolizing the regaining of freedom. The color should be vibrant and energetic, representing the liberation from constraints."
+    },
+    {
+        "title": "That's-Not-All-Technik",
+        "text": "The That's-Not-All-Technik is a persuasion technique that involves presenting a high-priced offer which is then gradually improved upon to build acceptance. It triggers the reciprocity norm and the contrast effect. It can be implemented in e-commerce through differently communicated price reductions or by expanding the product/service offering. This technique can also be applied in the insurance context to build products from the top line downwards, offering rewards instead of punishments.",
+        "use": "Sales, marketing, negotiation",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/77.webp",
+        "midjourney": "A 3D render of a product being gradually improved upon, starting from a basic version and adding features/colors to represent the That's-Not-All-Technik. Vibrant colors and a positive vibe should be used."
+    },
+    {
+        "title": "Unity",
+        "text": "Unity is the overlap of identity characteristics that creates a sense of group belonging and influences persuasion. It is stronger when there are more overlapping characteristics. Unity can be used in influencer marketing, language usage, and customer co-creation. It can lead to filter bubbles and conflicts, and has been associated with the rise of populist parties. Unity is a powerful persuasion principle.",
+        "use": "Influencer marketing, language usage, customer co-creation",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/78.webp",
+        "midjourney": "A 3D render of a group of people holding hands, symbolizing unity. The color should be warm and inviting, with a friendly vibe."
+    },
+    {
+        "title": "Zeitinkonsistenz",
+        "text": "People evaluate time periods differently when it comes to decisions of sacrifice or purchase. Short-term temptations often outweigh long-term goals, leading to inconsistent decisions. This can be explained by different interest rates demanded for different behaviors. Impulsive influences such as hunger or pain also affect decision-making. The Marshmallow Test illustrates this effect. People tend to make irrational decisions for small amounts, while larger sums activate a more realistic thought process.",
+        "use": "Decision-making, behavioral economics, marketing",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/79.webp",
+        "midjourney": "A 3D render of a person torn between a couch and a gym, with contrasting colors representing short-term temptation and long-term goals."
+    },
+    {
+        "title": "Autonomy Bias",
+        "text": "The Autonomy Bias is based on the Self-Determination Theory, which states that motivation depends on the satisfaction of the psychological needs for competence, social inclusion, and autonomy. Autonomy is the innate need to make our own decisions and implement them. It is used in management and marketing to increase intrinsic motivation. However, too much autonomy can lead to feeling overwhelmed. In e-commerce, it can be implemented by emphasizing decision-making freedom and avoiding blatant attempts at influence.",
+        "use": "Management, marketing, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/80.webp",
+        "midjourney": "A 3D render of a symbolic object representing autonomy, with a vibrant color and a sense of freedom."
+    },
+    {
+        "title": "Cognitive Ease",
+        "text": "Cognitive Ease is a state in which tasks feel easy and manageable. It is associated with intuitive decision-making and heuristic-based judgments. Factors that contribute to cognitive ease include task simplicity, familiarity, priming, and positive mood. Cognitive ease affects the level of effort and time invested in a task. When cognitive ease decreases, System 2 is activated, leading to more rational and critical thinking. Maintaining high levels of cognitive ease is desirable for users as it makes them more receptive to behavior patterns.",
+        "use": "Decision-making, user experience design, website optimization",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/81.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing cognitive ease. The object should be in a calming color like blue or green, with a relaxed and positive vibe."
+    },
+    {
+        "title": "Halo Effect",
+        "text": "The Halo Effect describes how a dominant characteristic can overshadow the perception of other characteristics. It can have positive or negative effects and is used in decision-making and customer loyalty. In e-commerce, it can be used to create spill-over effects and companies can strategically search for positive aspects to create a halo effect. Good examples are Red Bull and Nespresso. Good-looking people can also be shown on websites to increase credibility, as long as it aligns with the authenticity pattern.",
+        "use": "Decision-making, customer loyalty, e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/82.webp",
+        "midjourney": "A 3D render of a halo symbol in a vibrant color, representing the dominant characteristic overshadowing others."
+    },
+    {
+        "title": "Hick's Law",
+        "text": "The number of choices available affects reaction time. More options require more cognitive resources and time. The reaction time increases by 150 ms with a doubling of choices. This applies to both intuitive and deliberate decision-making. Hick's Law is used as an intelligence test. However, it has limited applicability in complex decision-making processes. It is a fundamental principle in user experience optimization and is used in the KISS principle. Breaking down processes into smaller units improves decision-making. The effectiveness of Hick's Law is rated 5.5.",
+        "use": "User experience optimization, intelligence testing, decision-making",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/83.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing decision-making, with a calm color and professional vibe."
+    },
+    {
+        "title": "Hobson's +1 Choice Effect",
+        "text": "The Hobson's +1 Choice Effect adds a second option to a decision space, which can improve decision-making when there are fewer options. It leverages the fact that our attention is divided between evaluating two options, giving less attention to the default option. In e-commerce, this effect can be implemented by offering two call-to-action buttons with different labels but the same link destination, or by providing a \"Save\" or wishlist function as an alternative to the purchase button.",
+        "use": "Improving decision-making in e-commerce, increasing conversion rates",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/84.webp",
+        "midjourney": "A 3D render of two buttons with different labels but the same link destination, symbolizing the Hobson's +1 Choice Effect. The buttons should have contrasting colors to highlight the different options, with a modern and dynamic vibe."
+    },
+    {
+        "title": "Loss Aversion",
+        "text": "Loss aversion is a behavioral bias where people feel the pain of losing something twice as much as the joy of gaining something. It leads to irrational decision-making in uncertain situations. This bias also contributes to the sunk-cost fallacy. In e-commerce, loss aversion can be used to increase attention, trust, and customer loyalty through limited-time offers, communicating scarcity, offering flat-rate shipping, preselecting higher-priced products, and hiding the coupon code field.",
+        "use": "Increase attention, trust, and customer loyalty in e-commerce",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/85.webp",
+        "midjourney": "A 3D render of a scale with a heavier weight on the loss side, symbolizing the higher perceived value of losses compared to gains. The color should be a mix of red and blue to represent both pain and uncertainty."
+    },
+    {
+        "title": "Mental Accounting",
+        "text": "People categorize financial transactions into mental accounts, making decisions based on the influences within each account. The allocation to mental accounts is independent of economic rationality. E-commerce companies can strategically place products in broad or niche accounts to influence customer perception and decision-making. Discounts and promotions are more effective when targeting minimal accounts. Mental accounting has implications for attention, decision-making, and customer loyalty.",
+        "use": "Attention, decision-making, customer loyalty",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/86.webp",
+        "midjourney": "A 3D render of a simple and symbolic object representing mental accounting, such as a scale balancing different categories of expenses. The color should be neutral and the vibe should convey simplicity and organization."
+    },
+    {
+        "title": "Peak-End Rule",
+        "text": "The Peak-End Rule states that the strongest and last emotional experiences have the most impact on overall impression. Positive surprises in the ordering process are important to create a positive overall evaluation. The ending point can be enhanced with fast fulfillment, appealing packaging, and small gifts. Power: 7. Midjourney: 3D render of a gift box in vibrant colors, giving a joyful and exciting vibe.",
+        "use": "Customer satisfaction, decision-making, implementation in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/87.webp",
+        "midjourney": "3D render of a gift box in vibrant colors, giving a joyful and exciting vibe."
+    },
+    {
+        "title": "Priming",
+        "text": "Priming is the targeted exposure to certain stimuli that mentally predisposes us to a specific action. It can be used universally and has been shown to affect behavior. Priming can be positive or negative. It has gained popularity in recent years, prompting calls for more rigorous research. In the context of e-commerce, priming can be used to identify and incorporate subconscious emotions into the customer journey. However, caution must be exercised to avoid reverse-priming effects. Priming is also used in building brand associations.",
+        "use": "Behavioral economics, e-commerce, branding",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/88.webp",
+        "midjourney": "A 3D render of a symbol representing priming, such as a key unlocking a door, in vibrant colors and with an energetic vibe."
+    },
+    {
+        "title": "Scarcity",
+        "text": "Scarcity is a powerful psychological principle that attracts us to limited items and influences our decision-making process. It creates a sense of urgency and desire for the scarce product. Scarcity can be implemented in e-commerce through limited editions, stock notifications, exclusive offers, and timed promotions. Companies like Amazon and Apple use scarcity to drive sales and create a perception of high demand. Scarcity has a strong impact on customer attention, decision-making, and loyalty.",
+        "use": "Increase sales, create urgency, drive customer loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/89.webp",
+        "midjourney": "A 3D render of a limited edition product with a countdown timer, creating a sense of urgency and desire. Color: vibrant and eye-catching, vibe: exclusive and desirable."
+    },
+    {
+        "title": "Diderot Effect",
+        "text": "The Diderot Effect describes how people feel pressured to make additional purchases after buying an item in order to create a cohesive overall image. It refers to the distortion that we overvalue the significance of new things and make more significant decisions instead of revising the initial decision. It is similar to the Sunk-Costs Fallacy. In e-commerce, it can be used to identify products that are frequently purchased together and increase the likelihood of future purchases.",
+        "use": "E-commerce, consumer behavior analysis, marketing strategies",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/90.webp",
+        "midjourney": "A 3D render of a shopping cart symbolizing the Diderot Effect. The color should be vibrant and energetic to represent the desire for additional purchases."
+    },
+    {
+        "title": "Low Ball Effect",
+        "text": "The Low Ball Effect is similar to the Foot-in-the-Door technique. After obtaining initial agreement, additional costs are revealed. Despite the unpleasant surprise, costs are more likely to be accepted if initial agreement was given. The second request is made immediately after the first, triggering the Commitment and Consistency Pattern. This effect can be implemented in e-commerce to increase cross-selling and upselling.",
+        "use": "Increase cross-selling and upselling in e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/91.webp",
+        "midjourney": "A 3D render of a shopping cart with a hidden compartment that reveals additional items/costs. The color should be vibrant and the vibe should be enticing."
+    },
+    {
+        "title": "Action Bias",
+        "text": "The Action Bias refers to the tendency of people to take action even when it is unlikely to be beneficial or may be harmful. This bias is particularly evident in unclear situations where the best course of action is not clear.",
+        "use": "Decision-making, psychology, sports",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/92.webp",
+        "midjourney": "A 3D render of a person running towards a goal, symbolizing the action bias. The color should be vibrant and energetic."
+    },
+    {
+        "title": "Cheering",
+        "text": "Positive feedback and reinforcement are effective motivation factors in e-commerce. Cheering, such as visual confirmations and progress bars, can motivate users to continue in a long and cognitively demanding process. It can also be used to reduce uncertainty and provide reassurance to users. Cheering should be contextually relevant and address the real needs of users.",
+        "use": "Motivating users in e-commerce, reducing uncertainty, providing reassurance",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/93.webp",
+        "midjourney": "A 3D render of a progress bar in green color, symbolizing progress and success."
+    },
+    {
+        "title": "Commitment and Consistency",
+        "text": "Commitment and Consistency is the desire for consistency between actions and values. It is seen as a desirable social trait and serves as an indicator of rationality, trustworthiness, and stability. The principle is also a mental shortcut in decision-making. Previous decisions are used as a basis for current tasks and the same standpoint is reapplied as a heuristic. The effect of the pattern is increased when the commitment is made voluntarily, actively, and publicly, and when it is also made in writing. In e-commerce, this pattern can be used to reduce cart abandonment and increase customer loyalty.",
+        "use": "Decision-making, trust-building, customer retention",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/94.webp",
+        "midjourney": "A 3D render of a lock symbol in gold color, representing commitment and consistency. The vibe should be trustworthy and stable."
+    },
+    {
+        "title": "Confirmation Bias",
+        "text": "Confirmation bias is the tendency for people to focus on the positive aspects of a decision and interpret all facts in favor of that decision. This bias can lead to faulty decision-making and resistance to opposing arguments. It is the basis for beliefs in superstitions, populism, conspiracy theories, and resistance to advice. People want to believe and confirm their beliefs, leading to the clustering illusion. In e-commerce, this bias can be used in advertising and addressing cart abandoners.",
+        "use": "Decision-making, advertising, addressing cart abandoners",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/95.webp",
+        "midjourney": "A 3D render of a person with blinders on, symbolizing the narrow focus and resistance to opposing arguments. The color should be red to represent strong conviction and the vibe should be determined and closed-minded."
+    },
+    {
+        "title": "Illusion of Control",
+        "text": "Illusion of Control refers to the belief that people can influence the outcome of random experiments. This belief is observed in activities like dice rolling and coin flipping. The illusion is strengthened by skill cues and the perception of contributing to a successful outcome. In e-commerce, maintaining the illusion of control can positively impact the customer journey and reduce abandonment rates. Providing control-confirming elements and options for perceived decision-making can enhance user experience.",
+        "use": "Decision-making, user experience design, e-commerce",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/96.webp",
+        "midjourney": "A 3D render of a hand holding a dice, with a vibrant color palette and a playful vibe."
+    },
+    {
+        "title": "Buyer's Remorse",
+        "text": "Buyer's Remorse is the opposite effect of Post-Purchase Rationalization, creating doubt about the decision. It occurs when customers feel pressured or incentivized. It can be reduced by congratulating the customer, summarizing the shop's advantages, and assuring post-purchase support. Examples include offering social sharing buttons and closing the order window. The effect can be avoided by emphasizing the finality of the decision. (225 chars max)",
+        "use": "Customer satisfaction, reducing buyer's remorse, improving post-purchase experience",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/97.webp",
+        "midjourney": "A 3D render of a closed order window in a calming blue color, symbolizing the finality of the decision and providing reassurance to the customer."
+    },
+    {
+        "title": "Pain-of-Paying Principle",
+        "text": "We are reluctant to part with our money because it has psychological value beyond being a medium of exchange. Spending money triggers questioning the value of the purchase, leading to buyer's remorse or purchase abandonment. The pain of paying is stronger with cash than with other payment methods. Prelec and Loewenstein discovered that using already paid products feels like getting them for free. Strategies to reduce the pain of paying include delaying payment, transparent payment methods, and skipping the payment step. Bundling products, offering free in-store pickup, and promoting return guarantees also help reduce the pain of paying.",
+        "use": "1. Understanding consumer behavior in relation to spending money\n2. Developing strategies to reduce the pain of paying\n3. Increasing customer loyalty and satisfaction",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/98.webp",
+        "midjourney": "A 3D render of a symbolic object representing the pain of paying, such as a broken piggy bank in a somber color palette, to evoke a sense of loss and discomfort."
+    },
+    {
+        "title": "Zeigarnik Effekt",
+        "text": "The Zeigarnik Effect suggests that humans have a tendency to want to finish tasks they have started, leading to a sense of tension until the goal is achieved. This can be seen in the difficulty of remembering completed tasks compared to open to-dos. The effect can be used to capture attention, improve decision-making, build trust, and enhance customer loyalty in e-commerce. Strategies include using cliffhangers, progress bars, single-page checkout processes, clear communication of order completion, and implementing customer loyalty programs.",
+        "use": "Attention, decision-making, trust-building, customer loyalty",
+        "power": "8",
+        "img": "assets/images/ux100/patterns/99.webp",
+        "midjourney": "A 3D render of a progress bar in a vibrant color, symbolizing the completion of a task and motivating users to reach the end. Vibrant green color, energetic vibe."
+    },
+    {
+        "title": "Mayfly Effect",
+        "text": "E-commerce companies aim to encourage regular product usage to increase customer loyalty. The Mayfly Effect refers to the tendency to use products for a short time. Regular reminders and reducing the \"Pain of Paying\" can help increase product usage and customer loyalty. Days-based representation of prices can also make costs seem more affordable.",
+        "use": "Increase customer loyalty, Improve product usage, Reduce customer churn",
+        "power": "7",
+        "img": "assets/images/ux100/patterns/100.webp",
+        "midjourney": "A 3D render of a calendar with reminders, in a calming blue color, to prompt customers to use products regularly."
+    }
+]

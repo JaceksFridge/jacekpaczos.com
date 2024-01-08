@@ -155,14 +155,14 @@
 
 
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 900px) {
     .new-home{
         .hero{
             height: 100vh;
-            padding: 7.5% 10% 12.5% 10%;
+            padding: 10% 10% 12.5% 10%;
 
             .hero-content{
-                gap: 15%;
+                gap: 20%;
                 
                 h2.name-thunder{
                     font-size: 1.25rem;
@@ -323,6 +323,7 @@
     #hotbooks-spider{
         background: white;
         border: 1px solid black;
+        overflow: hidden;
     
         h1.project-title{
             color: $dark;
@@ -343,8 +344,9 @@
         }
         img{
             width: auto;
-            height: 40%;
-            top: 55%;
+            height: 75%;
+            top: 60%;
+            left: 25%;
         }
     }
 
