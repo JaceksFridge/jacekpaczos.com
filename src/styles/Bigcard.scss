@@ -58,6 +58,7 @@
     .big-card#hotbooks-spider{
         background: white;
         border: 1px solid $dark;
+        overflow: hidden;
         
         .card-content{
             h4.card-title{
@@ -69,6 +70,19 @@
             p{
                 color: $dark-50;
             }
+        }
+        // img{
+        //     height: auto;
+        //     width: 70%;
+        //     bottom: 15%;
+        // }
+        img{
+            height: auto;
+            width: 90%;
+            left: 20%;
+            top: 65%;
+            transform: none;
+            transform: translate(-50%, -50%);
         }
     }
     .big-card#moonlog{

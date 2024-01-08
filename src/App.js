@@ -19,6 +19,7 @@ import CaseReactStats from './pages/CaseReactStats';
 
 // Components
 import Navbar from './components/Navbar';
+import CaseTorScraper from './pages/CaseTorScraper';
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
         <Route path="/about" element={ <About /> } />
         <Route path="/case-moonlog" element={ <CaseMoonlog /> } />
         <Route path="/case-react-stats" element={ <CaseReactStats /> } />
-        <Route path="/case-hotbooks-spider" element={ <CaseNotSure /> } />
+        <Route path="/case-tor-scraper" element={ <CaseTorScraper /> } />
         <Route path="*" element={<Home />} /> 
       </Routes>
     </Router>

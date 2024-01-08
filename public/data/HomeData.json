@@ -11,12 +11,12 @@
             "id": "moonlog"
         },
         {
-            "title": "Hotbooks Spider",
+            "title": "Tor Scraper",
             "subtitle": "Automated Tor Webcrawler",
             "open": "hotbooks",
-            "image": "/assets/images/home/spider1.webp",
+            "image": "/assets/images/home/hog1.webp",
             "text": "Designing and developing smashing Webflow websites for startups",
-            "link": "case-hotbooks-spider",
+            "link": "case-tor-scraper",
             "id": "hotbooks-spider"
         },
         {
