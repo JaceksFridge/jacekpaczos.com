@@ -24,7 +24,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 5rem;
+            gap: 5vh;
+            margin-top: -5vh;
 
             h2.name-thunder{
                 font-family: $os;
@@ -139,7 +140,7 @@
             .card-section{
                 width: 100%;
                 height: 100%;
-                padding: 1.5rem 0 0 0;
+                padding: 0 0 0 0;
             }
         }
     }
