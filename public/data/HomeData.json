@@ -12,7 +12,7 @@
         },
         {
             "title": "Hotbooks Spider",
-            "subtitle": "Automated Webcrawler for Amazon",
+            "subtitle": "Automated Tor Webcrawler",
             "open": "hotbooks",
             "image": "/assets/images/home/spider1.webp",
             "text": "Designing and developing smashing Webflow websites for startups",
@@ -21,7 +21,7 @@
         },
         {
             "title": "React Stats",
-            "subtitle": "Statistics about your project",
+            "subtitle": "Statistics for your React-App",
             "open": "react-stats",
             "image": "/assets/images/home/blue1.webp",
             "text": "Designing and developing smashing Webflow websites for startups",
@@ -33,7 +33,7 @@
     "media": [
         {
             "title": "Blog",
-            "subtitle": "Full Stack Discipline App",
+            "subtitle": "Channeling my Thoughts",
             "open": "",
             "image": "/assets/images/home/blog1.webp",
             "text": "Designing and developing smashing Webflow websites for startups",
@@ -42,7 +42,7 @@
         },
         {
             "title": "Youtube",
-            "subtitle": "Full Stack Discipline App",
+            "subtitle": "Documenting Ideas and Progress",
             "open": "",
             "image": "/assets/images/home/yt1.webp",
             "text": "Designing and developing smashing Webflow websites for startups",
