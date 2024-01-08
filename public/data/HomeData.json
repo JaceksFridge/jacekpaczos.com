@@ -6,7 +6,7 @@
             "subtitle": "Full Stack Discipline App",
             "open": "moonlog",
             "image": "/assets/images/home/moon1.webp",
-            "text": "Designing and developing smashing Webflow websites for startups",
+            "text": "Full-Stack Discipline App visualizing Data on Modern Dashboards",
             "link": "case-moonlog",
             "id": "moonlog"
         },
@@ -15,7 +15,7 @@
             "subtitle": "Automated Tor Webcrawler",
             "open": "hotbooks",
             "image": "/assets/images/home/hog1.webp",
-            "text": "Designing and developing smashing Webflow websites for startups",
+            "text": "Automated Bot which scrapes Data using the Tor Network",
             "link": "case-tor-scraper",
             "id": "hotbooks-spider"
         },
@@ -24,7 +24,7 @@
             "subtitle": "Statistics for your React-App",
             "open": "react-stats",
             "image": "/assets/images/home/blue1.webp",
-            "text": "Designing and developing smashing Webflow websites for startups",
+            "text": "Statistics Package for React. Making it easier to get Insights and order assets.",
             "link": "case-react-stats",
             "id": "react-stats"
         }
@@ -36,7 +36,7 @@
             "subtitle": "Channeling my Thoughts",
             "open": "",
             "image": "/assets/images/home/blog1.webp",
-            "text": "Designing and developing smashing Webflow websites for startups",
+            "text": "My Writings about ideas Life and Cool Projects",
             "link": "",
             "id": "blog"
         },
@@ -45,7 +45,7 @@
             "subtitle": "Documenting Ideas and Progress",
             "open": "",
             "image": "/assets/images/home/yt1.webp",
-            "text": "Designing and developing smashing Webflow websites for startups",
+            "text": "[ coming soon ]",
             "link": "",
             "id": "youtube"
         }
