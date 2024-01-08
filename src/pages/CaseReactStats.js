@@ -84,7 +84,7 @@ const CaseReactStats = () => {
             <h1 className="case-title">Visualize Projects</h1>
             <h3 className="case-subtitle">react stats is a python package</h3>
             <div className="hero-btn-container">
-              <Button 
+            <Button 
                 className="btn-github"
                 text="git"
                 url="https://github.com/JaceksFridge/react-stats"

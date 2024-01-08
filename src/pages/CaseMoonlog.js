@@ -82,8 +82,8 @@ const CaseMoonlog = () => {
               <Button 
                 className="btn-github"
                 text="git"
-                url="https://github.com/JaceksFridge/moonlog"
-                img="/assets/icons/moonlog/github.svg"
+                url="https://github.com/JaceksFridge/react-stats"
+                img="/assets/icons/moonlog/github5.svg"
                 width="3rem"
               />
               <Button 
@@ -97,7 +97,7 @@ const CaseMoonlog = () => {
                 className="btn-website"
                 text="youtube"
                 url="https://moonlog.xyz/"
-                img="/assets/icons/moonlog/youtube1.svg"
+                img="/assets/icons/moonlog/youtube6.svg"
                 width="3rem"
               />
             </div>

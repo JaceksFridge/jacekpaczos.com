@@ -1,7 +1,7 @@
 
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Button from './Button';
 
 const Navbar = () => {
@@ -24,6 +24,9 @@ const Navbar = () => {
     }
     lastScrollY.current = currentScrollY;
   };
+
+
+  
 
   useEffect(() => {
     const scrollContainer = document.querySelector('.projects-desk-container');
@@ -56,7 +59,8 @@ const Navbar = () => {
                 <ul>
                 <li>
                     <Link 
-                        to="/home" 
+                        to="/home#main" 
+                        smooth
                         onClick={toggleMenu} 
                         className="pageLink">
                         <h3>Work</h3>
