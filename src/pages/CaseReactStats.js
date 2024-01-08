@@ -88,7 +88,7 @@ const CaseReactStats = () => {
                 className="btn-github"
                 text="git"
                 url="https://github.com/JaceksFridge/react-stats"
-                img="/assets/icons/moonlog/github.svg"
+                img="/assets/icons/moonlog/github3.svg"
                 width="3rem"
               />
               <Button 
