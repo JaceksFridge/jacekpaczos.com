@@ -312,13 +312,30 @@
     .case-hero#img-moonlog{
         height: 90vh;
 
-        .alternative-img{
-            width: 25%;
-            height: auto;
-            bottom: -20%;
+        img{
+            top: auto;
+            bottom: 0;
+            left: 5%;
+            transform: translateY(50%);
+        }
+    }
+
+    .case-hero#img-torscraper{
+        height: 90vh;
+        border-bottom: 1px solid $dark-20;
+
+        img.alternative-img{
+            width: auto;
+            height: 70%;
+            left: 10%;
+            top: auto;
+            bottom: -10%;
+            transform: translateX(-50%);
         }
     }
 }
+
+
 
 
 
