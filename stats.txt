@@ -1,0 +1,62 @@
+
+
+SCSS       | 75.27% ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░
+JavaScript | 24.73% ▓▓▓▓▓░░░░░░░░░░░░░░░
+                                    100%
+
+
+=====================  =======  ==========
+files                    lines  language
+=====================  =======  ==========
+NewHome.scss               347  SCSS
+HomeDesktop.scss           303  SCSS
+CaseStudy.scss             294  SCSS
+CourseSection.scss         210  SCSS
+TrainingsDesktop.scss      177  SCSS
+App.scss                   148  SCSS
+Navbar.scss                145  SCSS
+CaseUX100.js               144  JavaScript
+Home.scss                  139  SCSS
+CaseReactStats.js          138  JavaScript
+CaseMoonlog.js             137  JavaScript
+CaseTorScraper.js          132  JavaScript
+CaseStructure.scss         121  SCSS
+Bigcard.scss               119  SCSS
+About.scss                 107  SCSS
+NewHome.js                 102  JavaScript
+CaseUX100.scss              94  SCSS
+BookSection.scss            84  SCSS
+SkillsSection.scss          77  SCSS
+Navbar.js                   69  JavaScript
+Github.scss                 62  SCSS
+AboutMe.scss                59  SCSS
+Home.js                     58  JavaScript
+Modal.scss                  56  SCSS
+CaseTopDesktop.js           55  JavaScript
+=====================  =======  ==========
+ * showing 25/79 files
+
+
+
+ file              |   all hooks |   useState |   useEffect |   useContext |   otherHooks |   customHooks
+-------------------+-------------+------------+-------------+--------------+--------------+---------------
+ CaseUX100.js      |          13 |          4 |           0 |            0 |            5 |             4
+ CaseReactStats.js |           6 |          1 |           0 |            0 |            2 |             3
+ CaseMoonlog.js    |           6 |          1 |           0 |            0 |            2 |             3
+ CaseTorScraper.js |           6 |          1 |           0 |            0 |            2 |             3
+ Navbar.js         |           4 |          2 |           0 |            0 |            2 |             0
+ Button.js         |           2 |          0 |           0 |            0 |            2 |             0
+ About.js          |           2 |          2 |           0 |            0 |            0 |             0
+ Home.js           |           2 |          1 |           0 |            0 |            0 |             1
+ CaseBlockify.js   |           2 |          1 |           0 |            0 |            0 |             1
+ CaseNotSure.js    |           2 |          1 |           0 |            0 |            0 |             1
+ ScrollToTop.js    |           1 |          0 |           0 |            0 |            0 |             1
+ Test.js           |           1 |          1 |           0 |            0 |            0 |             0
+ Pattern.js        |           1 |          1 |           0 |            0 |            0 |             0
+ NewHome.js        |           1 |          0 |           0 |            0 |            0 |             1
+ SkillsSection.js  |           1 |          0 |           0 |            0 |            0 |             1
+
+
+
+Total Files: 79 
+Total Lines: 4964

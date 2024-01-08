@@ -94,14 +94,14 @@ const CaseReactStats = () => {
               <Button 
                 className="btn-website"
                 text="web"
-                url="https://moonlog.xyz/"
+                url="https://pypi.org/project/react-stats/"
                 img="/assets/icons/moonlog/web5.svg"
                 width="3rem"
               />
               <Button 
                 className="btn-website"
                 text="youtube"
-                url="https://moonlog.xyz/"
+                url="https://www.youtube.com/watch?v=yt9n65eBcnk"
                 img="/assets/icons/moonlog/youtube6.svg"
                 width="3rem"
               />

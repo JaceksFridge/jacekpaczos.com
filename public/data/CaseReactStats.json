@@ -1,21 +1,9 @@
 
 
 {
-    "hero": {
-        "title": "ReactStats",
-        "img": "",
-        "type": "Coding",
-        "time": "3 weeks",
-        "role": "Designer & Developer"
-    },
-    "images": [
-
-
-
-    ],
     "synopsis": { 
         "title": "synopsis",
-        "text": "My whole Life I loved competing whilst playing games and sports. Searching everywhere for games I could participate in. \n\n That's why as an adult I decided to make those mundane things \"more fun\". You could make a game out of the regularities and normal things in life. So I broke it down to the big three areas somebody would like to improve: health, wealth and happiness.  \n \n Instead of anothers tic-tac-toe or sudoku solver project, I decided to make the simple gamification acctually work. Something that my friends and I could potentially use."
+        "text": "React Stats is a small Project where I wanted to learn how to create python modules with executable commands. \n \n Thus I created a neat, tiny package to give me insights about my current react projects and published it on PyPi. \n\n It has 3 different commands. One to get metrics about the project, one to prepare a folder for assets and one to manage those assets automatically."
     },
     "synopsis_images": [
         {"url": "/assets/images/react-stats/tree.webp"},
@@ -24,7 +12,7 @@
 
     "blueprint": { 
         "title": "blueprint",
-        "text": "To have a quicker overview and since the backend wan't to complicated I decided to have the client and the server in the same project directory. \n \n As for the tech-stack. Since at the start I wasn't so proficient in python I decided to use node (express). For the database I wanted to learn some noSQL one so MongoDB grasped my attention. \n \n The frontend I build with my favorite framework React as well as some additional libraries like eg. framer-motion, amcharts, recharts, ag-grid...no black magic there. On top i dropped a bit of SCSS."
+        "text": "The [get-assets] command traverses through the entire project tree, filters out unwanted folders and files and creates a new file with minimalistically presented metrics and tables. The script uses obviosly the os library to do traverse it and some regex to filter out react hooks. It is useful to get a quick insight how many lines you have written or where you components might be too large. The Other 2 commands [make-assets] and [auto-assets] are used to create an asset folder and automatically clean new files."
     },
     "blueprint_images": [
         {"url": "/assets/images/react-stats/laptop.webp"},
@@ -33,7 +21,7 @@
 
     "alchemy": { 
         "title": "the craft",
-        "text": "Once building I made a few mistakes. But hey, how do you learn otherwise. \n \n First of all I grossly underestimated the time needed for the design part. I think it took me more to design, than to build the whole client and server together. Secondly I had a struggle with OAuth and the Server-Side, but in the end I managed to be victorious. \n \n The Deployment is sometimes truly a pain in the ass. So I used Heroku to make things easy. All in all it was a great project to learn. Now I feel vastly more confident."
+        "text": "It was a great project to refresh the knowledge of python and the os library as well as to do some regex. It wasn't particularly challenging. But as a spur of the moment project it made sense and fulfilled it's purpose. I am glad to have done it. And till now use it sometimes to get a quick hold of how many lines i have written."
     },
     "alchemy_images": [
         {"url": "/assets/images/react-stats/files.webp"},
