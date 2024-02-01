@@ -82,7 +82,7 @@ const CaseMoonlog = () => {
               <Button 
                 className="btn-github"
                 text="git"
-                url="https://github.com/JaceksFridge/react-stats"
+                url="https://github.com/JaceksFridge/moonlog"
                 img="/assets/icons/moonlog/github5.svg"
                 width="3rem"
               />

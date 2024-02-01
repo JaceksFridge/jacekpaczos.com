@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a85b7d1d.css",
-    "main.js": "/static/js/main.00f054e0.js",
+    "main.css": "/static/css/main.a9e00d14.css",
+    "main.js": "/static/js/main.38386f2f.js",
     "static/media/harvard.png": "/static/media/harvard.a712aec91a7d99d8264f.png",
     "static/media/harvard_pure.png": "/static/media/harvard_pure.8b6e2c1d0183d55c9cf2.png",
     "static/media/bold.ttf": "/static/media/bold.754bed95169cc31b6589.ttf",
@@ -12,11 +12,11 @@
     "index.html": "/index.html",
     "static/media/star.svg": "/static/media/star.0d1cfda35c504fa1dca2.svg",
     "static/media/cardsicon.svg": "/static/media/cardsicon.2ed87f5b6fffe0f7cd95.svg",
-    "main.a85b7d1d.css.map": "/static/css/main.a85b7d1d.css.map",
-    "main.00f054e0.js.map": "/static/js/main.00f054e0.js.map"
+    "main.a9e00d14.css.map": "/static/css/main.a9e00d14.css.map",
+    "main.38386f2f.js.map": "/static/js/main.38386f2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85b7d1d.css",
-    "static/js/main.00f054e0.js"
+    "static/css/main.a9e00d14.css",
+    "static/js/main.38386f2f.js"
   ]
 }
