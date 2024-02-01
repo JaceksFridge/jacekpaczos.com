@@ -72,12 +72,12 @@ const NewHome = ({ projects, media }) => {
                     {media?.map((item, index) => {
                         return (
                             <div className="card-section">
-                                <Link to={`/${item.link}`}>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer">
                                     <BigCard 
                                         key={index}
                                         data={item}
                                     />
-                                </Link>
+                                </a>
                             </div>
                         )
                     })}
@@ -87,14 +87,14 @@ const NewHome = ({ projects, media }) => {
                     {media?.map((item, index) => {
                     return (
                         <div className="card-section-desktop">
-                            <Link to={`/${item.link}`}>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer">
                                 <DesktopCard 
                                     key={index} 
                                     data={item}
                                     index={index}
                                     text='Open Website'
                                 />
-                            </Link>
+                            </a>
                         </div>
                         )
                     })}

@@ -55,7 +55,7 @@ const CaseTorScraper = () => {
    
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('./data/CaseReactStats.json')
+      const response = await fetch('./data/CaseTorScraper.json')
       const jsonData = await response.json()
       setData(jsonData)
     }
@@ -100,9 +100,9 @@ const CaseTorScraper = () => {
               />
             </div>
           </div>
-          {/* <InfoBlock info={data.synopsis}/>
+          <InfoBlock info={data.synopsis}/>
           <ImageBlocks images={data.synopsis_images} />
-          <InfoBlock info={data.blueprint}/>
+          {/* <InfoBlock info={data.blueprint}/>
           <ImageBlocks images={data.blueprint_images} />
           <InfoBlock info={data.alchemy} />
           <ImageBlocks images={data.alchemy_images} /> */}

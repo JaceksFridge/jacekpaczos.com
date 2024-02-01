@@ -7,6 +7,7 @@ const Github = () => {
       <Button
         url="https://github.com/JaceksFridge"
         img="/assets/images/about/github.png"
+        text="Jacek Paczos Github"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">Github</h4>

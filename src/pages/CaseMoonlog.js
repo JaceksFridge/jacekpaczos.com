@@ -103,6 +103,20 @@ const CaseMoonlog = () => {
             </div>
           </div>
           <InfoBlock info={data.synopsis}/>
+          <div className="case-imageblocks video-responsive">
+            <iframe 
+              class="iframe"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/DvFbniFQLwI" 
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+
+            </iframe>
+          </div>
+
           <ImageBlocks images={data.synopsis_images} />
           <InfoBlock info={data.blueprint}/>
           <ImageBlocks images={data.blueprint_images} />

@@ -6,7 +6,8 @@ const AboutMe = () => {
     <div className="about-me" >
       <Button
         url="https://medium.com/@jacekpaczos"
-        img="/assets/images/about/jacek.png"
+        img="/assets/images/about/jacekpaczos.png"
+        text="Jacek Paczos"
       />
       <div className="section-content" data-aos="fade-up" >
         <h4 className="section-title">About Me</h4>
