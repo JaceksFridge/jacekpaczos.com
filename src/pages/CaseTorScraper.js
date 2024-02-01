@@ -85,14 +85,7 @@ const CaseTorScraper = () => {
                 width="3rem"
               />
               <Button 
-                className="btn-website"
-                text="web"
-                url="https://moonlog.xyz/"
-                img="/assets/icons/moonlog/web5.svg"
-                width="3rem"
-              />
-              <Button 
-                className="btn-website"
+                className="btn-youtube"
                 text="youtube"
                 url="https://moonlog.xyz/"
                 img="/assets/icons/moonlog/youtube6.svg"
@@ -101,6 +94,20 @@ const CaseTorScraper = () => {
             </div>
           </div>
           <InfoBlock info={data.synopsis}/>
+          <div className="video-container">
+            <div className="video-responsive">
+              <iframe 
+                class="iframe"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/WfxYCAiYS2w" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
           <ImageBlocks images={data.synopsis_images} />
           {/* <InfoBlock info={data.blueprint}/>
           <ImageBlocks images={data.blueprint_images} />
@@ -120,19 +127,19 @@ const CaseTorScraper = () => {
                 <div className="stats-container" ref={myRef}>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={0} />
+                      <Number n={7} />
                     </div>
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={0} />
+                      <Number n={1318} />
                     </div>
                     <div className="stat-title">Packages used</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={0} />
+                      <Number n={50} />
                     </div>
                     <div className="stat-title">Hours spent</div>
                   </div>

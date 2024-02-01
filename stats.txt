@@ -1,7 +1,7 @@
 
 
-SCSS       | 75.27% ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░
-JavaScript | 24.73% ▓▓▓▓▓░░░░░░░░░░░░░░░
+SCSS       | 75.07% ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░
+JavaScript | 24.93% ▓▓▓▓▓░░░░░░░░░░░░░░░
                                     100%
 
 
@@ -9,17 +9,17 @@ JavaScript | 24.73% ▓▓▓▓▓░░░░░░░░░░░░░░░
 files                    lines  language
 =====================  =======  ==========
 NewHome.scss               347  SCSS
+CaseStudy.scss             329  SCSS
 HomeDesktop.scss           303  SCSS
-CaseStudy.scss             294  SCSS
 CourseSection.scss         210  SCSS
 TrainingsDesktop.scss      177  SCSS
+CaseMoonlog.js             151  JavaScript
 App.scss                   148  SCSS
 Navbar.scss                145  SCSS
 CaseUX100.js               144  JavaScript
 Home.scss                  139  SCSS
+CaseTorScraper.js          139  JavaScript
 CaseReactStats.js          138  JavaScript
-CaseMoonlog.js             137  JavaScript
-CaseTorScraper.js          132  JavaScript
 CaseStructure.scss         121  SCSS
 Bigcard.scss               119  SCSS
 About.scss                 107  SCSS
@@ -34,7 +34,7 @@ Home.js                     58  JavaScript
 Modal.scss                  56  SCSS
 CaseTopDesktop.js           55  JavaScript
 =====================  =======  ==========
- * showing 25/79 files
+ * showing 25/80 files
 
 
 
@@ -58,5 +58,5 @@ CaseTopDesktop.js           55  JavaScript
 
 
 
-Total Files: 79 
-Total Lines: 4964
+Total Files: 80 
+Total Lines: 5074
