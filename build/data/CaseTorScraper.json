@@ -3,7 +3,8 @@
 {
     "synopsis": { 
         "title": "synopsis",
-        "text": "My whole Life I loved competing whilst playing games and sports. Searching everywhere for games I could participate in. \n\n That's why as an adult I decided to make those mundane things \"more fun\". You could make a game out of the regularities and normal things in life. So I broke it down to the big three areas somebody would like to improve: health, wealth and happiness.  \n \n Instead of anothers tic-tac-toe or sudoku solver project, I decided to make the simple gamification acctually work. Something that my friends and I could potentially use."
+        "text2": "My whole Life I loved competing whilst playing games and sports. Searching everywhere for games I could participate in. \n\n That's why as an adult I decided to make those mundane things \"more fun\". You could make a game out of the regularities and normal things in life. So I broke it down to the big three areas somebody would like to improve: health, wealth and happiness.  \n \n Instead of anothers tic-tac-toe or sudoku solver project, I decided to make the simple gamification acctually work. Something that my friends and I could potentially use.",
+        "text": "Tor-Scraper is the first part of a book ranking application that I am currently building. \n This part is focused on getting the data you need. The second part will be about displaying the data in an aesthetic manner using NextJS. \n \n So, to get the data there is usually 2 options. You use an API, or you scrape the data. Some websites have a limited API or none at all. \n \n That's why I used scraping the get the data from amazon. I will describe here which tools I used, which obstacles I encountered (many) and how I automated this whole process."
     },
     "synopsis_images": [
         {"url": "/assets/images/tor/flowchart.png"}

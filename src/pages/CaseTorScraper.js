@@ -78,13 +78,6 @@ const CaseTorScraper = () => {
             <h3 className="case-subtitle">automated amazon crawler</h3>
             <div className="hero-btn-container">
               <Button 
-                className="btn-github"
-                text="git"
-                url="https://github.com/JaceksFridge/react-stats"
-                img="/assets/icons/moonlog/github5.svg"
-                width="3rem"
-              />
-              <Button 
                 className="btn-youtube"
                 text="youtube"
                 url="https://moonlog.xyz/"
@@ -127,13 +120,13 @@ const CaseTorScraper = () => {
                 <div className="stats-container" ref={myRef}>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={7} />
+                      <Number n={1318} />
                     </div>
                     <div className="stat-title">Lines of Code</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-value">
-                      <Number n={1318} />
+                      <Number n={7} />
                     </div>
                     <div className="stat-title">Packages used</div>
                   </div>
